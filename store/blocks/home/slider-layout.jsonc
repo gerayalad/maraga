@@ -101,7 +101,8 @@
       "iframe#instagram-post-01",
       "iframe#instagram-post-02",
       "iframe#instagram-post-03",
-      "iframe#instagram-post-04"
+      "iframe#instagram-post-04",
+      "iframe#instagram-post-05"
     ],
     "props": {
       "blockClass":"insta-posts",
