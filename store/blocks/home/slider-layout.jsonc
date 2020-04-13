@@ -101,13 +101,11 @@
       "iframe#instagram-post-01",
       "iframe#instagram-post-02",
       "iframe#instagram-post-03",
-      "iframe#instagram-post-04",
-      "iframe#instagram-post-05"
+      "iframe#instagram-post-04"
     ],
     "props": {
       "blockClass":"insta-posts",
       "autoplay": {
-        "timeout": 7000,
         "infinite": false,
         "showPaginationDots": "never",
         "itemsPerPage":{ 

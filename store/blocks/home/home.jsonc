@@ -241,8 +241,7 @@
       "showNavigationArrows": "aways",
       "showPaginationDots": "always",
       "blockClass": "carousel-mini-banners",
-      "fullWidth": false,
-      "blockClass": "shelf"
+      "fullWidth": false
     }
   },
   
@@ -311,14 +310,6 @@
   "iframe#instagram-post-04": {
     "props": {
       "src": "https://www.instagram.com/p/B-uQneqjPhC/embed",
-      "width": 300,
-      "height": 550,
-      "blockClass":"insta-frame"
-    }
-  },
-  "iframe#instagram-post-05": {
-    "props": {
-      "src": "https://www.instagram.com/p/B-rsUVADxYk/embed",
       "width": 300,
       "height": 550,
       "blockClass":"insta-frame"
