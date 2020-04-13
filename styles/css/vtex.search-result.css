@@ -45,6 +45,7 @@
         :global(.vtex-button){
             background-color: #ccc;
             border-color: #ccc;
+            color:#fff;
             transition: all .12s linear;
         }
 

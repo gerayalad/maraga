@@ -171,19 +171,10 @@
     border-color:#FA5200
 }
 
-:global(.vtex-product-summary-2-x-buyButtonContainer){
+:global(.vtex-product-summary-2-x-){
     padding:0!important;
     opacity: 0;
     transition: .12s linear;
-}
-
-:global(.vtex-product-summary-2-x-container):hover
-    :global(.vtex-product-summary-2-x-buyButtonContainer){
-        opacity: 1;
-    }
-
-:global(.vtex-product-summary-2-x-element){
-    padding-bottom: 0;
 }
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--brands) 
@@ -247,13 +238,12 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer .listPriceValue{
-    margin-bottom: 10px;
     line-height: 32px;
     padding: 0 10px 0 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer {
-    margin: 10px 0 25px;
+    margin: 10px 0 15px;
     overflow:hidden
 }
 
@@ -273,6 +263,7 @@
     font-size: 0;
     display: block;
     clear: both;
+    margin-bottom: 10px;
 }
 
 .installmentsPrice {

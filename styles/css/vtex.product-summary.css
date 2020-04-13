@@ -47,13 +47,13 @@
 }
 .nameContainer {
   justify-content: start;
-  padding-top: 1rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
 }
 
 .brandName {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
   color: #2E2E2E;
   display: block;
   text-align: center;
@@ -65,4 +65,14 @@
 
 .imageContainer {
   text-align: center;
+}
+
+.buyButtonContainer{
+  position: absolute;
+  bottom:0
+}
+
+.element{
+  position: relative;
+  padding-bottom: 25px;
 }
