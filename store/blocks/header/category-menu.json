@@ -1,0 +1,397 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+      "children": [
+        "menu-item#menu-departamento-01",
+        "menu-item#menu-departamento-02",
+        "menu-item#menu-departamento-03",
+        "menu-item#menu-departamento-04",
+        "menu-item#menu-departamento-05",
+        "menu-item#menu-departamento-06",
+        "menu-item#menu-departamento-07",
+        "menu-item#menu-departamento-08"
+      ],
+    "props":{
+      "blockClass":"menu-site",
+      "orientation": "horizontal"
+    }
+},
+"vtex.menu@2.x:submenu#menu-departamento-01":{
+  "children":["flex-layout.row#row-submenu-departamento-01"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-02":{
+  "children":["flex-layout.row#row-submenu-departamento-02"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-03":{
+  "children":["flex-layout.row#row-submenu-departamento-03"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-04":{
+  "children":["flex-layout.row#row-submenu-departamento-04"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-05":{
+  "children":["flex-layout.row#row-submenu-departamento-05"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-06":{
+  "children":["flex-layout.row#row-submenu-departamento-06"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+"vtex.menu@2.x:submenu#menu-departamento-07":{
+  "children":["flex-layout.row#row-submenu-departamento-07"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
+
+"vtex.menu@2.x:menu#submenu-01-departamento-01":{
+  "children": [
+    "menu-item#maquinas-soldaduras",
+    "menu-item#generadores",
+    "menu-item#inversores",
+    "menu-item#plasmas"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-01":{
+  "children": [
+    "menu-item#consumibles",
+    "menu-item#alambres",
+    "menu-item#electrodos",
+    "menu-item#fundentes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-01":{
+  "children": [
+    "menu-item#accesorios-soldadura",
+    "menu-item#caretas",
+    "menu-item#gwaw"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-01":{
+  "children": [
+    "menu-item#refacciones-soldadura",
+    "menu-item#tig"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-01":{
+  "children": [
+    "menu-item#soldaduras",
+    "menu-item#alambres",
+    "menu-item#electrodos",
+    "menu-item#fundentes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-01-departamento-02":{
+  "children": [
+    "menu-item#especialidades"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-02":{
+  "children": [
+      "menu-item#limpiadores-y-desengrasantes",
+      "menu-item#limpiadores",
+      "menu-item#desengrasantes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-02":{
+  "children": [
+    "menu-item#lubricantes-y-aceites-directos",
+    "menu-item#aceites",
+    "menu-item#lubricantes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-02":{
+  "children": [
+    "menu-item#aerosol"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-02":{
+  "children": [
+    "menu-item#refrigerantes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-01-departamento-03":{
+  "children": [
+    "menu-item#discos-de-corte",
+    "menu-item#cermet",
+    "menu-item#hss",
+    "menu-item#tct"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-03":{
+  "children": [
+    "menu-item#maquinas-de-corte-con-disco"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-03":{
+  "children": [
+    "menu-item#maquinas-sierra-cinta",
+    "menu-item#maquinas-sierra-cinta-sub",
+    "menu-item#accesorios-sierra-cinta"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-03":{
+  "children": [
+    "menu-item#sierra-cintas",
+    "menu-item#corte-de-esponja",
+    "menu-item#corte-de-madera",
+    "menu-item#corte-de-metal"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#submenu-01-departamento-04":{
+  "children": [
+      "menu-item#accesorios-herramientas-electricas",
+      "menu-item#abrasivos",
+      "menu-item#arboles",
+      "menu-item#brocas",
+      "menu-item#broqueros",
+      "menu-item#disco-sierra",
+      "menu-item#fresas-para-trompo",
+      "menu-item#hojas-de-sierra",
+      "menu-item#otros",
+      "menu-item#para-destornillador",
+      "menu-item#perforadoras",
+      "menu-item#punta-desatornillador",
+      "menu-item#sierra-caladora",
+      "menu-item#sierra-perforadora",
+      "menu-item#sierra-sable",
+      "menu-item#vari-bit"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-04":{
+  "children": [
+    "menu-item#herramientas",
+    "menu-item#acanaladoras",
+    "menu-item#cortadores-de-metales",
+    "menu-item#esmerilladoras",
+    "menu-item#lijadoras",
+    "menu-item#pistolas-de-calor",
+    "menu-item#sierra-sable",
+    "menu-item#herramientas-sierras-caladoras",
+    "menu-item#herramientas-sierras-circulares",
+    "menu-item#sopladoras",
+    "menu-item#taladros-y-rotomartillos"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-04":{
+  "children": [
+    "menu-item#reemplazos",
+    "menu-item#adaptadores",
+    "menu-item#armaduras",
+    "menu-item#baleros",
+    "menu-item#bandas",
+    "menu-item#cables",
+    "menu-item#carbones",
+    "menu-item#interruptores",
+    "menu-item#llaves-para-broquero",
+    "menu-item#pads",
+    "menu-item#para-esmerilladores",
+    "menu-item#para-sierras",
+    "menu-item#router"
+  ],
+  "props":{
+    "blockClass":["submenu-site"],
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-04":{
+  "children": [
+    "menu-item#sierra-cintas",
+    "menu-item#corte-de-esponja",
+    "menu-item#corte-de-madera",
+    "menu-item#corte-de-metal"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+},
+"vtex.menu@2.x:menu#submenu-01-departamento-05":{
+  "children": [
+    "menu-item#herramientas-neumaticas-title",
+    "menu-item#clavadoras",
+    "menu-item#compresores",
+    "menu-item#esmerilladoras-neumaticas",
+    "menu-item#grapadoras",
+    "menu-item#lijadoras-neumaticas",
+    "menu-item#pulidoras"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-05":{
+  "children": [
+    "menu-item#partes-de-reemplazo"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+
+"vtex.menu@2.x:menu#submenu-01-departamento-06":{
+  "children": [
+    "menu-item#herramientas-de-corte",
+    "menu-item#cepillos",
+    "menu-item#cortadores-de-tubos",
+    "menu-item#cuchillas",
+    "menu-item#navajas",
+    "menu-item#pinzas",
+    "menu-item#tijeras"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-06":{
+  "children": [
+    "menu-item#herramientas-de-medicion"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-06":{
+  "children": [
+    "menu-item#herramientas-de-sujecion",
+    "menu-item#multiherramientas",
+    "menu-item#prensas"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-06":{
+  "children": [
+    "menu-item#llaves-y-desarmadores",
+    "menu-item#desarmadores",
+    "menu-item#llaves"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-06":{
+  "children": [
+    "menu-item#seguetas-serruchos-y-arcos",
+    "menu-item#arcos",
+    "menu-item#seguetas",
+    "menu-item#serrotes"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+  "vtex.menu@2.x:menu#submenu-01-departamento-07":{
+    "children": [
+      "menu-item#inversores-solares"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-02-departamento-07":{
+    "children": [
+      "menu-item#paneles-solares"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-03-departamento-07":{
+    "children": [
+      "menu-item#monitoreo"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.title{
+    padding: 0;
+}
+
+:global(.vtex-shelf-1-x-arrow){
+    border-radius: 35px;
+    border:1px solid #ECECEC;
+    background-color: #ffffff;
+    padding: 6px;
+}

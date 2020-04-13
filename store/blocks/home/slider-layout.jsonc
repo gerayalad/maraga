@@ -1,0 +1,120 @@
+{
+  "slider-layout#brands": {
+      "children": [
+        "image#brand1", 
+        "image#brand2", 
+        "image#brand3", 
+        "image#brand4",
+        "image#brand5",
+        "image#brand6",
+        "image#brand7",
+        "image#brand8",
+        "image#brand9",
+        "image#brand10"
+      ],
+      "props": {
+        "blockClass":"brands",
+        "autoplay": {
+          "timeout": 7000,
+          "infinite": true,
+          "showPaginationDots": "never",
+          "itemsPerPage":{ 
+            "desktop": 4, 
+            "tablet": 3, 
+            "phone": 2 
+          }
+        }
+      }
+  },
+  "image#brand1": {
+      "props": {
+        "src": "/arquivos/brand-lenox.png",
+        "srcset": "/arquivos/brand-lenox.png",
+        "maxHeight": 75
+      }
+  },
+  "image#brand2": {
+      "props": {
+        "src": "/arquivos/brand-dewalt.png",
+        "srcset": "/arquivos/brand-dewalt.png",
+        "maxHeight": 75
+      }
+  },
+  "image#brand3": {
+      "props": {
+        "src": "/arquivos/brand-black-decker.png",
+        "srcset": "/arquivos/brand-black-decker.png",
+        "maxHeight": 75
+      }
+  },
+  "image#brand4": {
+      "props": {
+        "src": "/arquivos/brand-stanley-black.png",
+        "srcset": "/arquivos/brand-stanley-black.png",
+        "maxHeight": 75
+      }
+  },
+  "image#brand5": {
+      "props": {
+        "src": "/arquivos/brand-hem-saw.png",
+        "srcset": "/arquivos/brand-hem-saw.png",
+        "maxHeight": 75
+      }
+  },
+  "image#brand6": {
+    "props": {
+      "src": "/arquivos/Logo_Bostitch.jpg",
+      "srcset": "/arquivos/Logo_Bostitch.jpg",
+      "maxHeight": 75
+    }
+  },
+  "image#brand7": {
+    "props": {
+      "src": "/arquivos/Logo_Everising.jpg",
+      "srcset": "/arquivos/Logo_Everising.jpg",
+      "maxHeight": 75
+    }
+  },
+  "image#brand8": {
+    "props": {
+      "src": "/arquivos/Logo_Irwin.jpg",
+      "srcset": "/arquivos/Logo_Irwin.jpg",
+      "maxHeight": 75
+    }
+  },
+  "image#brand9": {
+    "props": {
+      "src": "/arquivos/Logo_Kanefusa.jpg",
+      "srcset": "/arquivos/Logo_Kanefusa.jpg",
+      "maxHeight": 75
+    }
+  },
+  "image#brand10": {
+    "props": {
+      "src": "/arquivos/Logo_Stark.jpg",
+      "srcset": "/arquivos/Logo_Stark.jpg",
+      "maxHeight": 75
+    }
+  },
+  "slider-layout#instagram": {
+    "children": [
+      "iframe#instagram-post-01",
+      "iframe#instagram-post-02",
+      "iframe#instagram-post-03",
+      "iframe#instagram-post-04"
+    ],
+    "props": {
+      "blockClass":"insta-posts",
+      "autoplay": {
+        "timeout": 7000,
+        "infinite": false,
+        "showPaginationDots": "never",
+        "itemsPerPage":{ 
+          "desktop": 4, 
+          "tablet": 3, 
+          "phone": 1 
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1330 @@
+{
+
+    //DEPARTMENTS
+
+    "menu-item#menu-departamento-01": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-01"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/soldadura-y-generadores",
+                "text": "SOLDADURA Y GENERADORES"
+            }
+        }
+    },
+    "menu-item#menu-departamento-02": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-02"],
+        "props": {
+            "type": "custom",
+            "orientation": "horizontal",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes",
+                "text": "SOLUBLES Y DESENGRASANTES"
+            }
+        }
+    },
+    "menu-item#menu-departamento-03": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-03"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href":"/sierra-cintas-y-accesorios",
+                "text": "SIERRAS CINTAS Y ACCESORIOS"
+            }
+        }
+    },
+    "menu-item#menu-departamento-04": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-04"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios",
+                "text": "HERRAMIENTAS ELÉCTRICAS"
+            }
+        }
+    },
+    "menu-item#menu-departamento-05": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-05"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href":"/herramientas-neumaticas",
+                "text": "HERRAMIENTAS NEUMÁTICAS"
+            }
+        }
+    },
+    "menu-item#menu-departamento-06": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-06"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "HERRAMIENTAS MANUALES",
+                "href": "/herramientas-manuales"
+            }
+        }
+    },
+    "menu-item#menu-departamento-07": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-07"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "href":"/paneles-y-componentes",
+                "text": "PANELES Y COMPONENTES"
+            }
+        }
+    },
+    "menu-item#menu-departamento-08": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "text": "OUTLET",
+                "href":"/outlet"
+            }   
+        }
+    },
+
+    //SUBITEMS
+
+    "menu-item#alambres":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/consumibles/alambres",
+                "text": "Alambres"
+            }
+        }
+    },
+    "menu-item#electrodos":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/consumibles/electrodos",
+                "text": "Electrodos"
+            }
+        }
+    },
+
+    "menu-item#refrigerantes": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes",
+                "text": "Refrigerantes"
+            }
+        }
+    },
+    
+    "menu-item#solubles": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Solubles"
+            }
+        }
+    },
+
+    "menu-item#gwaw": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/gmaw--mig-mag-",
+                "text": "GMAW (MIG/MAG)"
+            }
+        }
+    },
+
+    "menu-item#aerosol": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/productos-en-aerosol-y-poliuretano",
+                "text": "Aerosol y poliuretano"
+            }
+        }
+    },
+
+    "menu-item#maquinas-cinta": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Máquinas de sierra cinta"
+            }
+        }
+    },
+    "menu-item#sierra-cintas": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/sierra-cintas",
+                "text": "Sierra cintas"
+            }
+        }
+    },
+    "menu-item#sierra-discos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Sierra de discos"
+            }
+        }
+    },
+    "menu-item#insertos": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Insertos"
+            }
+        }
+    },
+    "menu-item#esmerilladoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/esmeriladoras",
+                "text": "Esmerilladoras"
+            }
+        }
+    },
+    "menu-item#taladros-rotomartillos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/taladors-y-rotomartillos",
+                "text": "Taladros y Rotomartillos"
+            }
+        }
+    },
+    "menu-item#cortadoras-lijadoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Taladros y Rotomartillos"
+            }
+        }
+    },
+    "menu-item#sierra-sable": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Sierra Sable"
+            }
+        }
+    },
+    "menu-item#acanaladoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/acanaladoras",
+                "text": "Acanaladores"
+            }
+        }
+    },
+    "menu-item#sierras-caladoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/sierras-caladoras",
+                "text": "Sierras Caladoras"
+            }
+        }
+    },
+    "menu-item#sierras-cirulares": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/sierras-circulares",
+                "text": "Sierras Circulares"
+            }
+        }
+    },
+    "menu-item#refacciones-electricas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo",
+                "text": "Refacciones y Partes de remplazo"
+            }
+        }
+    },
+    "menu-item#refacciones-soldadura": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones",
+                "text": "Refacciones"
+            }
+        }
+    },
+    "menu-item#clavadoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/clavadoras",
+                "text": "Clavadoras"
+            }
+        }
+    },
+    "menu-item#compresores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/compresores",
+                "text": "Compresores"
+            }
+        }
+    },
+    "menu-item#grapadoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/grapadoras",
+                "text": "Grapadoras"
+            }
+        }
+    },
+    "menu-item#refacciones-neumaticas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo",
+                "text": "Partes de Remplazo"
+            }
+        }
+    },
+    "menu-item#corte": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte",
+                "text": "Herramientas de corte"
+            }
+        }
+    },
+    "menu-item#desarmadores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/llaves-y-desarmadores/desarmadores",
+                "text": "Desarmadores"
+            }
+        }
+    },
+    "menu-item#sujecion": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-sujecion",
+                "text": "Herramientas de sujeción"
+            }
+        }
+    },
+    "menu-item#medicion": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-medicion",
+                "text": "Herramientas de medición"
+            }
+        }
+    },
+    "menu-item#seguetas": {
+        "props": {
+            "blockClass":["subitem","last"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/seguetas-serruchos-y-arcos",
+                "text": "Seguetas, Serrucho y Arcos"
+            }
+        }
+    },
+
+    "menu-item#generadores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/generadores",
+                "text": "Generadores"
+            }
+        }
+    },
+    
+    "menu-item#consumibles": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/consumibles",
+                "text": "Inversores"
+            }
+        }
+    },
+
+    "menu-item#inversores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/inversores",
+                "text": "Inversores"
+            }
+        }
+    },
+    "menu-item#plasmas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/plasmas",
+                "text": "Plasmas"
+            }
+        }
+    },
+    "menu-item#plasma": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/plasmas",
+                "text": "Plasma"
+            }
+        }
+    },
+    "menu-item#tig": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/tig",
+                "text": "TIG"
+            }
+        }
+    },
+    "menu-item#accesorios-soldadura": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios",
+                "text": "Accesórios"
+            }
+        }
+    },
+    "menu-item#gmaw": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/gmaw--mig-mag-",
+                "text": "GMAW (MIG/MAG)"
+            }
+        }
+    },
+    "menu-item#soldaduras": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                "text": "Soldadura"
+            }
+        }
+    },
+    "menu-item#fundentes": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/consumibles/fundentes",
+                "text": "Fundentes"
+            }
+        }
+    },
+
+    "menu-item#especialidades": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades",
+                "text": "Especialidades"
+            }
+        }
+    },
+    "menu-item#limpiadores-y-desengrasantes": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes",
+                "text": "Limpiadores y Desengrasantes"
+            }
+        }
+    },
+    "menu-item#desengrasantes": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes/desengrasantes",
+                    "text": "Desengrasantes"
+                }
+        }
+    },
+    "menu-item#limpiadores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes/limpiadores",
+                "text": "Limpiadores"
+            }
+        }
+    },
+    "menu-item#lubricantes-y-aceites-directos": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos",
+                "text": "Lubricantes y aceites directos"
+            }
+        }
+    },
+    "menu-item#aceites": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/aceites",
+                "text": "Aceites"
+            }
+        }
+    },
+    "menu-item#lubricantes": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/lubricantes",
+                "text": "Aceites"
+            }
+        }
+    },
+    "menu-item#discos-de-corte": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/discos-de-corte",
+                    "text": "Discos de corte"
+            }
+        }
+    },
+    "menu-item#cermet": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/cermet",
+                    "text": "Cermet"
+            }
+        }
+    },
+    "menu-item#hss": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/hss",
+                    "text": "HSS"
+            }
+        }
+    },
+    "menu-item#tct": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/tct",
+                    "text": "TCT"
+            }
+        }
+    },
+    "menu-item#monitoreo": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/paneles-y--componentes/monitoreo",
+                    "text": "Monitoreo"
+            }
+        }
+    },
+    "menu-item#maquinas-de-corte-con-disco": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas-de-corte-con-disco",
+                    "text": "Máquiquinas de corte con disco"
+            }
+        }
+    },
+    "menu-item#maquinas-de-sierra-cinta": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas-de-sierra-cinta",
+                    "text": "Máquinas de sierra cinta"
+            }
+        }
+    },
+    "menu-item#maquinas-soldaduras": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas",
+                    "text": "Máquinas"
+            }
+        }
+    },
+    "menu-item#maquinas-sierra-cinta": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas-de-sierra-cinta",
+                    "text": "Máquinas sierra cinta"
+            }
+        }
+    },
+    "menu-item#maquinas-sierra-cinta-sub": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas-de-sierra-cinta/maquinas",
+                    "text": "Máquinas"
+            }
+        }
+    },
+    "menu-item#refacciones-y-accesorios": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios",
+                    "text": "Accesórios"
+            }
+        }
+    },
+    "menu-item#corte-de-esponja": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Corte de esponja"
+            }
+        }
+    },
+    "menu-item#caretas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/caretas",
+                    "text": "Caretas"
+            }
+        }
+    },
+    "menu-item#corte-de-madera": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Madera"
+            }
+        }
+    },
+    "menu-item#corte-de-metal": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Metal"
+            }
+        }
+    },
+    "menu-item#accesorios-herramientas-electricas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios",
+                    "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#accesorios-sierra-cinta": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas-de-sierra-cinta/accesorios",
+                    "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#arboles": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/arboles",
+                    "text": "Árboles"
+            }
+        }
+    },
+    "menu-item#brocas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/brocas",
+                    "text": "Brocas"
+            }
+        }
+    },
+    "menu-item#broqueros": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/broqueros",
+                    "text": "Broqueros"
+            }
+        }
+    },
+    "menu-item#disco-sierra": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/disco-sierra",
+                    "text": "Disco Sierra"
+            }
+        }
+    },
+    "menu-item#fresas-para-trompo": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/fresas-para-trompo",
+                    "text": "Fresas para trompo"
+            }
+        }
+    },
+    "menu-item#hojas-de-sierra": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/hojas-de-sierras",
+                    "text": "Hojas de sierra"
+            }
+        }
+    },
+    "menu-item#otros": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/otros",
+                    "text": "Otros"
+            }
+        }
+    },
+    "menu-item#para-destornillador": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/para-destornillador",
+                    "text": "Para destornillador"
+            }
+        }
+    },
+    "menu-item#perforadoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/perforadoras",
+                    "text": "Perforadoras"
+            }
+        }
+    },
+    "menu-item#punta-desatornillador": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/punta-desatornillador",
+                    "text": "Punta desatornillador"
+            }
+        }
+    },
+    "menu-item#sierra-caladora": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-caladora",
+                    "text": "Sierra caladora"
+            }
+        }
+        
+    },
+    "menu-item#sierra-perforadora": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-perforadora",
+                    "text": "Sierra perforadora"
+            }
+        }
+    },
+    "menu-item#vari-bit": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/vari-bit",
+                    "text": "Vari bit"
+            }
+        }
+    },
+    "menu-item#herramientas": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas",
+                    "text": "Herramientas"
+            }
+        }
+    },
+    "menu-item#cortadores-de-metales": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/cortadoras-de-metales",
+                    "text": "Cortadores de metales"
+            }
+        }
+    },
+    "menu-item#abrasivos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/abrasivos",
+                    "text": "Abrasivos"
+            }
+        }
+    },
+    "menu-item#lijadoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/lijadoras",
+                    "text": "Lijadoras"
+            }
+        }
+    },
+    "menu-item#pistolas-de-calor": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/herramientas/pistolas-de-calor",
+                    "text": "Pistolas de calor"
+            }
+        }
+    },
+    "menu-item#herramientas-sierra-sable": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-sable/",
+                    "text": "Sierra sable"
+            }
+        }
+    },
+    "menu-item#herramientas-sierras-caladoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Sierra sable"
+            }
+        }
+    },
+    "menu-item#herramientas-sierras-circulares": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "//herramientas-electricas-y-accesorios/herramientas/sierras-circulares",
+                    "text": "Sierras circulares"
+            }
+        }
+    },
+    "menu-item#sopladoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sopladoras",
+                    "text": "Sopladoras"
+            }
+        }
+    },
+    "menu-item#taladros-y-rotomartillos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Taladros y rotomartillos"
+            }
+        }
+    },
+    "menu-item#reemplazos": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo",
+                    "text": "Reemplazos"
+            }
+        }
+    },
+    "menu-item#adaptadores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/adaptadores",
+                    "text": "Adaptadores"
+            }
+        }
+    },
+    "menu-item#armaduras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/armaduras",
+                    "text": "Armaduras"
+            }
+        }
+    },
+    "menu-item#baleros": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/baleros",
+                    "text": "Baleros"
+            }
+        }
+    },
+    "menu-item#bandas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/bandas",
+                    "text": "Bandas"
+            }
+        }
+    },
+    "menu-item#cables": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/cables",
+                    "text": "Cables"
+            }
+        }
+    },
+    "menu-item#carbones": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/carbones",
+                    "text": "Carbones"
+            }
+        }
+    },
+    "menu-item#interruptores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/interruptores",
+                    "text": "Interruptores"
+            }
+        }
+    },
+    "menu-item#llaves-para-broquero": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/llaves-para-broquero",
+                    "text": "Llaves para broquero"
+            }
+        }
+    },
+    "menu-item#pads": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/pads",
+                    "text": "Pads"
+            }
+        }
+    },
+    "menu-item#para-esmerilladores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/para-esmeriladoras",
+                    "text": "Para esmerilladores"
+            }
+        }
+    },
+    "menu-item#para-sierras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/para-sierras",
+                    "text": "Para sierras"
+            }
+        }
+    },
+    "menu-item#router": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas-y-accesorios/reemplazo/router",
+                    "text": "Router"
+            }
+        }
+    },
+    "menu-item#herramientas-neumaticas-title": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas",
+                    "text": "Herramientas"
+            }
+        }
+    },
+    "menu-item#compresoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Compresoras"
+            }
+        }
+    },
+    "menu-item#esmerilladoras-neumaticas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Esmerilladoras neumáticas"
+            }
+        }
+    },
+    "menu-item#lijadoras-neumaticas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Lojadoras neumáticas"
+            }
+        }
+    },
+    "menu-item#pulidoras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Pulidoras"
+            }
+        }
+    },
+    "menu-item#partes-de-reemplazo": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Partes de reemplazo"
+            }
+        }
+    },
+    "menu-item#herramientas-de-corte": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte",
+                    "text": "Herramientas de corte"
+            }
+        }
+    },
+    "menu-item#cepillos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cepillos",
+                    "text": "Cepillos"
+            }
+        }
+    },
+    "menu-item#cortadores-de-tubos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cortadores-de-tubos",
+                    "text": "Cortadores de tubos"
+            }
+        }
+    },
+    "menu-item#cuchillas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cuchillas",
+                    "text": "Cuchillas"
+            }
+        }
+    },
+    "menu-item#navajas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/navajas",
+                    "text": "Navajas"
+            }
+        }
+    },
+    "menu-item#pinzas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/pinzas",
+                    "text": "Pinzas"
+            }
+        }
+    },
+    "menu-item#tijeras": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/tijeras",
+                    "text": "Tijeras"
+            }
+        }
+    },
+    "menu-item#herramientas-de-medicion": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-medicion",
+                    "text": "Herramientas de medición"
+            }
+        }
+    },
+    "menu-item#herramientas-de-sujecion": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "herramientas-manuales/herramientas-de-sujecion",
+                    "text": "Herramientas de sujeción"
+            }
+        }
+    },
+    "menu-item#multiherramientas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-sujecion/prensas",
+                    "text": "Multiherramientas"
+            }
+        }
+    },
+    "menu-item#prensas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-sujecion/prensas",
+                    "text": "Prensas"
+            }
+        }
+    },
+    "menu-item#llaves-y-desarmadores": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/llaves-y-desarmadores/",
+                "text": "Desarmadores"
+            }
+        }
+    },
+    "menu-item#llaves": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/llaves-y-desarmadores/llaves",
+                "text": "Llaves"
+            }
+        }
+    },
+    "menu-item#seguetas-serruchos-y-arcos": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/seguetas-serruchos-y-arcos",
+                "text": "Seguetas, Serruchos y Arcos"
+            }
+        }
+    },
+    "menu-item#arcos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/seguetas-serruchos-y-arcos/arcos",
+                "text": "Arcos"
+            }
+        }
+    },
+    "menu-item#serrotes": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-manuales/seguetas-serruchos-y-arcos/serrotes",
+                "text": "Serrotes"
+            }
+        }
+    },
+    "menu-item#inversores-solares": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/paneles-y--componentes/inversores-solares",
+                "text": "Inversores solares"
+            }
+        }
+    },
+    "menu-item#paneles-solares": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/paneles-y--componentes/paneles-solares",
+                "text": "Paneles Solares"
+            }
+        }
+    },
+    "menu-item#outlet": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/outlet",
+                "text": "Outlet"
+            }
+        }
+    }
+
+}

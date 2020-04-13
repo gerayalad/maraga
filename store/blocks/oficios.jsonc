@@ -1,0 +1,182 @@
+{
+    "store.custom#oficios":{
+        "blocks":[
+            "flex-layout.row#row-text-oficios",
+            "shelf#shelf-oficios-01",
+            "shelf#shelf-oficios-02",
+            "shelf#shelf-oficios-03",
+            "shelf#shelf-oficios-04",
+            "shelf#shelf-oficios-05",
+            "shelf#shelf-oficios-06",
+            "shelf#shelf-oficios-07",
+            "shelf#shelf-oficios-08",
+            "shelf#shelf-oficios-09"
+        ]
+    },
+    "flex-layout.row#row-text-oficios":{
+        "children":["rich-text#oficios"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#oficios": {
+        "props": {
+            "text": "# Oficio \n\n",
+            "blockClass": "text"
+        }
+    },
+
+    "shelf#shelf-oficios-01": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"210",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Albañil"
+            }
+        }
+    },
+    "shelf#shelf-oficios-02": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"206",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Carpintero"
+            }
+        }
+    },
+    "shelf#shelf-oficios-03": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"211",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Cerrajero"
+            }
+        }
+    },
+    "shelf#shelf-oficios-04": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"212",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Herrero"
+            }
+        }
+    },
+    "shelf#shelf-oficios-05": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"213",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Mecánico"
+            }
+        }
+    },
+    "shelf#shelf-oficios-06": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"208",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Plomero"
+            }
+        }
+    },
+    "shelf#shelf-oficios-07": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"209",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Soldador"
+            }
+        }
+    },
+    "shelf#shelf-oficios-08": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"207",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Tarimero"
+            }
+        }
+    },
+    "shelf#shelf-oficios-09": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"205",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Tornero"
+            }
+        }
+    }
+}

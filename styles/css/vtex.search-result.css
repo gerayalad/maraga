@@ -1,0 +1,114 @@
+.galleryTitle--layout{
+    display:block;
+    color:#444;
+    font-size: 22px;
+    font-weight: 400;
+    border-bottom: 1px solid #e3e3e3;
+    margin: 0 0;
+    padding-bottom: 1rem;
+}
+
+
+.filterTemplateOverflow{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.filter__container--title,
+.filter__container--c{
+    border:none
+}
+
+.filterContent{
+    margin-top: 15px;
+}
+
+.filterIcon{
+    color:white!important
+}
+
+.totalProducts{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.gallery--search-gallery :global(.vtex-product-summary-2-x-container){
+    border:1px solid #ccc
+}
+
+.gallery--search-gallery  :global(.vtex-product-summary-2-x-buyButtonContainer){
+    opacity: 1;
+}
+
+.gallery--search-gallery  
+    :global(.vtex-product-summary-2-x-buyButtonContainer)
+        :global(.vtex-button){
+            background-color: #ccc;
+            border-color: #ccc;
+            transition: all .12s linear;
+        }
+
+.gallery--search-gallery  
+    :global(.vtex-product-summary-2-x-buyButtonContainer)
+        :global(.vtex-button):hover{
+            border-color:#FA5200;
+            background-color: #FA5200;
+        }
+
+.filterMessage{
+    display: none;
+}
+.filter{
+    background-color: #FA5200;
+    margin: 0;
+    display:block;
+    padding: 1rem 0 1rem 10px;
+    color:#fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.filterTitle{
+    padding: 1rem 0 1rem 10px;
+    color:white;
+    font-size: 16px;
+}
+
+.filter{
+    padding: 0;
+}
+
+.categoryItemChildrenContainer{
+    border-right:1px solid #ececec;
+    border-left:1px solid #ececec;
+}
+
+.categoryGroup{
+    margin-top: 0;
+}
+
+.filters--layout{
+    margin-top: 1rem;
+    border-bottom:1px solid #ececec;
+    border-radius: 0 0 10px 10px;
+}
+
+.categoryItemName{
+    padding: 10px 0 10px 10px;
+    display: block;
+    border-right:1px solid #ececec;
+    border-left:1px solid #ececec;
+    background-color: #eee;
+    border-bottom:1px solid #ececec;
+}
+
+.categoryItemChildren{
+    padding-left: 20px;
+}
+
+.filter__container{
+    border-right:1px solid #ececec;
+    border-left:1px solid #ececec;
+    border-radius: 0 0 10px 10px;
+    margin-top:10px;
+
+}

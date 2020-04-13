@@ -1,0 +1,10 @@
+.product-identifier--productReference {
+  font-size: 12px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.product-identifier__label,
+.product-identifier__separator{
+  display: none;
+}

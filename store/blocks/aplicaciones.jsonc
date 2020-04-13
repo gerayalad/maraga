@@ -1,0 +1,164 @@
+{
+    "store.custom#aplicaciones":{
+        "blocks":[
+            "flex-layout.row#row-text-aplicaciones",
+            "shelf#shelf-aplicaciones-01",
+            "shelf#shelf-aplicaciones-02",
+            "shelf#shelf-aplicaciones-03",
+            "shelf#shelf-aplicaciones-04",
+            "shelf#shelf-aplicaciones-05",
+            "shelf#shelf-aplicaciones-06",
+            "shelf#shelf-aplicaciones-07",
+            "shelf#shelf-aplicaciones-08"
+        ]
+    },
+    "flex-layout.row#row-text-aplicaciones":{
+        "children":["rich-text#aplicaciones"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#aplicaciones": {
+        "props": {
+            "text": "# Aplicaciones \n\n",
+            "blockClass": "text"
+        }
+    },
+
+    "shelf#shelf-aplicaciones-01": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"214",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Corte"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-02": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"219",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Impacto"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-03": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"215",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Limpieza"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-04": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"218",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Lubricante"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-05": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"217",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Perforación"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-06": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"221",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Remoción"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-07": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"216",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Soldar"
+            }
+        }
+    },
+    "shelf#shelf-aplicaciones-08": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"220",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Sujeción"
+            }
+        }
+    }
+}

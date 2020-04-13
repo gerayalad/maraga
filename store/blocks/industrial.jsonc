@@ -1,0 +1,92 @@
+{
+    "store.custom#industrial":{
+        "blocks":[
+            "flex-layout.row#row-text-industrial",
+            "shelf#shelf-industrial-01",
+            "shelf#shelf-industrial-02",
+            "shelf#shelf-industrial-03",
+            "shelf#shelf-industrial-04"
+        ]
+    },
+    "flex-layout.row#row-text-industrial":{
+        "children":["rich-text#industrial"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#industrial": {
+        "props": {
+            "text": "# Industria \n\n",
+            "blockClass": "text"
+        }
+    },
+
+    "shelf#shelf-industrial-01": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"222",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Automotriz/Mecánica"
+            }
+        }
+    },
+    "shelf#shelf-industrial-02": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"225",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Construcción"
+            }
+        }
+    },
+    "shelf#shelf-industrial-03": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"223",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Metalurgia"
+            }
+        }
+    },
+    "shelf#shelf-industrial-04": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"224",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Petroquímica"
+            }
+        }
+    }
+}

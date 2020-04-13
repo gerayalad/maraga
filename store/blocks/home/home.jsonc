@@ -1,0 +1,375 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#full-banner",
+      "responsive-layout.desktop#deals-responsive",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#home-mobile-banners",
+      "rich-text#title-01",
+      "shelf#shelf-01",
+      "flex-layout.row#mini-banners",
+      "rich-text#title-02",
+      "shelf#shelf-02",
+      "rich-text#brands",
+      "slider-layout#brands",
+      "rich-text#social-title",
+      "responsive-layout.desktop#social-desktop",
+      "slider-layout#instagram",
+      "responsive-layout.desktop#news-desktop",
+      "responsive-layout.mobile#news-mobile"
+    ]
+  },
+
+  "list-context.image-list#full-banner": {
+    "children": ["slider-layout#full-banner"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/full-banner-01.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "/arquivos/full-banner-02.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "/arquivos/full-banner-03.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+  "shelf#shelf-01": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "gap":3,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "shelf#shelf-02": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "productList": {
+        "maxItems": 16,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+  "slider-layout#full-banner": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "aways",
+      "showPaginationDots": "always",
+      "blockClass": "carousel-full-banner"
+    }
+  },
+
+  "list-context.image-list#home-mobile-banners": {
+    "children": ["slider-layout#home-mobile-banners"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "/arquivos/modificacion.jpg",
+          "mobileImage": "/arquivos/modificacion.jpg"
+        },
+        {
+          "image": "/arquivos/modificacion1.jpg",
+          "mobileImage": "/arquivos/modificacion1.jpg"
+        },
+        {
+          "image": "/arquivos/modificacion3.jpg",
+          "mobileImage": "/arquivos/modificacion3.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-mobile-banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "aways",
+      "showPaginationDots": "always",
+      "blockClass": "carousel-home-mobile-banners"
+    }
+  },
+
+  "responsive-layout.desktop#news-desktop": {
+    "children": ["newsletter#newsletter-desktop"]
+  },
+
+  "responsive-layout.mobile#news-mobile": {
+    "children": ["newsletter#newsletter-mobile"]
+  },
+
+  "responsive-layout.desktop#desktop": {
+    "children": ["flex-layout.row#desk-content"]
+  },
+
+  "responsive-layout.mobile#home-mobile-banners": {
+    "children": ["list-context.image-list#home-mobile-banners"]
+  },
+
+  "responsive-layout.desktop#social-desktop": {
+    "children": ["flex-layout.row#social-home"]
+  },
+
+  "responsive-layout.desktop#deals-responsive":{
+    "children":["flex-layout.row#deals"]
+  },
+  
+  "flex-layout.row#desk-content":{
+    "children": ["flex-layout.col#desk-content-col1","flex-layout.col#desk-content-col2"],
+    "props":{
+      "blockClass":"desk-banners"
+    }
+  },
+
+  "flex-layout.col#desk-content-col1":{
+    "children": ["image#desk-banner1"],
+    "props":{
+      "blockClass":"desk-content-col1"
+    }
+  },
+
+  "flex-layout.col#desk-content-col2":{
+    "children": ["image#desk-banner2","image#desk-banner3"],
+    "props":{
+      "blockClass":"desk-content-col2"
+    }
+  },
+
+  "image#desk-banner1": {
+    "props": {
+      "src": "https://maraga.myvtex.com/arquivos/banner-vertical.jpg",
+      "maxWidth": "100%",
+      "blockClass":"img-desk-1"
+    }
+  },
+
+  "image#desk-banner2": {
+    "props": {
+      "src": "https://maraga.myvtex.com/arquivos/horizontal-arriba.jpg",
+      "maxWidth": "100%",
+      "blockClass":"img-desk-2"
+    }
+  },
+
+  "image#desk-banner3": {
+    "props": {
+      "src": "https://maraga.myvtex.com/arquivos/horizontal-abajo.jpg",
+      "maxWidth": "100%",
+      "blockClass":"img-desk-3"
+    }
+  },
+
+  "rich-text#title-01":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+      "textColor": "muted-1",
+      "font": "t-heading-5",
+      "blockClass": "title-01"
+    }
+  },
+  "flex-layout.row#mini-banners":{
+    "children":[
+      "list-context.image-list#mini-banners"
+    ],
+    "props":{
+      "blockClass":"mini-banners",
+      "horizontalAlign":"center"
+    }
+  },
+  "list-context.image-list#mini-banners": {
+    "children": ["slider-layout#mini-banners"],
+    "props": {
+      "height": 375,
+      "images": [
+        { 
+          "image": "/arquivos/industrial.jpg",
+          "mobileImage": "/arquivos/industrial.jpg",
+          "link":"/industrial"
+        },
+        {
+          "image": "/arquivos/oficios.jpg",
+          "mobileImage": "/arquivos/oficios.jpg",
+          "link":"/oficios"
+        },
+        { 
+          "image": "/arquivos/aplicaciones.jpg",
+          "mobileImage": "/arquivos/aplicaciones.jpg",
+          "link":"/aplicaciones"
+        }
+      ]
+    }
+  },
+  "slider-layout#mini-banners": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+<<<<<<< HEAD
+      "showNavigationArrows": "aways",
+      "showPaginationDots": "always",
+      "blockClass": "carousel-mini-banners"
+=======
+      "fullWidth": false,
+      "blockClass": "shelf"
+>>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
+    }
+  },
+  
+  "rich-text#title-02":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Productos recomendados**\n Descubre productos que te pueden interesar",
+      "textColor": "muted-1",
+      "font": "t-heading-5",
+      "blockClass": "title-01"
+    }
+  },
+  "rich-text#brands":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Marcas**\n Más de 8,000 productos de más de 10 Marcas",
+      "textColor": "muted-1",
+      "font": "t-heading-5",
+      "blockClass": "title-marcas"
+    }
+  },
+  "rich-text#social-title":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Entérate de más**\n Dale Like y Comparte",
+      "textColor": "muted-1",
+      "font": "t-heading-5",
+      "blockClass": "title-social"
+    }
+  },
+  "flex-layout.row#social-home":{
+    "children":["social-networks#social-home"],
+    "props":{
+      "horizontalAlign":"center",
+      "preventVerticalStretch":true,
+      "blockClass":"home-row-social"
+    }
+  },
+  "iframe#instagram-post-01": {
+    "props": {
+      "src": "https://www.instagram.com/p/B-hpX1gj3T8/embed",
+      "width": 300,
+      "height": 550,
+      "blockClass":"insta-frame"
+    }
+  },
+  "iframe#instagram-post-02": {
+    "props": {
+      "src": "https://www.instagram.com/p/B-e6sfwjby1/embed",
+      "width": 300,
+      "height": 550,
+      "blockClass":"insta-frame"
+    }
+  },
+  "iframe#instagram-post-03": {
+    "props": {
+      "src": "https://www.instagram.com/p/B-c7snDD_le/embed",
+      "width": 300,
+      "height": 550,
+      "blockClass":"insta-frame"
+    }
+  },
+  "iframe#instagram-post-04": {
+    "props": {
+      "src": "https://www.instagram.com/p/B-cbovnjHjB/embed",
+      "width": 300,
+      "height": 550,
+      "blockClass":"insta-frame"
+    }
+  },
+  "slider-layout#images-insta-config": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass":"images-instagram"
+    }
+  },
+  "social-networks#social-home": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://www.twitter.com/"
+        }
+      ],
+      "blockClass":"social-home"
+    }
+  },
+  "newsletter#newsletter-desktop":{
+    "props":{
+      "label":"SUSCRÍBETE AL BOLETÍN",
+      "placeholder":"INGRESA TU E-MAIL",
+      "submit":"Suscríbete >",
+      "blockClass":"news-footer"
+    }
+  },
+  "newsletter#newsletter-mobile":{
+    "props":{
+      "label":"SUSCRÍBETE AL BOLETÍN",
+      "placeholder":"INGRESA TU E-MAIL",
+      "submit":"Suscríbete >",
+      "blockClass":"news-mobile"
+    }
+  }
+}

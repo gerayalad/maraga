@@ -1,0 +1,36 @@
+{
+    "store.custom#facturacion":{
+        "blocks":[
+            "flex-layout.row#row-text-facturacion"
+        ]
+    },
+    "flex-layout.row#row-text-facturacion":{
+        "children":["flex-layout.col#col-text-facturacion"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#col-text-facturacion":{
+        "children":[
+            "rich-text#facturacion",
+            "iframe#facturacion"
+        ],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#facturacion": {
+        "props": {
+            "text": "# Facturación \n\n Para facturar tu pedido, llena los campos del formulario abajo y lo procesaremos internamente.",
+            "blockClass": "text"
+        }
+    },
+    "iframe#facturacion": {
+        "props": {
+            "src": "https://crmshutpoint.com/v4/es-MX/Tickets/Nuevo?c=08c41986-80b8-456a-b242-60a240fde9a3&i=0",
+            "width": 400,
+            "height": 600,
+            "blockClass":"facturacion-frame"
+        }
+    }
+}

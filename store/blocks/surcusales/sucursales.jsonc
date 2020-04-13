@@ -1,0 +1,99 @@
+{
+    "store.custom#sucursales": {
+      "blocks": [
+        "flex-layout.row#sucursales"
+      ]
+    },
+    "flex-layout.row#sucursales": {
+      "children": [
+        "flex-layout.col#text-sucursales"
+      ]
+    },
+    "flex-layout.col#text-sucursales": {
+      "children": [
+        "__fold__",
+        "rich-text#title-sucursales",
+        "rich-text#sucursales",
+        "rich-text#surcusal-cdmx",
+        "iframe#surcusal-cdmx",
+        "rich-text#surcusal-monterrey",
+        "iframe#surcusal-monterrey",
+        "rich-text#surcusal-queretaro",
+        "iframe#surcusal-queretaro",
+        "rich-text#surcusal-guadalajara",
+        "iframe#surcusal-guadalajara"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#title-sucursales": {
+        "props": {
+            "text": "# Surcusales",
+            "blockClass": "title"
+        }
+    },
+    "rich-text#sucursales": {
+        "props": {
+            "text": "Vea dónde comprar o hablar directamente con nosotros, en la unidade más cerca de tu casa! \n\n",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#surcusal-cdmx": {
+        "props": {
+            "text": "## Ciudad de Mexico \n\n **Teléfono:** 55-5368-6320 \n **Dirección:** Poniente 134 #786, Colonia Industrial Vallejo, Delegación Azcapotzalco, 02300, Ciudad de México \n\n",
+            "blockClass": "about"
+        }
+    },
+    "iframe#surcusal-cdmx": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60177.325546885!2d-99.16576951715395!3d19.495071158296543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f85b1397a055:0x3d240ccef6754993!2sMARAGA (SEGUETAS LENMEX SA DE CV)!5e0!3m2!1ses!2smx!4v1570113247962!5m2!1ses!2smx",
+            "width": 500,
+            "height": 350,
+            "blockClass":"surcusal-frame"
+        }
+    },
+    "rich-text#surcusal-monterrey": {
+        "props": {
+            "text": "## Monterrey \n\n **Teléfono:** 81-8374-3474 \n **Dirección:** Guerrero 2314 Norte, Colonia 15 de Mayo, 64450 Monterrey, Nuevo León \n\n",
+            "blockClass": "about"
+        }
+    },
+    "iframe#surcusal-monterrey": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14381.086296805674!2d-100.3109572!3d25.6954309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0xb301e1920ac35640!2sMaraga!5e0!3m2!1ses!2smx!4v1570055300933!5m2!1ses!2smx",
+            "width": 500,
+            "height": 350,
+            "blockClass":"surcusal-frame"
+        }
+    },
+    "rich-text#surcusal-queretaro": {
+        "props": {
+            "text": "## Querétaro \n\n **Teléfono:** 44-2220-7223 \n **Dirección:** Avenida del Sol 21C, Colonia Bosques del Sol, 76113 Querétaro, Querétaro. \n\n",
+            "blockClass": "about"
+        }
+    },
+    "iframe#surcusal-queretaro": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14937.310704760672!2d-100.4407629473633!3d20.61549639410353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35075e22f2955:0x39cd4b4c7ef2e1e7!2sAv. del Sol 21C, El Sol, 76113 Santiago de QuerÃ©taro, Qro.!5e0!3m2!1ses!2smx!4v1570110173245!5m2!1ses!2smx",
+            "width": 500,
+            "height": 350,
+            "blockClass":"surcusal-frame"
+        }
+    },
+    "rich-text#surcusal-guadalajara": {
+        "props": {
+            "text": "## Guadalajara \n\n **Teléfono:** 33-3655-9057 \n **Dirección:** Calzada González Gallo 3048, Colonia El Rosario, 44898 Guadalajara, Jalisco \n\n",
+            "blockClass": "about"
+        }
+    },
+    "iframe#surcusal-guadalajara": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14935.880406564384!2d-103.32894501079548!3d20.63007545817298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b2508b0aee5f:0x113e18945eaeca8e!2sCalz. JesÃºs GonzÃ¡lez Gallo 3048, Mirador Alamo Industrial, 44895 Guadalajara, Jal.!5e0!3m2!1ses!2smx!4v1570121346160!5m2!1ses!2smx",
+            "width": 500,
+            "height": 350,
+            "blockClass":"surcusal-frame"
+        }
+    }
+}

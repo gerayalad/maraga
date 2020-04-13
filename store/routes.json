@@ -1,0 +1,53 @@
+{
+  "store.custom#nosotros": {
+    "path": "/institucional/quienes-somos"
+  },
+  "store.custom#empleos": {
+    "path": "/institucional/oportunidad-de-empleo"
+  },
+  "store.custom#distribuidores": {
+    "path": "/institucional/distribuidores"
+  },
+  "store.custom#legal-y-privacidad": {
+    "path": "/institucional/informacion-legal-y-privacidad"
+  },
+  "store.custom#sucursales": {
+    "path": "/institucional/sucursales"
+  },
+  "store.custom#contactanos": {
+    "path": "/institucional/contactanos"
+  },
+  "store.custom#facturacion": {
+    "path": "/facturacion"
+  },
+  "store.custom#terminos-y-condiciones": {
+    "path": "/institucional/terminos-y-condiciones"
+  },
+  "store.custom#garantias": {
+    "path": "/institucional/garantias"
+  },
+  "store.custom#preguntas-frecuentes": {
+    "path": "/institucional/preguntas-frecuentes"
+  },
+  "store.custom#oficios": {
+    "path": "/oficios"
+  },
+  "store.custom#industrial": {
+    "path": "/industrial"
+  },
+  "store.custom#aplicaciones": {
+    "path": "/aplicaciones"
+  },
+  "store.custom#compra-segura": {
+    "path": "/compra-segura"
+  },
+  "store.custom#paga-comodamente": {
+    "path": "/paga-comodamente"
+  },
+  "store.custom#envio-gratis": {
+    "path": "/envio-gratis"
+  },
+  "store.custom#recoge-en-tienda": {
+    "path": "/recoge-en-tienda"
+  }
+}

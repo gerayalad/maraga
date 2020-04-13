@@ -1,0 +1,11 @@
+.childrenContainer :global(.vtex-menu-2-x-styledLinkContent){
+    color:#414141;
+    padding-left: 10%;
+    text-align: left;
+    font-size: 14px;
+}
+
+.openIconContainer{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,93 @@
+{
+    "tab-layout#institucional": {
+        "children": [
+            "tab-list#institucional",
+            "tab-content#institucional"
+        ],
+        "props": {
+            "blockClass": "tab-institucional",
+            "defaultActiveTabId": "proposito"
+        }
+    },
+    "tab-list#institucional": {
+        "children": [
+            "tab-list.item#proposito",
+            "tab-list.item#vision",
+            "tab-list.item#valores"
+        ],
+        "props":{
+            "blockClass":"tablist-institucional"
+        }
+    },
+    "tab-list.item#proposito": {
+        "props": {
+            "tabId": "proposito",
+            "label": "Proposito",
+            "defaultActiveTab": true
+        }
+    },
+    "tab-list.item#vision": {
+        "props": {
+            "tabId": "vision",
+            "label": "Visión"
+        }
+    },
+    "tab-list.item#valores": {
+        "props": {
+            "tabId": "valores",
+            "label": "Valores"
+        }
+    },
+    "tab-content#institucional": {
+        "children": [
+            "tab-content.item#proposito",
+            "tab-content.item#vision",
+            "tab-content.item#valores"
+        ]
+    },
+    "tab-content.item#proposito": {
+        "children": [
+            "rich-text#proposito"
+        ],
+        "props": {
+            "tabId": "proposito"
+        }
+    },
+    "tab-content.item#vision": {
+        "children": [
+            "rich-text#vision"
+        ],
+        "props": {
+            "tabId": "vision"
+        }
+    },
+    "tab-content.item#valores": {
+        "children": [
+            "rich-text#valores"
+        ],
+        "props": {
+            "tabId": "valores"
+        }
+    },
+
+
+
+    "rich-text#proposito": {
+        "props": {
+            "text": "Ser para el cliente la mejor opción. Además de comercializar en forma innovadora productos de clase mundial y servicios integrales de calidad, con el compromiso de aumentar la productividad de nuestros clientes, confiando que nuestros recursos humanos son la ventaja competitiva.t",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#vision": {
+        "props": {
+            "text": "Comercializar todos los productos y servicios a cada cliente, siempre y cuando los pueda usar o vender. Aplicar los principios de Comercialización y servicio, con responsabilidad y entrega total, superando las expectativas del cliente, orientados a resultados. Trabajar en equipo, buscando siempre el desarrollo de nuestros colaboradores, para mejorar la rentabilidad de nuestra empresa.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#valores": {
+        "props": {
+            "text": "- Honestidad. - Respeto. - Servicio. - Calidad. - Equidad. - Lealtad. - Trabajo en Equipo.",
+            "blockClass": "about"
+        }
+    }
+}

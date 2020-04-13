@@ -1,0 +1,19 @@
+{
+    "store.custom#paga-comodamente":{
+        "blocks":[
+            "flex-layout.row#row-text-paga-comodamente"
+        ]
+    },
+    "flex-layout.row#row-text-paga-comodamente":{
+        "children":["rich-text#paga-comodamente"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#paga-comodamente": {
+        "props": {
+            "text": "# Paga Comodamente \n\n Además de cumplir con los controles de seguridad listados por el PCI DSS, nuestra plataforma VTEX cuenta con: \n\n - **One Click Buy** - Para facilitar la recompra almacenamos y encriptamos los datos de tu tarjeta de crédito/débito de manera segura.\n - **Smart Checkout** - Proceso de compra en una sóla página y sin necesidad de login.\n¡Comprar en línea nunca había sido tan fácil y seguro!",
+            "blockClass": "text"
+        }
+    }
+}

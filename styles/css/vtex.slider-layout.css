@@ -1,0 +1,44 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+.sliderLayoutContainer{
+  max-width: 1195px;
+  margin:0 auto
+}
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+.paginationDotsContainer {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+.layoutContainer--shelf {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 96rem;
+}
+.slide--shelf {
+  margin-bottom: 25px;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.sliderLayoutContainer--carousel-home-mobile-banners{
+  margin-top: 30px;
+}
+.sliderLayoutContainer--brands{
+  margin-bottom: 25px;
+  padding-bottom:30px
+}
+.paginationDotsContainer--brands{
+  bottom: 0px;
+}
+.sliderLayoutContainer--insta-posts{
+  margin-bottom: 30px;
+}
+
+.sliderArrows{
+  border-radius: 35px;
+  border:1px solid #ECECEC;
+  background-color: #ffffff;
+  padding: 6px;
+}

@@ -1,0 +1,53 @@
+{
+  "store.custom#nosotros": {
+    "blocks": [
+      "flex-layout.row#nosotros",
+      "flex-layout.row#tabs-nosotros",
+      "flex-layout.row#title-timeline",
+      "flex-layout.row#tabs-timeline"
+    ]
+  },
+  "flex-layout.row#nosotros": {
+    "children": [
+      "flex-layout.col#text-nosotros"
+    ]
+  },
+  "flex-layout.col#text-nosotros": {
+    "children": [
+      "rich-text#title-nosotros",
+      "rich-text#nosotros"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-nosotros": {
+    "props": {
+      "text":"# Nuestra História",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#nosotros": {
+    "props": {
+      "text": "**Somos nuestra gente.** \n\n Maraga es una empresa mexicana, con más de 26 años dedicada a comercializar en forma innovadora productos de clase mundial y servicios integrales de calidad, con el compromiso de aumentar la productividad de nuestros clientes, confiando que nuestros recursos humanos son una ventaja competitiva. \n\n  excelente ambiente laboral y el trabajo en equipo se traduce en éxito, por eso en Maraga propiciamos el crecimiento de nuestro personal, lo cual nos ha otorgado el honor de ser premiados en repetidas ocasiones, además de ser considerados actualmente, como una de LAS 50 MEJORES EMPRESAS MEXICANAS.",
+      "blockClass": "about"
+    }
+  },
+  "flex-layout.row#tabs-nosotros":{
+    "children":["tab-layout#institucional"]
+  },
+  "flex-layout.row#title-timeline":{
+    "children":["rich-text#title-timeline"]
+  },
+  "rich-text#title-timeline": {
+    "props": {
+      "text": "## Maraga a través de los años.",
+      "blockClass": "timeline-title"
+    }
+  },
+
+  "flex-layout.row#tabs-timeline":{
+    "children":["tab-layout#timeline"]
+  }
+}

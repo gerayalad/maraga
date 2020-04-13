@@ -1,0 +1,135 @@
+.menuContainerNav--menu-site{
+    background-color:#FA5200;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer){
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+}
+:global(.vtex-menu-2-x-styledLink){
+    display: block;
+}
+:global(.vtex-menu-2-x-styledLinkContent){
+    padding: .7rem 0;
+    transition: all .12s linear;
+    white-space:initial;
+    text-align: center;
+    color:#fff;
+    font-size: 13px;
+    font-weight: 700;   
+}
+
+.menuItem{
+    
+}
+
+.styledLinkContainer,
+.styledLinkContent,
+.styledLink{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menuContainer--menu-site{
+    justify-content: space-between;
+}
+
+.menuContainer--submenu-site :global(.vtex-menu-2-x-styledLinkContent){
+    color: #444444;
+    text-align: left;
+}
+:global(.vtex-menu-2-x-styledLinkContent--subitem){
+    padding:5px 0 5px 25px;
+
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--subitem):hover{
+    background-color: transparent!important;
+    color:rgb(255, 101, 24);
+}
+
+.menuContainerNav--menu-site :global(.vtex-menu-2-x-styledLinkContent):hover{
+    background-color: rgb(255, 101, 24);
+}
+
+
+.menuContainerNav--menu-footer :global(.vtex-menu-2-x-styledLinkContent){
+    font-weight: normal;
+    color:#A0A0A0;
+    transition: all .12s linear;
+}
+
+.menuContainerNav--menu-footer :global(.vtex-menu-2-x-styledLinkContent):hover{
+    color:white
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-social-footer),
+:global(.vtex-menu-2-x-menuContainerNav--menu-footer) 
+    :global(.vtex-menu-2-x-styledLinkContent--footer-title-menu){
+        font-weight: 700;
+        color:white;
+        display: block;
+        position: relative;
+        text-align: left;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        font-size:18px;
+        line-height: initial;
+}
+
+.menuItem--subitem :global(.vtex-menu-2-x-styledLinkContent){
+    font-weight: normal;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-social-footer){
+    margin-top:0;
+    padding-top:16px;
+    margin-bottom: 25px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--title-social-footer)::after,
+:global(.vtex-menu-2-x-menuContainerNav--menu-footer) 
+    :global(.vtex-menu-2-x-styledLinkContent--footer-title-menu)::after{
+        position: absolute;
+        bottom:0;
+        left:0;
+        content:"";
+        display: block;
+        width: 15px;
+        height: 2px;
+        background-color: #FF8400;
+}
+
+.submenuContainer--submenu-main{
+    left: 0;
+    right: 0;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 80;
+}
+
+.submenuContainer--submenu-main .submenuWrapper{
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 1.75rem;
+}
+
+.submenuContainer--submenu-main .submenuWrapper .submenu{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.styledLink--title .styledLinkContent{
+    font-weight: 700;
+}

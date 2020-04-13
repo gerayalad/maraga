@@ -1,0 +1,98 @@
+{
+  "store.custom#legal-y-privacidad": {
+    "blocks": [
+      "flex-layout.row#legal"
+    ]
+  },
+  "flex-layout.row#legal": {
+    "children": [
+      "flex-layout.col#text-legal"
+    ]
+  },
+  "flex-layout.col#text-legal": {
+    "children": [
+      "rich-text#title-legal",
+      "rich-text#legal",
+      "rich-text#datos-del-responsable",
+      "rich-text#datos-personales",
+      "rich-text#datos-recabados",
+      "rich-text#uso-de-informacion",
+      "rich-text#proteccion",
+      "rich-text#limitacion-de-uso",
+      "rich-text#datos-personales-sensibles",
+      "rich-text#aceptacion-de-terminos",
+      "rich-text#autoridad"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title-legal": {
+    "props": {
+      "text":
+      "# Información Legal y Privacidad",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#legal": {
+    "props": {
+      "text": "El aviso de privacidad forma parte del uso del sitio web **www.maraga.mx** \n Este Aviso de Privacidad contempla en todo momento los principios de licitud, consentimiento, información, calidad, finalidad, lealtad, proporcionalidad y responsabilidad en el tratamiento de los datos personales. \n Su privacidad y confianza son muy importantes para maraga.mx (con nombre comercial SEGUETAS LENMEX) Por ello, queremos asegurarnos de que conozca cómo salvaguardamos la integridad, privacidad y protección de sus datos personales, en apego a la Ley Federal de Protección de Datos Personales en Posesión de Particulares, publicada en el Diario Oficial de la Federación el día 5 de julio de 2010 y su Reglamento publicado en el Diario Oficial de la Federación el día 21 de diciembre de 2011. \n La empresa responsable de protección de datos es SEGUETAS LENMEX S.A DE C.V. y se ubica en: VICENTE GUERRERO 2314 NORTE COL. 15 DE MAYO (LARRALDE) MONTERREY, NUEVO LEÓN C.P. 64450, usted podrá contactar a la agencia en [soporte@maraga.com.mx](soporte@maraga.com.mx) \n Para SEGUETAS LENMEX SA DE CV., resulta necesaria la recopilación de ciertos datos personales para llevar a cabo las actividades intrínsecas a su giro comercial y mercantil. SEGUETAS LENMEX SA DE CV, tiene la obligación legal y social de cumplir con las medidas, legales y de seguridad suficientes para proteger aquellos datos personales que haya recabado para las finalidades que en el presente Aviso de Privacidad serán descritas. \n Todo lo anterior se realiza con el objetivo de que usted tenga pleno control y decisión sobre sus datos personales. Por ello, le recomendamos que lea atentamente la siguiente información. \n Usted tendrá disponible en todo momento este Aviso de Privacidad en nuestra página de Internet soporte@maraga.com.mx En caso de realizarse alguna modificación a esta política de privacidad se hará de su conocimiento a través de los procedimientos descritos posteriormente en el presente documento. \n\n",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#datos-del-responsable": {
+    "props": {
+      "text": "## Datos del Responsable \n\n SEGUETAS LENMEX S.A. DE C.V. (La “Sociedad”) es una sociedad constituida de conformidad con las leyes de los Estados Unidos Mexicanos con domicilio en VICENTE GUERRERO 2314 NORTE COL. 15 DE MAYO (LARRALDE) MONTERREY, NUEVO LEÓN C.P. 64450",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#datos-personales": {
+    "props": {
+      "text": "## Datos Personales \n\n SEGUETAS LENMEX S.A. DE C.V. Recabará de usted los datos personales que sean necesarios para procesar de manera adecuada sus compras a través de nuestros portales de internet o tiendas en el interior de la república ya sea (i) directa o personalmente (ii) a través de sus agentes, promotores, comisionistas o socios comerciales. Los datos que solicitamos son los siguientes: \n - Datos de identificación: nombre completo, dirección FISCAL, teléfono de casa, celular y/o de trabajo, Registro Federal de Contribuyentes (RFC), correo electrónico(s) para hacerle llegar el CFDI. \n - Datos de facturación y razón social.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#datos-recabados": {
+    "props": {
+      "text": "## Datos recabados por medio de cookies, web bacons o similares \n\n Los cookies son un conocido mecanismo que almacena información sobre un usuario de internet en su propio ordenador, y se suelen emplear para asignar a los visitantes de un sitio de internet un número de identificación individual para su reconocimiento subsiguiente. Sin embargo, la existencia de los cookies y su uso generalmente no están ocultos al usuario, quien puede desactivar el acceso a la información de los cookies. \n Sin embargo, dado que un sitio Web puede emplear un identificador cookie para construir un perfil del usuario y éste no conoce la información que se añade a este perfil, se puede considerar a los cookies una forma de spyware. Por ejemplo, una página con motor de búsqueda puede asignar un número de identificación individual al usuario la primera vez que visita la página, y puede almacenar todos sus términos de búsqueda en una base de datos con su número de identificación como clave en todas sus próximas visitas (hasta que el cookie expira o se borra). \n Estos datos pueden ser empleados para seleccionar los anuncios publicitarios que se mostrarán al usuario, o pueden ser transmitidos (legal o ilegalmente) a otros sitios u organizaciones.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#uso-de-informacion": {
+    "props": {
+      "text": "## Uso de la información recabada y transfencia de datos con terceros \n\n **maraga.mx** utilizara los cookies solo con fines estadísticos para mejorar estrategias comerciales. \n En el caso de empleo de cookies, el botón de “ayuda” que se encuentra en la barra de herramientas de la mayoría de los navegadores, le dirá cómo evitar aceptar nuevos cookies, cómo hacer que el navegador le notifique cuando recibe un nuevo cookie o cómo deshabilitar todos los cookies. \n **maraga.mx** utilizará la información recabada de los usuarios para generar una cuenta con contraseña y puedan realizar sus pedidos, procesar sus compras, responder dudas o comentarios, también tenemos el compromiso de brindar el mejor servicio y dar cumplimiento a las obligaciones contraídas con nuestros clientes así como informar sobre cambios de nuestros productos o servicios.\n maraga.mx no realiza transferencias de información con terceros. Maraga no compartirá información confidencial con terceras partes, excepto que tenga expresa autorización del mismo usuario o por orden judicial para cumplir con las disposiciones procesales.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#proteccion": {
+    "props": {
+      "text": "## Protección \n\n SEGUETAS LENMEX S.A de C.V. Se compromete a asegurar la privacidad de la información obtenida a través de este medio. Sugerimos leer atentamente este aviso de privacidad para hacerlo consciente de cómo se usarán los datos personales proporcionados. Del mismo modo, hacemos de su conocimiento que el llenado de cualquier formulario o la remisión de un correo electrónico a cualquiera de nuestros buzones implica la aceptación del aviso de privacidad. Todos los datos obtenidos a través de su compra por este medio, serán utilizados para el envío de correos electrónicos y el producto (s) comprado, sin mayor responsabilidad para Maraga. \n Con el simple hecho de visitar nuestra página web, el usuario no está obligado a facilitar información personal. Una vez que usted elija el producto es indispensable dar clic en “comprar” a partir de ese momento maraga.mx le solicitará información personal. \n Maraga se compromete a salvaguardar la máxima protección y confidencialidad sobre la información que usted nos facilite por medio del sitio y a utilizarla únicamente para los fines indicados.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#limitacion-de-uso": {
+    "props": {
+      "text": "## Limitación de uso y divulgación de información \n\n Para limitar el uso y divulgación de sus datos, solicitarlos a través del correo [soporte@maraga.com.mx](mailto:soporte@maraga.com.mx) \n Medios para Ejercer los Derechos ARCO (acceso, rectificación, cancelación y oposición) Conforme a la Ley Federal de Protección de Datos Personales en Posesión de los Particulares y su Reglamento, el titular de los Datos Personales, por sí o mediante representante legal, debiendo identificarse o acreditarse correctamente, podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición (“Derechos ARCO”), directamente llamando a los números telefónicos de la Unidad Especial de Atención al Cliente, describiendo de manera clara y precisa los datos personales respecto de los que se busca ejercer alguno de los Derechos ARCO. \n I) Acceso.- Usted podrá solicitar en todo momento conocer qué datos suyos han sido recabados y que son conservados por el responsable, así como información relativa a las condiciones y generalidades del tratamiento. \n II) Rectificación.- En caso de que alguno de sus datos sea inexacto o incompleto podrá solicitar su corrección, señalando de que datos se trata, debiendo adjuntar la documentación que acredite o ampare dicha modificación. \n III) Cancelación.- Podrá solicitarse en todo momento la cancelación de los datos; en caso de ser procedente la solicitud, iniciará un período de bloqueo en el cual no podrán ser tratados de ninguna manera sus Datos Personales para su posterior supresión. \n IV) Oposición.- En todo momento el titular podrá oponerse por causa legítima al tratamiento de sus Datos Personales o solicitar que cese dicho tratamiento. \n\n  Los derechos arco podrá ejercerlos, de manera gratuita, llamando al teléfono de la unidad especial de atención al Cliente. Es importante mencionarle que en la llamada para ejercer derechos arco deberá proporcionar una dirección de correo electrónico y/o número de teléfono a efecto de que podamos notificarle la respuesta a su solicitud o poder contactarlo en caso de requerir información adicional en relación con su petición. \n Asimismo, debe tener en cuenta que en caso de no proporcionar una dirección de correo electrónico y/o número de teléfono en la llamada para ejercer derechos arco, su petición se tendrá por no presentada, tal como lo dispone el artículo 94 del reglamento de la ley federal de protección de datos personales en posesión de los particulares. \n PONEMOS A SU DISPOCISION EL SIGUIENTE CORREO ELECTRONICO PARA EJERCER SUS DERECHOS DE ARCO (soporte@maraga.com.mx)[mailto:soporte@maraga.com.mx] \n Su solicitud deberá ir acompañada de los argumentos por los que desea ejercer cualquiera de sus derechos, junto con una identificación oficial del titular de los datos o su apoderado, su petición será atendida en un plazo no mayor a 20 días hábiles.\n Asimismo, en cualquier momento podrá revocar el consentimiento al tratamiento de sus datos, por el mismo medio antes señalado.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#datos-personales-sensibles": {
+    "props": {
+      "text": "## Datos Personales Sensíbles \n\n SEGUETAS LENMEX S.A DE C.V. no recaba datos sensibles directamente desde nuestros sitios WEB, todas las operaciones financieras en línea están protegidas por un servidor seguro bajo el protocolo SECURE SOCKET LAYER (SSL), el cual podrá corroborar al momento de realizar su compra en la barra de su navegador, dichos datos serán encriptados para asegurar su resguardo. \n Los medios de pago en línea utilizados son: \n - 1) Pago con tarjeta de crédito y/o debito por medio de del motor de pago de MercadoPago (e-com), el cual requiere de una autentificación por parte del usuario. \n - 2) Paypal. El usuario tendrá que tener una cuenta activa en www.paypal.com para poder procesar su pago, así mismo los datos sensibles de la tarjeta serán introducidos en dicho establecimiento. \n - 3) SEGUETAS LENMEX S.A. DE C.V. no captura, solicita ni almacena datos sensibles de nuestros clientes. \n\n ### Cambios al Aviso de Privacidad. \n Cualquier cambio sustancial o total que se realice al presente Aviso de Privacidad podrá ser realizado por la Sociedad y será comunicado mediante una publicación en un periódico de amplia circulación, a través de nuestra página www.maraga.mx, o mediante correo electrónico a la dirección del titular que para tales efectos mantenga la Sociedad registrada. Unidad Especial de Atención al Público.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#aceptacion-de-terminos": {
+    "props": {
+      "text": "## Aceptación de los Términos \n\n Si el usuario utiliza los servicios del sitio web de maraga.mx, significa que ha leído, entendido y acordado los términos antes expuestos.",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#autoridad": {
+    "props": {
+      "text": "## Autoridad \n\n Si el usuario considera que han sido vulnerados sus derechos respecto de la protección de datos personales, tiene el derecho de acudir a la autoridad correspondiente para defender su ejercicio. La autoridad es el Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI), su sitio web es: www.inai.org.mx. \n ÚLTIMA ACTUALIZACION 10/04/2020",
+      "blockClass": "about"
+    }
+  }
+}

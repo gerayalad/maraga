@@ -1,0 +1,106 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals",
+      "horizontalAlign":"center"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1",
+      "rich-text#deal1"
+    ],
+    "props":{
+        "horizontalAlign":"center"
+    }
+  },
+  "image#deal1": {
+    "props": {
+      "src": "/arquivos/deal-pagamento.png",
+      "maxHeight": "47px",
+      "link":"/compra-segura"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "**[Compra segura](/compra-segura)** \n Anáisis Antifraud",
+      "textAlignment": "center",
+      "blockClass": "deals",
+      "link":"/"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "children": [
+      "image#deal2",
+      "rich-text#deal2"
+    ],
+    "props":{
+        "horizontalAlign":"center"
+    }
+  },
+  "image#deal2": {
+    "props": {
+      "src": "/arquivos/deal-paga-comodamente.png",
+      "maxHeight": "47px",
+      "link":"/paga-comodamente"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "**[Paga comodamente](/paga-comodamente)** \n Precios incluyen IVA",
+      "textAlignment": "CENTER",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "children": [
+      "image#deal3",
+      "rich-text#deal3"
+    ],
+    "props":{
+        "horizontalAlign":"center"
+    }
+  },
+  "image#deal3": {
+    "props": {
+      "src": "/arquivos/deal-envio-a-todo-mexico.png",
+      "maxHeight": "47px",
+      "link":"/envio-gratis"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "**[Envío gratis a todo México](/envio-gratis)** \n Compras desde $700MXN",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "children": [
+      "image#deal4",
+      "rich-text#deal4"
+    ],
+    "props":{
+        "horizontalAlign":"center"
+    }
+  },
+  "image#deal4": {
+    "props": {
+      "src": "/arquivos/deal-recoge-en-tienda.png",
+      "maxHeight": "47px",
+      "link":"/recoge-en-tienda"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "**[Recoge en tienda](/recoge-en-tienda)** \n (MTY, CDMX y QRO)",
+      "blockClass": "deals"
+    }
+  }
+}

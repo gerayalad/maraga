@@ -1,0 +1,19 @@
+{
+    "store.custom#recoge-en-tienda":{
+        "blocks":[
+            "flex-layout.row#row-text-recoge-en-tienda"
+        ]
+    },
+    "flex-layout.row#row-text-recoge-en-tienda":{
+        "children":["rich-text#recoge-en-tienda"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#recoge-en-tienda": {
+        "props": {
+            "text": "# Recoge en Tienda \n\n ¡Puedes recoger tus productos seleccionados en cualquiera de nuestras sucursales!\n\n -Tus compras estarán listas en la sucursal que elegiste.\n - Cuentas con 15 días naturales para recoger tu(s) pedido(s) a partir de que recibas el correo que confirma que tus productos llegaron a la sucursal que elegiste. De no ser recolectado, no podremos garantizar la disponibilidad del producto. \n - Puedes registrar a otra persona autorizada para recoger tu(s) producto(s). Solo debes indicarlo al momento de la compra. \n - La persona que elijas para recolectar tu compra deberá mostrar una identificación oficial y el número de orden de venta para poder entregarle tu(s) producto(s).\n - Identificaciones válidas para recoger pedido: INE o IFE o pasaporte.\n - El servicio es gratis.",
+            "blockClass": "text"
+        }
+    }
+}

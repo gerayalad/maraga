@@ -1,0 +1,19 @@
+{
+    "store.custom#envio-gratis":{
+        "blocks":[
+            "flex-layout.row#row-text-envio-gratis"
+        ]
+    },
+    "flex-layout.row#row-text-envio-gratis":{
+        "children":["rich-text#envio-gratis"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#envio-gratis": {
+        "props": {
+            "text": "# Envío gratis a todo México\n\n ¡Si tu compra es de **$700** MXN o más, tu envío es gratis!\nMARAGA.MX se compromete a entregar el producto en perfecto estado en la dirección que nos proporciones al momento de registrarse o comprar como invitado.\n - El plazo de entrega es de 3 a 5 días hábiles a toda la República Méxicana.\n\n **Importante:** Ten en cuenta que el plazo de entrega cuenta a partir de que tu pedido sale de nuestros almacenes. El tiempo de procesamiento de los pedidos es de 24/48 horas laborables. El plazo de entrega puede verse alterados por días festivos, días inhábiles, retrasos de la compañía de mensajería o debido a causas ajenas a MARAGA.MX. En ningún caso los plazos indicados son una garantía de entrega.\n\n - Para asegurar una entrega rápida, indique una dirección de entrega en la cual el pedido pueda ser entregado de Lunes a Viernes en un horario de 9:00 hrs y las 18:00 hrs.\n - Considere que nuestra matriz se encuentra localizada en la ciudad de Monterrey para calcular el tiempo de entrega de tu pedido.\n En el correo electrónico de “Confirmación de compra”, encontrarás el código de rastreo junto con el tipo de servicio, compañía prestadora del servicio, así como un número de contacto de la mensajería para cualquier inconveniente que desees aclarar.\n - Si al momento de la entrega no hay nadie quien reciba el paquete, el transportista dejará un comprobante indicando cómo proceder para concretar la nueva entrega; por lo general se realiza un nuevo intento de entrega al día siguiente, al tercer intento se mandan a una sucursal para que pases a recogerlo en un lapso no mayor a 7 días. Después de este lapso si el paquete no es reclamado, será regresado a nuestro almacén. \n - Si el motivo por el cual el paquete no ha sido entregado es por extravío, la compañía de transportes iniciará una investigación, en estos casos, los plazos de respuesta pueden ser de una y tres semanas.\n - MARAGA.MX no será responsable por los errores causados en la entrega cuando la dirección proporcionada no exista, o hayan sido omitidos datos importantes para la entrega. \n - Si el pedido se realiza después de las 18:00 hrs de lunes a viernes o durante el fin de semana, se preparará y enviará el siguiente día laborable. \n\n ## Diligencia de entrega.\n\n Bajo tu propia y exclusiva responsabilidad deberás comprobar el buen estado del paquete ante el transportista, de existir alguna anomalía deberá notificarlo al operador y a la compañía de mensajería \n Si una vez revisado el producto, detectas cualquier incidencia como golpes, rotura, indicios de haber sido abierto o cualquier desperfecto causado por el envío, comunicánoslo en MARAGA.MX o por correo electrónico a ecommerce@maraga.com.mx dentro de las 24 horas siguientes a la entrega así como a la compañía de mensajería.",
+            "blockClass": "text"
+        }
+    }
+}

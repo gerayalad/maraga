@@ -1,0 +1,12 @@
+.container--tab-timeline{
+    margin-bottom: 5rem;
+}
+
+.listItem--timeline-tab{
+    padding:0
+}
+
+.listContainer--tablist-timeline,
+.listContainer--tablist-institucional{
+    justify-content: flex-start;
+}

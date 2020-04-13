@@ -1,0 +1,19 @@
+{
+    "store.custom#contactanos":{
+        "blocks":[
+            "flex-layout.row#row-text-contactanos"
+        ]
+    },
+    "flex-layout.row#row-text-contactanos":{
+        "children":["rich-text#contactanos"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#contactanos": {
+        "props": {
+            "text": "# Contactanos \n\n **Teléfono de contacto:** 8183743474 \n\n Envie un correo para: [servicioalcliente@maraga.com.mx](mailto:servicioalcliente@maraga.com.mx) con las siguientes informaciones: \n\n - Nombre\n - Correo\n - Teléfono\n - Mensage",
+            "blockClass": "text"
+        }
+    }
+}

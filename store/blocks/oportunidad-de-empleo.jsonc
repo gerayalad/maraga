@@ -1,0 +1,19 @@
+{
+    "store.custom#empleos":{
+        "blocks":[
+            "flex-layout.row#row-text-empleos"
+        ]
+    },
+    "flex-layout.row#row-text-empleos":{
+        "children":["rich-text#empleos"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#empleos": {
+        "props": {
+            "text": "# Bolsa de Trabajo \n\n Se parte del equipo, descubre las vacantes que tenemos disponibles. \n\n| Vacante | Estado |\n| ---------- | ---------- |\n| Auxiliar de Servicio al Cliente | Monterrey |\n| Chofer de Reparto | Monterrey |\n| Técnico de Máquinas | Monterrey |\n| Auxiliar de logística | Queretaro |\n\n Si deseas aplicar una vacante, envía tu CV al siguiente correo [reclutamiento@maraga.com.mx](mailto:reclutamiento@maraga.com.mx)",
+            "blockClass": "text"
+        }
+    }
+}

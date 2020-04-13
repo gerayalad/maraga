@@ -1,0 +1,347 @@
+{
+    "flex-layout.row#row-submenu-departamento-01":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-01",
+            "flex-layout.col#submenu-02-departamento-01",
+            "flex-layout.col#submenu-03-departamento-01",
+            "flex-layout.col#submenu-04-departamento-01",
+            "flex-layout.col#submenu-05-departamento-01",
+			"flex-layout.col#img-menu-departamento-01"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-03-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-01"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-01":{
+        "children":["image#img-menu-departamento-01"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "image#img-menu-departamento-01": {
+        "props": {
+            "src": "/arquivos/menu-soldadura-y-generadores.jpg",
+            "link": {
+                "url": "/soldadura-y-generadores"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-02": {
+        "props": {
+            "src": "/arquivos/menu-solubles-y-desengrasantes.jpg",
+            "link": {
+                "url": "/solubles-y-desengrasantes"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-03": {
+        "props": {
+            "src": "/arquivos/menu-sierras-y-accesorios.jpg",
+            "link": {
+                "url": "/sierra-cintas-y-accesorios"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-04": {
+        "props": {
+            "src": "/arquivos/menu-herramientas-electricas.jpg",
+            "link": {
+                "url": "/herramientas-electricas"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-05": {
+        "props": {
+            "src": "/arquivos/herramientas-neumaticas.jpg",
+            "link": {
+                "url": "/herramientas-neumaticas"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-06": {
+        "props": {
+            "src": "/arquivos/menu-herramientas-manuales.jpg",
+            "link": {
+                "url": "/small-appliances/coffee-makers"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-07": {
+        "props": {
+            "src": "/arquivos/herramientas-neumaticas.jpg",
+            "link": {
+                "url": "/small-appliances/coffee-makers"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "image#img-menu-departamento-08": {
+        "props": {
+            "src": "/arquivos/menu-herramientas-electricas.jpg",
+            "link": {
+                "url": "/small-appliances/coffee-makers"
+            },
+            "alt": "Imagen Submenu",
+            "maxWidth": "200px"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-02":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-02",
+            "flex-layout.col#submenu-02-departamento-02",
+            "flex-layout.col#submenu-03-departamento-02",
+            "flex-layout.col#submenu-04-departamento-02",
+            "flex-layout.col#submenu-05-departamento-02",
+			"flex-layout.col#img-menu-departamento-02"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":3
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-03-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-02"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-02":{
+        "children":["image#img-menu-departamento-02"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-03":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-03",
+            "flex-layout.col#submenu-02-departamento-03",
+			"flex-layout.col#img-menu-departamento-03"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-03"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-03"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-03":{
+        "children":["image#img-menu-departamento-03"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-04":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-04",
+            "flex-layout.col#submenu-02-departamento-04",
+            "flex-layout.col#submenu-03-departamento-04",
+            "flex-layout.col#submenu-04-departamento-04",
+			"flex-layout.col#img-menu-departamento-04"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-04"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-04"
+        ]
+    },
+    "flex-layout.col#submenu-03-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-04"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-04"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-04":{
+        "children":["image#img-menu-departamento-04"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-05":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-05",
+            "flex-layout.col#submenu-02-departamento-05",
+			"flex-layout.col#img-menu-departamento-05"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-05"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-05"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-05":{
+        "children":["image#img-menu-departamento-05"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-06":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-06",
+            "flex-layout.col#submenu-02-departamento-06",
+			"flex-layout.col#img-menu-departamento-06"
+        ],
+        "props":{
+            "blockClass":"row-submenu",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-06":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-06"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-06":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-06"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-06":{
+        "children":["image#img-menu-departamento-06"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    },
+
+    "flex-layout.row#row-submenu-departamento-07":{
+		"children":[
+            "flex-layout.col#submenu-01-departamento-07",
+			"flex-layout.col#submenu-02-departamento-07",
+			"flex-layout.col#submenu-03-departamento-07",
+			"flex-layout.col#img-menu-departamento-07"
+        ],
+        "props":{
+            "blockClass":"row-submenu#submenu-01-departamento-07",
+            "colGap":8
+        }
+	},
+    "flex-layout.col#submenu-01-departamento-07":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-07"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-07":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-07"
+        ]
+    },
+    "flex-layout.col#submenu-03-departamento-07":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-07"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-07":{
+        "children":["image#img-menu-departamento-07"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
+    }
+
+}

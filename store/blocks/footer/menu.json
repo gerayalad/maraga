@@ -1,0 +1,359 @@
+{
+  "vtex.menu@2.x:menu#institucional": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-01",
+      "menu-item#quiene-somos",
+      "menu-item#oportunidad-de-empleo",
+      "menu-item#distribuidores",
+      "menu-item#politicas"
+    ]
+  },
+  "menu-item#title-01": {
+    "props": {
+      "id": "menu-item-title-01",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Maraga",
+        "text": "Maraga"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+  "menu-item#quiene-somos": {
+    "props": {
+      "id": "menu-item-quiene-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "QuieneSomos",
+        "text": "¿Quienes Somos?"
+      }
+    }
+  },
+  "menu-item#oportunidad-de-empleo": {
+    "props": {
+      "id": "menu-item-empleos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/oportunidad-de-empleo",
+        "noFollow": false,
+        "tagTitle": "OportunidadEmpleo",
+        "text": "Oportunidades de empleo"
+      }
+    }
+  },
+  "menu-item#distribuidores": {
+    "props": {
+      "id": "menu-item-distribuidores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/distribuidores",
+        "noFollow": false,
+        "tagTitle": "Distribuidores",
+        "text": "Distribuidores"
+      }
+    }
+  },
+
+  "menu-item#politicas": {
+    "props": {
+      "id": "menu-item-politicas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/informacion-legal-y-privacidad",
+        "noFollow": false,
+        "tagTitle": "Politicas",
+        "text": "Información Legal y Privacidad"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-soporte": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-03",
+      "menu-item#facturacion",
+      "menu-item#terminos",
+      "menu-item#garantias"
+    ]
+  },
+
+  "menu-item#title-03": {
+    "props": {
+      "id": "menu-item-title-03",
+      "type": "custom",
+      "iconId": null,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SoporteCliente",
+        "text": "Soporte al cliente"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+
+  "menu-item#terminos": {
+    "props": {
+      "id": "menu-item-terminos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/terminos-y-condiciones",
+        "noFollow": true,
+        "tagTitle": "terminos",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+
+  "menu-item#facturacion": {
+    "props": {
+      "id": "menu-item-facturacion",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/facturacion",
+        "noFollow": true,
+        "tagTitle": "facturacion",
+        "text": "Facturación"
+      }
+    }
+  },
+
+  "menu-item#garantias": {
+    "props": {
+      "id": "menu-item-garantias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/garantias",
+        "noFollow": true,
+        "tagTitle": "garantias",
+        "text": "Garantias"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-atencion": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "menu-footer"
+    },
+    "children": [
+      "menu-item#title-02",
+      "menu-item#sucursales",
+      "menu-item#contactanos",
+      "menu-item#llamanos",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#institucional-mobile",
+      "menu-item#soporte-mobile",
+      "menu-item#soporte-al-cliente"
+    ]
+  },
+
+  "menu-item#institucional-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Maraga",
+        "text": "Maraga"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#institucional"]
+  },
+  "vtex.menu@2.x:submenu.accordion#institucional": {
+    "children": ["vtex.menu@2.x:menu#institucional-accordion"]
+  },
+
+  "vtex.menu@2.x:menu#institucional-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#quiene-somos",
+      "menu-item#oportunidad-de-empleo",
+      "menu-item#distribuidores",
+      "menu-item#politicas"
+    ]
+  },
+
+  "menu-item#soporte-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": true,
+        "tagTitle": "Atención al Cliente",
+        "text": "Atención al Cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#soporte"]
+  },
+  "vtex.menu@2.x:submenu.accordion#soporte": {
+    "children": ["vtex.menu@2.x:menu#soporte-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#soporte-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sucursales",
+      "menu-item#contactanos",
+      "menu-item#llamanos",
+      "menu-item#preguntas-frecuentes"
+    ]
+  },
+
+  "menu-item#soporte-al-cliente": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Soporte al cliente",
+        "text": "Soporte al cliente"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-soporte-al-cliente"]
+  },
+
+  "vtex.menu@2.x:menu#footer-soporte-al-cliente": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#facturacion",
+      "menu-item#terminos",
+      "menu-item#garantias"
+    ]
+  },
+
+  "menu-item#title-02": {
+    "props": {
+      "id": "menu-item-title-02",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "AtencionCliente",
+        "text": "Atención al cliente"
+      },
+      "blockClass":"footer-title-menu"
+    }
+  },
+
+  "menu-item#sucursales": {
+    "props": {
+      "id": "menu-item-sucursales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+
+  "menu-item#contactanos": {
+    "props": {
+      "id": "menu-item-contactanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/contactanos",
+        "noFollow": false,
+        "tagTitle": "Contactanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+
+  "menu-item#llamanos": {
+    "props": {
+      "id": "menu-item-llamanos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "llamanos",
+        "text": "Llamanos al 8183743474"
+      }
+    }
+  },
+
+  "menu-item#preguntas-frecuentes": {
+    "props": {
+      "id": "menu-item-preguntas-frecuentes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/institucional/preguntas-frecuentes",
+        "noFollow": false,
+        "tagTitle": "PreguntasFrecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  }
+}

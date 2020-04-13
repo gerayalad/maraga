@@ -1,0 +1,19 @@
+{
+    "store.custom#distribuidores":{
+        "blocks":[
+            "flex-layout.row#row-text-distribuidores"
+        ]
+    },
+    "flex-layout.row#row-text-distribuidores":{
+        "children":["rich-text#distribuidores"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#distribuidores": {
+        "props": {
+            "text": "# Distribuidores \n\n ¿Te interesa ser distribuidor de los productos Maraga? \n\n Por favor, envie un correo hacia: [servicioalcliente@maraga.com.mx](servicioalcliente@maraga.com.mx) con los suiguientes datos **obligatórios**:\n\n - Categoría de producto\n - Empresa o Razón Social\n - Giro\n - Su nombre\n -  Correo\n - Teléfono\n - RFC\n - Estado\n - Municipio\n - Colonia\n - Calle\n - Número\n - Código Postal",
+            "blockClass": "text"
+        }
+    }
+}

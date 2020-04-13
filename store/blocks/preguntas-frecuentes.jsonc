@@ -1,0 +1,367 @@
+{
+    "store.custom#preguntas-frecuentes": {
+        "blocks": [
+            "flex-layout.row#preguntas-frecuentes"
+        ]
+    },
+
+    "flex-layout.row#preguntas-frecuentes": {
+        "children": [
+            "flex-layout.col#text-preguntas-frecuentes"
+        ]
+    },
+
+    "flex-layout.col#text-preguntas-frecuentes": {
+        "children": [
+            "rich-text#title-preguntas-frecuentes",
+            "rich-text#pregunta-01",
+            "rich-text#pregunta-02",
+            "rich-text#pregunta-03",
+            "rich-text#pregunta-04",
+            "rich-text#pregunta-05",
+            "rich-text#pregunta-06",
+            "rich-text#pregunta-07",
+            "rich-text#pregunta-08",
+            "rich-text#pregunta-09",
+            "rich-text#pregunta-10",
+            "rich-text#pregunta-11",
+            "rich-text#pregunta-12",
+            "rich-text#pregunta-13",
+            "rich-text#pregunta-14",
+            "rich-text#pregunta-15",
+            "rich-text#pregunta-16",
+            "rich-text#pregunta-17",
+            "rich-text#pregunta-18",
+            "rich-text#pregunta-19",
+            "rich-text#pregunta-20",
+            "rich-text#pregunta-21",
+            "rich-text#pregunta-22",
+            "rich-text#pregunta-23",
+            "rich-text#pregunta-24",
+            "rich-text#pregunta-25",
+            "rich-text#pregunta-26",
+            "rich-text#pregunta-27",
+            "rich-text#pregunta-28",
+            "rich-text#pregunta-29",
+            "rich-text#pregunta-30",
+            "rich-text#pregunta-31",
+            "rich-text#pregunta-32",
+            "rich-text#pregunta-33",
+            "rich-text#pregunta-34",
+            "rich-text#pregunta-35",
+            "rich-text#pregunta-36",
+            "rich-text#pregunta-37",
+            "rich-text#pregunta-38",
+            "rich-text#pregunta-39",
+            "rich-text#pregunta-40",
+            "rich-text#pregunta-41",
+            "rich-text#pregunta-42",
+            "rich-text#pregunta-43",
+            "rich-text#pregunta-44",
+            "rich-text#pregunta-45",
+            "rich-text#pregunta-46",
+            "rich-text#pregunta-47",
+            "rich-text#pregunta-48"
+        ],
+        "props": {
+            "blockclass": "textColumn",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#title-preguntas-frecuentes": {
+        "props": {
+            "text":"# Preguntas Frecuentes",
+            "blockClass": "title"
+        }
+    },
+    "rich-text#pregunta-01": {
+        "props": {
+            "text":"## ¿Cuánto tiempo es de envío? ¿Cuál es el tiempo de entrega? \n\n El tiempo de entrega es de 2 a 3 días hábiles, una vez acreditado su pago. En ciertas zonas puede ser mayor el tiempo ya que las paqueterías cuentan con frecuencia de entrega.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-02": {
+        "props": {
+            "text":"## Cuál es el tiempo de fabricación de una sierra cinta y su tiempo de entrega? \n\n La fabricación es de 24 horas y en envío 2 a 3 días hábiles. En ciertas zonas puede ser mayor el tiempo ya que las paqueterías cuentan con frecuencia de entrega.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-03": {
+        "props": {
+            "text":"## ¿Cuál es la medida de sierra que tienen para entrega inmediata? \n\n Siempre tenemos en stock las sierra cintas de 3/4¨ por 93¨ de largo (2.36 m) con diferentes pasos de diente y sierras cintas de 1/2¨ con 64.75¨ de largo (1.64 m) con diferentes pasos de diente. En caso de requerir alguna otra medida, se puede fabricar con la longitud que se solicite.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-04": {
+        "props": {
+            "text":"## ¿Qué sierra cinta tienes para cortar solera? \n\n Recomendamos nuestras sierra cintas Bimetálicas CLASSIC Lenox para los aceros inoxidables, sin embargo se tiene que definir el grosor del material a cortar para determinar el paso de diente de la sierra.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-05": {
+        "props": {
+            "text":"## ¿Manejan sierra cintas de grado alimenticio? \n\n Ninguna de nuestras sierra cintas es recomendable para el ramo alimenticio.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-06": {
+        "props": {
+            "text":"## ¿Qué sierra cinta me puede servir para corte de cartón y/o espuma \n\n Nuestra sierra cinta Scallop es la indicada y se especializa en el corte de estos materiales, es una cinta sin dentar con un filo ondulado, los anchos que manejamos son: 1/2¨, 3/4¨ y 1¨.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-07": {
+        "props": {
+            "text":"## ¿Cuál es la presentación del clavo en rollo? \n\n La presentación es por caja y la cantidad varia dependiendo la medida y/o calibre, algunas son de 9000, otras 5400 o 10800 pzs; y en el caso del clavo anillado 5400 o 7200pzs.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-08": {
+        "props": {
+            "text":"## ¿Cuántas cajas tiene la tarima de clavo? \n\n Para clavo de 1-3/4¨ hasta 2¨ la tarima es de 49 cajas a partir de 2-1/4¨ a 3¨ es de 42 cajas.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-09": {
+        "props": {
+            "text":"## ¿Las clavadoras que manejan son automáticas-eléctricas ? \n\n Nuestras clavadoras son Manuales-Neumáticas.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-10": {
+        "props": {
+            "text":"## ¿Cuál es la clavadora que regularmente es solicitada (estándar)? \n\n La clavadora más solicitada y vendida es el modelo COIL70-H con capacidad para 250 o 300 clavos por rollo de 1-3/4¨ a 2-3/4¨.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-11": {
+        "props": {
+            "text":"## ¿La clavadora modelo COIL70-H, que medidas de clavo acepta? \n\n Nuestra clavadora COIL70 es compatible con medidas desde 1-3/4¨ hasta 2-3/4¨. ",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-12": {
+        "props": {
+            "text":"## ¿Su marca MARAGA de dónde es? \n\n MARAGA es una empresa orgullosamente Mexicana, reconocida por comercializar productos nacionales e internacionales, que cumplen con los estándares de calidad solicitados por la NOM.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-13": {
+        "props": {
+            "text":"## ¿Las máquinas MARAGA son de buena calidad? ¿Qué pasa si no conozco la marca? \n\n Nuestras máquinas son manufacturadas en China con altos estándares de calidad y cuentan con la garantía y el servicio de mantenimiento preventivo para asegurar la durabilidad de su equipo MARAGA",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-14": {
+        "props": {
+            "text":"## En caso de adquirir una máquina marca MARAGA, ¿tienen todas las refacciones disponibles? \n\n Contamos con todas las refacciones de nuestras máquinas y herramientas MARAGA",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-15": {
+        "props": {
+            "text":"## ¿Cuál es la garantía de sus herramientas eléctricas? \n\n Las garantías para nuestras herramientas eléctricas MARAGA son: \n\n a. 0 días de satisfacción garantizada, cambio físico por otra igual o cualquier otra MARAGA, pagando la diferencia. \n\n b. Un año de mantenimiento gratuito, incluye lavado, engrasado y cambio de carbones cada que el cliente lo requiera. \n\n c) 2 años contra defecto de fábrica.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-16": {
+        "props": {
+            "text":"## ¿Cuál es la compatibilidad de las armaduras que manejan? \n\n En cada armadura se especifica el modelo para el que es compatible, debido a las medidas son exactas y no se pueden modificar o alterar por cuestiones de garantía.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-17": {
+        "props": {
+            "text":"## ¿Cuentan con brocas escalonadas? \n\n Actualmente contamos con diversas medidas estándar, puedes encontrarlas mediante el buscador utilizando la palabra *Varibit* todas de la marca LENOX.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-18": {
+        "props": {
+            "text":"## ¿Cuentan con cortador de tubo para cobre de 1/8 a 1-3/8? \n\n Si, el modelo A21011 es ideal para este corte ya que es en forma de gancho.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-19": {
+        "props": {
+            "text":"## ¿Manejan perforadora para corte de azulejo? \n\n Efectivamente, nuestra perforadora con borde de diamante es la ideal para realizar esta función",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-20": {
+        "props": {
+            "text":"## ¿Cual perforadora me funciona para corta acero inoxidable? \n\n Nuestras perforadoras con dientes de carburo son las ideal para el corte de aceros inoxidables.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-21": {
+        "props": {
+            "text":"## ¿Qué corta la segueta manual con 18 dientes? \n\n Nuestra segueta manual LENOX de 18 dientes con tecnología T2, esta diseñada para el corte de metales gruesos como varilla.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-22": {
+        "props": {
+            "text":"## ¿Las perforadoras Bimetálicas funcionan tanto para madera como para metal? \n\n Así es, nuestras perforadoras también funcionan en metales ferrosos y no ferrosos.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-23": {
+        "props": {
+            "text":"## ¿La segueta dupla no se desgasta del otro lado con la fricción del corte? \n\n No se desgasta, al contrario se puede utilizar ambos lados de igual forma.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-24": {
+        "props": {
+            "text":"## ¿Qué perforadora puedo usar para Cerámica? \n\n Nuestra perforadora de dientes de carburo es la ideal para los cortes de cerámica y azulejos.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-25": {
+        "props": {
+            "text":"## Quiero cortar Melamina, ¿con qué hoja de sierra caladora la puedo cortar? \n\n Para el corte de Melamina se recomienda la sierra tipo caladora con 10 dientes.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-26": {
+        "props": {
+            "text":"## ¿Cuál sierra sable me recomiendas para desmantelar tarimas? \n\n Nuestra Sierra Sable LENOX está diseñada exclusivamente para uso en tarimas. Medida de 3/4¨ .035 (10 dientes) y longitudes de 8¨ y 10¨.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-27": {
+        "props": {
+            "text":"## ¿Qué herramienta me recomiendas para cortar tubería plástica? \n\n Recomendamos ampliamente nuestro serrote PVC/ABS de 12¨ y 18¨, con mango cómodo, seguro y opción de corte a ras de piso.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-28": {
+        "props": {
+            "text":"## ¿Tienen discos para desbaste de metal? \n\n Los Discos FLAP con laminado de grano proporcionan los funcionamientos adecuados para el desbaste de metal. Medidas de 4 1/2 y 7¨ x 7/8¨ x Grano 40-80 Tipo 29.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-29": {
+        "props": {
+            "text":"## ¿Cuántos cortes me genera el disco de diamante? \n\n Nuestro disco de corte LENOX Metalmax de 4 1/2¨ y 14¨ genera más de 1,000 cortes, además de brindar seguridad, menos residuos de polvo y no disminuye su diametro con la cantidad de cortes realizados.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-30": {
+        "props": {
+            "text":"## ¿Cuáles son los ciclos de trabajo de los inversores? \n\n Depende del modelo en cuestión, actualmente contamos con los siguientes modelos:\n KE-500, MW-KR500, MIG-350, MIG-185, MIG-250, MW-ARC200, MW-ARC300DV, MG-S-200, MW-TIG200 donde en cada producto podrá encontrar dicha información.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-31": {
+        "props": {
+            "text":"## ¿Sus inversores soldan acero inoxidable? \n\n Sí, contamos con diferentes modelos con los procesos: **LIFT TIG, MMA, SMAW**",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-32": {
+        "props": {
+            "text":"## ¿Su inversor MIG-185 hasta que calibre de microalambre y capacidad de rollo soporta? \n\n El inversor mod. MIG-185 quema microalambre de .030¨ .035¨ , la máquina soporta rollos de 1 kg y 5 kg de microalambre.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-33": {
+        "props": {
+            "text":"## ¿Manejan la pinza de tierra para inversor MW-ARC200 o MG-S200? \n\n Sí, contamos con el kit de pinzas de tierra y porta electrodo para ambos modelos. Código: KIT001MMA",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-34": {
+        "props": {
+            "text":"## ¿Cuál es la diferencia entre los modelos de inversor MW-ARC200 Y MGS200? \n\n Ambos cuentan con las mismas características funcionales, sin embargo el mod. ARC200 cuenta con bi-voltaje para conexión de 110V / 220V, a diferencia del mod. MGS200 solda únicamente en conexión de 220v.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-35": {
+        "props": {
+            "text":"## ¿Qué incluye el inversor ARC200? \n\n La máquina ARC200 incluye: Máquina para soldar electrodo revestido/TIGO 110V/220V, careta facial, cepillo para remover escoria y cables porta electrodo.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-36": {
+        "props": {
+            "text":"## ¿Cuánto mide el cable de alimentación de la maquina MW-ARC200 (MG-S-200 TIG200 MIG185) y de que calibre es? \n\n El cable de alimentación es de 2 metros de longitud y el calibre que se maneja es 10AWG.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-37": {
+        "props": {
+            "text":"## ¿Manejan ustedes la antorcha para la maquina MW-ARC200? \n\n No manejamos la antorcha para el proceso lift tig de la máquina ARC200, pero se puede conseguir en tiendas especializadas.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-38": {
+        "props": {
+            "text":"## ¿Hasta qué soldadura quema el MW-ARC200? \n\n 6013 en 110V y 7018 en 220V al 100% en 1/8¨ y en un 15% 3/16¨ (máximo 90 segundos la 3/16¨).",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-39": {
+        "props": {
+            "text":"## ¿Cuentan con las clavijas para inversores? \n\n No manejamos este producto, sin embargo son de fácil acceso en una ferretería general.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-40": {
+        "props": {
+            "text":"## ¿Ustedes cuentan con generadores a Diesel? \n\n Todos los generadores que manejamos tienen motor de gasolina.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-41": {
+        "props": {
+            "text":"## El MARAGA WAY OIL es el adecuado para eliminar ruidos y rayados de la bancada durante el proceso. Contamos con presentaciones desde litro hasta tambo. \n\n ",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-42": {
+        "props": {
+            "text":"## ¿El ecoklean solo es para el hogar o también puede utilizarse de manera industrial? \n\n Ecoklean es un desengrasante de poder industrial, también se puede usar en el hogar ya que es amigable con el ambiente y por sus características no es tóxico.\nLas concentraciones que se recomiendan es 10 % para limpieza ligera, 20 % para limpieza media y 30 % de concentración para limpieza pesada.\nEjemplo: 1 litro de ecoklean + 3 litros de agua = Concentración 25%",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-43": {
+        "props": {
+            "text":"## ¿Qué soluble puedo utilizar para maquinado o corte de sierra cinta? \n\n Contamos con diferentes solubles sintéticos, semi-sintéticos o minerales, dependiendo del proceso a realizar, se recomienda el tipo de soluble. \n\n **Solubles sintéticos:**\n - 3500: Refrigerante para torneado y rectificado en altas velocidades Código: A-3500-55ND\n - 6500: Refrigerante de baja formación de espuma. Código: A-6500-55 \n\n **Solubles minerales**\n - MARAGA 7700EP: Es un soluble diseñado para maquinado en materiales ferrosos y no ferrosos incluyendo el hierro forjado y aluminio. Código:A-7704-55\n - MARAGA 7030D: Soluble diseñado para operaciones de corte, torneado, taladrado, fresado, aserrado, maquinado en general, corte con sierra y rectificado. Código: A-7030-55\n - MARAGA 7030WG: Soluble diseñado para operaciones de corte, torneado, taladrado, fresado, aserrado, especializado en aluminio. Código: A-7000NP-55\n - MARAGA 7030VXT Soluble vegetal diseñado para operaciones de corte, torneado, taladrado, fresado, aserrado. Código: A-7030VXT-55",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-44": {
+        "props": {
+            "text":"## ¿Qué marca es el soluble semisintético 7030? \n\n El soluble 7030WG para corte, torneado, taladrado y maquinado en general en base agua y aceite es de la marca MARAGA",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-45": {
+        "props": {
+            "text":"## ¿Cuáles son las presentaciones de Kita concreto que manejan? \n\n Las presentaciones que manejamos del producto son en 600ml, galón, cubeta y tambo.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-46": {
+        "props": {
+            "text":"## ¿Funciona el Kita concreto sobre superficies de Automóvil? \n\n El producto no es corrosivo, pero no se han realizado estas pruebas, por lo cual no lo podemos garantizar.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-47": {
+        "props": {
+            "text":"## ¿Cuál es la potencia del kitaconcreto? \n\n El producto es para utilizarse en porciones reducidas de concreto, retirar residuos y manchas en la maquinaria.",
+            "blockClass": "about"
+        }
+    },
+    "rich-text#pregunta-48": {
+        "props": {
+            "text":"## ¿Cuánto se expande la lata de poliuretano? \n\n Se expande mínimo 3 veces su tamaño cuando el ambiente esta seco, en ambiente húmedo, la expansión puede ser mayor.",
+            "blockClass": "about"
+        }
+    }
+
+}

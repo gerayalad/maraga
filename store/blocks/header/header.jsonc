@@ -1,0 +1,145 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props":{
+      "blockClass":"header"
+    }
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"],
+    "props":{
+      "blockClass":"header-full"
+    }
+  },
+
+  "header-layout.desktop": {
+    "children": [
+      "header-row#notification",
+      "header-row#main",
+      "flex-layout.row#menu"
+    ]
+  },
+  "header-row#notification": {
+      "children": [
+        "header-spacer",
+        "rich-text#header-notification",
+        "header-spacer"
+      ],
+      "props": {
+        "blockClass": "notification"
+      }
+  },
+  "header-row#main":{
+      "children":[
+          "logo",
+          "header-spacer",
+          "search-bar",
+          "header-spacer",
+          "login",
+          "minicart.v2"
+      ],
+      "props":{
+          "sticky":true,
+          "fullWidth":false,
+          "blockClass":"header-main"
+      }
+  },
+  "login":{
+      "props": {
+          "showIconProfile": true,
+          "iconLabel": "Login"
+      }
+  },
+  
+  "logo":{
+      "props": {
+          "title": "Maragá",
+          "url": "https://maraga.myvtex.com/arquivos/logo-maraga.png",
+          "href": "/"
+      }
+  },
+  "rich-text#header-notification": {
+      "props": {
+        "text": "**ESCOJE SU SIERRA CINTA** ![Lenox](/arquivos/brand-lenox.png)",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass":"notification"
+      }
+  },
+  "flex-layout.row#menu":{
+    "children":[
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  "search-bar":{
+    "props":{
+      "blockClass":"header-search",
+      "attemptPageTypeSearch":true,
+      "DisplayMode":"search-and-clear-buttons"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"],
+    "props":{
+      "blockClass":"header-mobile"
+    }
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#menu-departamento-01",
+      "menu-item#menu-departamento-02",
+      "menu-item#menu-departamento-03",
+      "menu-item#menu-departamento-04",
+      "menu-item#menu-departamento-05",
+      "menu-item#menu-departamento-06",
+      "menu-item#menu-departamento-07",
+      "menu-item#menu-departamento-08"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Maragá",
+      "href": "/",
+      "url": "https://maraga.myvtex.com/arquivos/logo-maraga.png",
+      "width": "100",
+      "blockClass":"logo-mobile"
+    }
+  }
+}
