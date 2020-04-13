@@ -95,25 +95,5 @@
       "srcset": "/arquivos/Logo_Stark.jpg",
       "maxHeight": 75
     }
-  },
-  "slider-layout#instagram": {
-    "children": [
-      "iframe#instagram-post-01",
-      "iframe#instagram-post-02",
-      "iframe#instagram-post-03",
-      "iframe#instagram-post-04"
-    ],
-    "props": {
-      "blockClass":"insta-posts",
-      "autoplay": {
-        "infinite": false,
-        "showPaginationDots": "never",
-        "itemsPerPage":{ 
-          "desktop": 4, 
-          "tablet": 3, 
-          "phone": 1 
-        }
-      }
-    }
   }
 }

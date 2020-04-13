@@ -14,7 +14,7 @@
       "slider-layout#brands",
       "rich-text#social-title",
       "responsive-layout.desktop#social-desktop",
-      "slider-layout#instagram",
+      "flex-layout.row#instagram",
       "responsive-layout.desktop#news-desktop",
       "responsive-layout.mobile#news-mobile"
     ]
@@ -281,6 +281,17 @@
       "horizontalAlign":"center",
       "preventVerticalStretch":true,
       "blockClass":"home-row-social"
+    }
+  },
+  "flex-layout.row#instagram":{
+    "children": [
+      "iframe#instagram-post-01",
+      "iframe#instagram-post-02",
+      "iframe#instagram-post-03",
+      "iframe#instagram-post-04"
+    ],
+    "props":{
+      "blockClass":"home-content-instagram"
     }
   },
   "iframe#instagram-post-01": {
