@@ -1,6 +1,6 @@
 {
   "vendor": "maraga",
-  "name": "store-theme",
+  "name": "developer",
   "version": "3.34.2",
   "builders": {
     "styles": "2.x",
