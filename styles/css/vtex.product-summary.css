@@ -41,12 +41,10 @@
   } 
 }
 
-<<<<<<< HEAD
 .imageContainer{
   border-left:1px solid #f5f5f5;
   border-right:1px solid #f5f5f5;
 }
-=======
 .nameContainer {
   justify-content: start;
   padding-top: 1rem;
@@ -66,4 +64,3 @@
 .imageContainer {
   text-align: center;
 }
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e

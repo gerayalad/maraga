@@ -83,15 +83,12 @@
       "product-identifier.product",
       "vtex.store-components:product-name",
       "product-rating-summary",
-<<<<<<< HEAD:store/blocks/product.json
       "product-price#product-details",
-=======
       "flex-layout.row#list-price-savings",
       "flex-layout.row#selling-price",
       "product-installments",
       "product-separator",
       "product-identifier.product",
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e:store/blocks/product.jsonc
       "sku-selector",
       "product-quantity",
       "product-assembly-options",

@@ -332,16 +332,14 @@
     font-size: 0;
 }
 
-<<<<<<< HEAD
 .container--news-footer .confirmationTitle::after{
     content:"¡Gracias por suscribirte!";
     font-size: 2rem;
-=======
+}
 .productNameContainer {
   color: #3f3f40;
   font-weight: bold;
   font-size: 30px;
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
 }
 
 .imageElement--img-pagos{

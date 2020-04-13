@@ -238,14 +238,11 @@
         "phone": 1
       },
       "infinite": true,
-<<<<<<< HEAD
       "showNavigationArrows": "aways",
       "showPaginationDots": "always",
-      "blockClass": "carousel-mini-banners"
-=======
+      "blockClass": "carousel-mini-banners",
       "fullWidth": false,
       "blockClass": "shelf"
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
     }
   },
   

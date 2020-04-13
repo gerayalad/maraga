@@ -57,7 +57,6 @@
       "product-identifier.summary",
       "product-summary-name",
       "product-rating-inline",
-<<<<<<< HEAD
       "product-summary-price",
       "product-summary-buy-button"
     ]
@@ -67,16 +66,6 @@
       "buyButtonText":"Agregar al carrito"
     }
   },
-=======
-      "product-summary-space",
-      "product-list-price#summary",
-      "flex-layout.row#selling-price-savings",
-      "product-installments#summary",
-      "add-to-cart-button"
-    ]
-  },
-
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
   "product-summary-image#shelf": {
     "props": {
       "showBadge": false
