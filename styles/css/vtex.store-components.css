@@ -235,16 +235,19 @@
 
 .priceContainer{
     display: block;
+    width: 100%;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer .listPriceValue{
     line-height: 32px;
     padding: 0 10px 0 0;
+    margin-bottom: 0;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer {
-    margin: 10px 0 15px;
-    overflow:hidden
+    margin: 10px 0 5px;
+    overflow:hidden;
+    width: 100%;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer .sellingPrice{
@@ -257,6 +260,7 @@
     margin-top:10px;
     font-size: 12px;
     line-height: initial;
+    width: 100%;
 }
 
 .installmentsPrice{

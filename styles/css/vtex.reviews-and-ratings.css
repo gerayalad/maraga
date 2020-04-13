@@ -1,5 +1,6 @@
 .inlineContainer {
   margin-left: 0rem ;
+  height: auto!important;
 }
 
 .star--filled {

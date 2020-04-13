@@ -3,6 +3,6 @@
 }
 
 :global(.vtex-reviews-and-ratings-1-x-inlineContainer){
-    height: 30px;
+    height: auto;
     margin-bottom: 0!important;
 }
