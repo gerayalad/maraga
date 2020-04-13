@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "vendor": "maraga",
-  "name": "developer",
-  "version": "3.32.0",
-=======
-  "vendor": "vtex",
   "name": "store-theme",
   "version": "3.34.0",
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -60,13 +54,10 @@
     "vtex.modal-layout": "0.x",
     "vtex.store-link": "0.x",
     "vtex.product-gifts": "0.x",
-<<<<<<< HEAD
     "vtex.responsive-layout": "0.x",
     "vtex.iframe": "0.x",
-    "vtex.tab-layout": "0.x"
-=======
+    "vtex.tab-layout": "0.x",
     "vtex.product-price": "1.x"
->>>>>>> 72af2de54684a037008dc35d8d1c0800ff9da61e
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
