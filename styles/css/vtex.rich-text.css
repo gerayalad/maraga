@@ -35,6 +35,12 @@
     max-width: 85%;
   }
 
+  .link--deals{text-decoration: none!important;}
+
+  .link--deals:hover{
+    color:#FA5200
+  }
+
   .container--title {
     color: #03034E;
     font-size: 40px;
@@ -97,8 +103,5 @@
   color:black;
   font-weight: 700;
   text-decoration: underline;
-}
-
-.link:hover{
-  color:blue
+  transition: all .12s linear;
 }

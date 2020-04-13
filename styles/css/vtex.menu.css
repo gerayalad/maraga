@@ -23,7 +23,15 @@
 }
 
 .menuItem{
-    
+    padding: 0;
+}
+
+.menuItem--subitem .styledLinkContent{
+    padding: 5px 0!important;
+}
+
+.menuItem .styledLinkContent{
+    padding: 10px 20px;
 }
 
 .styledLinkContainer,
