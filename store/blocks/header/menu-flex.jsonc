@@ -5,7 +5,6 @@
             "flex-layout.col#submenu-02-departamento-01",
             "flex-layout.col#submenu-03-departamento-01",
             "flex-layout.col#submenu-04-departamento-01",
-            "flex-layout.col#submenu-05-departamento-01",
 			"flex-layout.col#img-menu-departamento-01"
         ],
         "props":{
@@ -31,11 +30,6 @@
     "flex-layout.col#submenu-04-departamento-01":{
         "children":[
             "vtex.menu@2.x:menu#submenu-04-departamento-01"
-        ]
-    },
-    "flex-layout.col#submenu-05-departamento-01":{
-        "children":[
-            "vtex.menu@2.x:menu#submenu-05-departamento-01"
         ]
     },
     "flex-layout.col#img-menu-departamento-01":{
@@ -140,7 +134,6 @@
             "flex-layout.col#submenu-02-departamento-02",
             "flex-layout.col#submenu-03-departamento-02",
             "flex-layout.col#submenu-04-departamento-02",
-            "flex-layout.col#submenu-05-departamento-02",
 			"flex-layout.col#img-menu-departamento-02"
         ],
         "props":{
@@ -168,11 +161,6 @@
             "vtex.menu@2.x:menu#submenu-04-departamento-02"
         ]
     },
-    "flex-layout.col#submenu-05-departamento-02":{
-        "children":[
-            "vtex.menu@2.x:menu#submenu-05-departamento-02"
-        ]
-    },
     "flex-layout.col#img-menu-departamento-02":{
         "children":["image#img-menu-departamento-02"],
         "props":{
@@ -185,6 +173,7 @@
 		"children":[
             "flex-layout.col#submenu-01-departamento-03",
             "flex-layout.col#submenu-02-departamento-03",
+            "flex-layout.col#submenu-03-departamento-03",
 			"flex-layout.col#img-menu-departamento-03"
         ],
         "props":{
@@ -202,6 +191,11 @@
             "vtex.menu@2.x:menu#submenu-02-departamento-03"
         ]
     },
+    "flex-layout.col#submenu-03-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-03"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-03":{
         "children":["image#img-menu-departamento-03"],
         "props":{
@@ -215,7 +209,6 @@
             "flex-layout.col#submenu-01-departamento-04",
             "flex-layout.col#submenu-02-departamento-04",
             "flex-layout.col#submenu-03-departamento-04",
-            "flex-layout.col#submenu-04-departamento-04",
 			"flex-layout.col#img-menu-departamento-04"
         ],
         "props":{
@@ -238,11 +231,6 @@
             "vtex.menu@2.x:menu#submenu-03-departamento-04"
         ]
     },
-    "flex-layout.col#submenu-04-departamento-04":{
-        "children":[
-            "vtex.menu@2.x:menu#submenu-04-departamento-04"
-        ]
-    },
     "flex-layout.col#img-menu-departamento-04":{
         "children":["image#img-menu-departamento-04"],
         "props":{
@@ -255,6 +243,7 @@
 		"children":[
             "flex-layout.col#submenu-01-departamento-05",
             "flex-layout.col#submenu-02-departamento-05",
+            "flex-layout.col#submenu-03-departamento-05",
 			"flex-layout.col#img-menu-departamento-05"
         ],
         "props":{
@@ -272,6 +261,11 @@
             "vtex.menu@2.x:menu#submenu-02-departamento-05"
         ]
     },
+    "flex-layout.col#submenu-03-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-05"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-05":{
         "children":["image#img-menu-departamento-05"],
         "props":{
@@ -284,6 +278,9 @@
 		"children":[
             "flex-layout.col#submenu-01-departamento-06",
             "flex-layout.col#submenu-02-departamento-06",
+            "flex-layout.col#submenu-03-departamento-06",
+            "flex-layout.col#submenu-04-departamento-06",
+            "flex-layout.col#submenu-05-departamento-06",
 			"flex-layout.col#img-menu-departamento-06"
         ],
         "props":{
@@ -301,6 +298,21 @@
             "vtex.menu@2.x:menu#submenu-02-departamento-06"
         ]
     },
+    "flex-layout.col#submenu-03-departamento-06":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-06"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-06":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-06"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-06":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-06"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-06":{
         "children":["image#img-menu-departamento-06"],
         "props":{
@@ -313,7 +325,8 @@
 		"children":[
             "flex-layout.col#submenu-01-departamento-07",
 			"flex-layout.col#submenu-02-departamento-07",
-			"flex-layout.col#submenu-03-departamento-07",
+            "flex-layout.col#submenu-03-departamento-07",
+            "flex-layout.col#submenu-04-departamento-07",
 			"flex-layout.col#img-menu-departamento-07"
         ],
         "props":{
@@ -334,6 +347,11 @@
     "flex-layout.col#submenu-03-departamento-07":{
         "children":[
             "vtex.menu@2.x:menu#submenu-03-departamento-07"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-07":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-07"
         ]
     },
     "flex-layout.col#img-menu-departamento-07":{

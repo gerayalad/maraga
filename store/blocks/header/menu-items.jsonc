@@ -129,28 +129,6 @@
         }
     },
 
-    "menu-item#gwaw": {
-        "props": {
-            "blockClass":["subitem"],
-            "type": "custom",
-            "itemProps": {
-                "href": "/soldadura-y-generadores/accesorios/gmaw--mig-mag-",
-                "text": "GMAW (MIG/MAG)"
-            }
-        }
-    },
-
-    "menu-item#aerosol": {
-        "props": {
-            "blockClass":["subitem","title"],
-            "type": "custom",
-            "itemProps": {
-                "href": "/solubles-y-desengrasantes/productos-en-aerosol-y-poliuretano",
-                "text": "Aerosol y poliuretano"
-            }
-        }
-    },
-
     "menu-item#maquinas-cinta": {
         "props": {
             "blockClass":["subitem"],
@@ -196,7 +174,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/esmeriladoras",
+                "href": "/herramientas-electricas/herramientas/esmeriladoras",
                 "text": "Esmerilladoras"
             }
         }
@@ -206,7 +184,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/taladors-y-rotomartillos",
+                "href": "/herramientas-electricas/herramientas/taladors-y-rotomartillos",
                 "text": "Taladros y Rotomartillos"
             }
         }
@@ -227,7 +205,7 @@
             "type": "custom",
             "itemProps": {
                 "href": "/",
-                "text": "Sierra Sable"
+                "text": "Sierra sable"
             }
         }
     },
@@ -236,7 +214,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/acanaladoras",
+                "href": "/herramientas-electricas/herramientas/acanaladoras",
                 "text": "Acanaladores"
             }
         }
@@ -246,7 +224,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/sierras-caladoras",
+                "href": "/herramientas-electricas/herramientas/sierras-caladoras",
                 "text": "Sierras Caladoras"
             }
         }
@@ -256,7 +234,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/sierras-circulares",
+                "href": "/herramientas-electricas/herramientas/sierras-circulares",
                 "text": "Sierras Circulares"
             }
         }
@@ -389,18 +367,18 @@
             "type": "custom",
             "itemProps": {
                 "href": "/soldadura-y-generadores/consumibles",
-                "text": "Inversores"
+                "text": "Consumibles"
             }
         }
     },
 
-    "menu-item#inversores": {
+    "menu-item#soldadoras": {
         "props": {
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/soldadura-y-generadores/maquinas/inversores",
-                "text": "Inversores"
+                "href": "/soldadura-y-generadores/maquinas/soldadoras",
+                "text": "Soldadoras"
             }
         }
     },
@@ -525,13 +503,13 @@
             }
         }
     },
-    "menu-item#aceites": {
+    "menu-item#aceites-directo-de-corte": {
         "props": {
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/aceites",
-                "text": "Aceites"
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos",
+                "text": "Aceites directos de cortes"
             }
         }
     },
@@ -541,17 +519,7 @@
             "type": "custom",
             "itemProps": {
                 "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/lubricantes",
-                "text": "Aceites"
-            }
-        }
-    },
-    "menu-item#discos-de-corte": {
-        "props": {
-            "blockClass":["subitem","title"],
-            "type": "custom",
-            "itemProps": {
-                "href": "/sierra-cintas-y-accesorios/discos-de-corte",
-                    "text": "Discos de corte"
+                "text": "Lubricantes"
             }
         }
     },
@@ -560,7 +528,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/cermet",
+                "href": "/sierra-cintas-y-accesorios/discos-de-corte/cermet",
                     "text": "Cermet"
             }
         }
@@ -570,7 +538,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/hss",
+                "href": "/sierra-cintas-y-accesorios/discos-de-corte/hss",
                     "text": "HSS"
             }
         }
@@ -580,14 +548,14 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/tct",
+                "href": "/sierra-cintas-y-accesorios/discos-de-corte/tct",
                     "text": "TCT"
             }
         }
     },
     "menu-item#monitoreo": {
         "props": {
-            "blockClass":["subitem"],
+            "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
                 "href": "/paneles-y--componentes/monitoreo",
@@ -600,18 +568,8 @@
             "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/sierra-cintas-y-accesorios/maquinas-de-corte-con-disco",
-                    "text": "Máquiquinas de corte con disco"
-            }
-        }
-    },
-    "menu-item#maquinas-de-sierra-cinta": {
-        "props": {
-            "blockClass":["subitem"],
-            "type": "custom",
-            "itemProps": {
-                "href": "/sierra-cintas-y-accesorios/maquinas-de-sierra-cinta",
-                    "text": "Máquinas de sierra cinta"
+                "href": "/sierra-cintas-y-accesorios/maquinas/de-sierra-cinta",
+                    "text": "Máquinas de corte"
             }
         }
     },
@@ -697,10 +655,10 @@
     },
     "menu-item#accesorios-herramientas-electricas": {
         "props": {
-            "blockClass":["subitem"],
+            "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios",
+                "href": "/herramientas-electricas/accesorios",
                     "text": "Accesorios"
             }
         }
@@ -720,7 +678,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/arboles",
+                "href": "/herramientas-electricas/accesorios/arboles",
                     "text": "Árboles"
             }
         }
@@ -730,7 +688,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/brocas",
+                "href": "/herramientas-electricas/accesorios/brocas",
                     "text": "Brocas"
             }
         }
@@ -740,18 +698,28 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/broqueros",
+                "href": "/herramientas-electricas/accesorios/broqueros",
                     "text": "Broqueros"
             }
         }
     },
-    "menu-item#disco-sierra": {
+    "menu-item#discos-de-corte": {
         "props": {
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/disco-sierra",
-                    "text": "Disco Sierra"
+                "href": "/herramientas-electricas/accesorios/discos-de-corte",
+                    "text": "Discos de corte"
+            }
+        }
+    },
+    "menu-item#sierras-cintas-discos-de-corte": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/discos-de-corte",
+                    "text": "Discos de corte"
             }
         }
     },
@@ -760,7 +728,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/fresas-para-trompo",
+                "href": "/herramientas-electricas/accesorios/fresas-para-trompo",
                     "text": "Fresas para trompo"
             }
         }
@@ -770,8 +738,8 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/hojas-de-sierras",
-                    "text": "Hojas de sierra"
+                "href": "/herramientas-electricas/accesorios/hojas-de-sierra",
+                    "text": "Hojas de sierra sable"
             }
         }
     },
@@ -780,7 +748,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/otros",
+                "href": "/herramientas-electricas/accesorios/otros",
                     "text": "Otros"
             }
         }
@@ -790,8 +758,8 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/para-destornillador",
-                    "text": "Para destornillador"
+                "href": "/herramientas-electricas/accesorios/para-destornilladores",
+                    "text": "Puntas para destornillador"
             }
         }
     },
@@ -800,7 +768,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/perforadoras",
+                "href": "/herramientas-electricas/accesorios/perforadoras",
                     "text": "Perforadoras"
             }
         }
@@ -810,7 +778,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/punta-desatornillador",
+                "href": "/herramientas-electricas/accesorios/punta-desatornillador",
                     "text": "Punta desatornillador"
             }
         }
@@ -820,7 +788,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-caladora",
+                "href": "/herramientas-electricas/accesorios/sierra-caladora",
                     "text": "Sierra caladora"
             }
         }
@@ -831,7 +799,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-perforadora",
+                "href": "/herramientas-electricas/accesorios/sierra-perforadora",
                     "text": "Sierra perforadora"
             }
         }
@@ -841,7 +809,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/vari-bit",
+                "href": "/herramientas-electricas/accesorios/vari-bit",
                     "text": "Vari bit"
             }
         }
@@ -851,18 +819,18 @@
             "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas",
+                "href": "/herramientas-electricas/herramientas",
                     "text": "Herramientas"
             }
         }
     },
-    "menu-item#cortadores-de-metales": {
+    "menu-item#cortadoras-de-disco": {
         "props": {
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/cortadoras-de-metales",
-                    "text": "Cortadores de metales"
+                "href": "/herramientas-electricas/herramientas/cortadoras-de-metales",
+                    "text": "Cortadoras de disco"
             }
         }
     },
@@ -871,7 +839,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/abrasivos",
+                "href": "/herramientas-electricas/accesorios/abrasivos",
                     "text": "Abrasivos"
             }
         }
@@ -881,7 +849,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/lijadoras",
+                "href": "/herramientas-electricas/herramientas/lijadoras",
                     "text": "Lijadoras"
             }
         }
@@ -891,7 +859,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/herramientas/pistolas-de-calor",
+                "href": "/herramientas-electricas/herramientas/pistolas-de-calor",
                     "text": "Pistolas de calor"
             }
         }
@@ -901,7 +869,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/accesorios/sierra-sable/",
+                "href": "/herramientas-electricas/accesorios/sierra-sable/",
                     "text": "Sierra sable"
             }
         }
@@ -912,7 +880,7 @@
             "type": "custom",
             "itemProps": {
                 "href": "/",
-                    "text": "Sierra sable"
+                    "text": "Sierras caladoras"
             }
         }
     },
@@ -921,7 +889,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "//herramientas-electricas-y-accesorios/herramientas/sierras-circulares",
+                "href": "//herramientas-electricas/herramientas/sierras-circulares",
                     "text": "Sierras circulares"
             }
         }
@@ -951,7 +919,7 @@
             "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo",
+                "href": "/herramientas-electricas/reemplazo",
                     "text": "Reemplazos"
             }
         }
@@ -961,7 +929,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/adaptadores",
+                "href": "/herramientas-electricas/reemplazo/adaptadores",
                     "text": "Adaptadores"
             }
         }
@@ -971,7 +939,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/armaduras",
+                "href": "/herramientas-electricas/reemplazo/armaduras",
                     "text": "Armaduras"
             }
         }
@@ -981,7 +949,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/baleros",
+                "href": "/herramientas-electricas/reemplazo/baleros",
                     "text": "Baleros"
             }
         }
@@ -991,7 +959,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/bandas",
+                "href": "/herramientas-electricas/reemplazo/bandas",
                     "text": "Bandas"
             }
         }
@@ -1001,7 +969,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/cables",
+                "href": "/herramientas-electricas/reemplazo/cables",
                     "text": "Cables"
             }
         }
@@ -1011,7 +979,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/carbones",
+                "href": "/herramientas-electricas/reemplazo/carbones",
                     "text": "Carbones"
             }
         }
@@ -1021,7 +989,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/interruptores",
+                "href": "/herramientas-electricas/reemplazo/interruptores",
                     "text": "Interruptores"
             }
         }
@@ -1031,7 +999,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/llaves-para-broquero",
+                "href": "/herramientas-electricas/accesorios/llaves-para-broquero",
                     "text": "Llaves para broquero"
             }
         }
@@ -1041,7 +1009,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/pads",
+                "href": "/herramientas-electricas/reemplazo/pads",
                     "text": "Pads"
             }
         }
@@ -1051,7 +1019,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/para-esmeriladoras",
+                "href": "/herramientas-electricas/reemplazo/para-esmeriladoras",
                     "text": "Para esmerilladores"
             }
         }
@@ -1061,7 +1029,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/para-sierras",
+                "href": "/herramientas-electricas/reemplazo/para-sierras",
                     "text": "Para sierras"
             }
         }
@@ -1071,7 +1039,7 @@
             "blockClass":["subitem"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-electricas-y-accesorios/reemplazo/router",
+                "href": "/herramientas-electricas/herramientas/router",
                     "text": "Router"
             }
         }
@@ -1081,7 +1049,7 @@
             "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/herramientas-neumaticas",
+                "href": "/herramientas-neumaticas/herramientas",
                     "text": "Herramientas"
             }
         }
@@ -1131,7 +1099,7 @@
             "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
-                "href": "/",
+                "href": "/herramientas-neumaticas/partes-de-reemplazo",
                     "text": "Partes de reemplazo"
             }
         }
@@ -1292,7 +1260,7 @@
             "type": "custom",
             "itemProps": {
                 "href": "/herramientas-manuales/seguetas-serruchos-y-arcos/serrotes",
-                "text": "Serrotes"
+                "text": "Serrotes y garruchos"
             }
         }
     },
@@ -1308,11 +1276,11 @@
     },
     "menu-item#paneles-solares": {
         "props": {
-            "blockClass":["subitem"],
+            "blockClass":["subitem","title"],
             "type": "custom",
             "itemProps": {
                 "href": "/paneles-y--componentes/paneles-solares",
-                "text": "Paneles Solares"
+                "text": "Paneles solares"
             }
         }
     },
@@ -1325,6 +1293,337 @@
                 "text": "Outlet"
             }
         }
-    }
+    },
+    "menu-item#antorchas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/antorchas",
+                "text": "Antorchas"
+            }
+        }
+    },
+    "menu-item#boquillas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/boquillas",
+                "text": "Boquillas"
+            }
+        }
+    },
+    "menu-item#puntas-de-contacto": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/puntas-de-contacto",
+                "text": "Puntas de contacto"
+            }
+        }
+    },
+    "menu-item#soldadura-accesorios-otros": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/otros",
+                "text": "Otros"
+            }
+        }
+    },
+    "menu-item#para-careta": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/para-careta",
+                "text": "Para careta"
+            }
+        }
+    },
+    "menu-item#para-soldadora": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/para-soldadora",
+                "text": "Para soldadora"
+            }
+        }
+    },
+    "menu-item#para-plasma": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/para-plasma",
+                "text": "Para plasma"
+            }
+        }
+    },
 
+    "menu-item#inhibidor-de-corrosion": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/inhibidor-de-corrosion",
+                "text": "Inhibidor de corrosión"
+            }
+        }
+    },
+    "menu-item#coalescentes": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/coalascentes",
+                "text": "Coalescentes"
+            }
+        }
+    },
+    "menu-item#aditivos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aditivos",
+                "text": "Aditivos"
+            }
+        }
+    },
+    "menu-item#equipo-de-mantenimiento": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/equipo-de-mantenimiento",
+                "text": "Equipo de mantenimiento"
+            }
+        }
+    },
+    "menu-item#aerosol": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/productos-en-aerosol-y-poliuretano",
+                "text": "Aerosol y Poliuretano"
+            }
+        }
+    },
+
+    "menu-item#removedor-de-oxido": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes/limpiadores",
+                "text": "Removedor de oxido"
+            }
+        }
+    },
+    "menu-item#refrigerantes-sinteticos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/sinteticos",
+                "text": "Sintéticos"
+            }
+        }
+    },
+    "menu-item#refrigerantes-semi-sintetico": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/semi-sinteticos",
+                "text": "Semi-sintéticos"
+            }
+        }
+    },
+    "menu-item#refrigerantes-mineral": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/minerales",
+                "text": "Mineral"
+            }
+        }
+    },
+    "menu-item#sierra-circular": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas/de-sierra-circular",
+                "text": "De sierra circular"
+            }
+        }
+    },
+    "menu-item#discos-de-desbaste": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/discos-de-desbaste",
+                "text": "Discos de desbaste"
+            }
+        }
+    },
+    "menu-item#discos-de-diamante": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/discos-de-diamante",
+                "text": "Discos de diamante"
+            }
+        }
+    },
+    "menu-item#discos-sierra": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/disco-sierra",
+                "text": "Disco sierra"
+            }
+        }
+    },
+    "menu-item#neumatica-consumibles": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles",
+                "text": "Consumibles"
+            }
+        }
+    },
+    "menu-item#clavo-en-rollo": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavo-en-rollo",
+                "text": "Clavo en rollo"
+            }
+        }
+    },
+    "menu-item#clavillo": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavillo",
+                "text": "Clavillo"
+            }
+        }
+    },
+    "menu-item#clavo-tomatero": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavo-tomatero",
+                "text": "Clavo tomatero"
+            }
+        }
+    },
+    "menu-item#grapas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/grapas",
+                "text": "Grapas"
+            }
+        }
+    },
+    "menu-item#modelo-coil70-h": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-coil70-h",
+                "text": "Modelo COIL70-H"
+            }
+        }
+    },
+    "menu-item#modelo-c23-c29-c33": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-c23-c29-c33",
+                "text": "Modelo C23-C29-C33"
+            }
+        }
+    },
+    "menu-item#modelo-mcb": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-c23-c29-c33",
+                "text": "Modelo MCB"
+            }
+        }
+    },
+    "menu-item#modelo-pnc": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-pcn",
+                "text": "Modelo PNC"
+            }
+        }
+    },
+    "menu-item#neumaticas-otros-modelos": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/otros-modelos",
+                "text": "Otros Modelos"
+            }
+        }
+    },
+    "menu-item#sistema-fotovoltaico": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Sistema fotovoltaico"
+            }
+        }
+    },
+    "menu-item#maquinas-sierra-cintas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/sierra-cintas-y-accesorios/maquinas/de-sierra-cinta",
+                "text": "De sierra cinta"
+            }
+        }
+    },
+    "menu-item#neumaticas-consumible": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles",
+                "text": "Consumibles"
+            }
+        }
+    }
 }

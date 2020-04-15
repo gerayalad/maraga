@@ -62,7 +62,7 @@
   "children": [
     "menu-item#maquinas-soldaduras",
     "menu-item#generadores",
-    "menu-item#inversores",
+    "menu-item#soldadoras",
     "menu-item#plasmas"
   ],
   "props":{
@@ -74,8 +74,7 @@
   "children": [
     "menu-item#consumibles",
     "menu-item#alambres",
-    "menu-item#electrodos",
-    "menu-item#fundentes"
+    "menu-item#electrodos"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -86,7 +85,10 @@
   "children": [
     "menu-item#accesorios-soldadura",
     "menu-item#caretas",
-    "menu-item#gwaw"
+    "menu-item#antorchas",
+    "menu-item#boquillas",
+    "menu-item#puntas-de-contacto",
+    "menu-item#soldadura-accesorios-otros"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -96,19 +98,9 @@
 "vtex.menu@2.x:menu#submenu-04-departamento-01":{
   "children": [
     "menu-item#refacciones-soldadura",
-    "menu-item#tig"
-  ],
-  "props":{
-    "blockClass":"submenu-site",
-    "orientation": "vertical"
-  }
-},
-"vtex.menu@2.x:menu#submenu-05-departamento-01":{
-  "children": [
-    "menu-item#soldaduras",
-    "menu-item#alambres",
-    "menu-item#electrodos",
-    "menu-item#fundentes"
+    "menu-item#para-careta",
+    "menu-item#para-soldadora",
+    "menu-item#para-plasma"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -117,7 +109,12 @@
 },
 "vtex.menu@2.x:menu#submenu-01-departamento-02":{
   "children": [
-    "menu-item#especialidades"
+    "menu-item#especialidades",
+    "menu-item#inhibidor-de-corrosion",
+    "menu-item#coalescentes",
+    "menu-item#aditivos",
+    "menu-item#equipo-de-mantenimiento",
+    "menu-item#aerosol"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -127,7 +124,7 @@
 "vtex.menu@2.x:menu#submenu-02-departamento-02":{
   "children": [
       "menu-item#limpiadores-y-desengrasantes",
-      "menu-item#limpiadores",
+      "menu-item#removedor-de-oxido",
       "menu-item#desengrasantes"
   ],
   "props":{
@@ -138,7 +135,7 @@
 "vtex.menu@2.x:menu#submenu-03-departamento-02":{
   "children": [
     "menu-item#lubricantes-y-aceites-directos",
-    "menu-item#aceites",
+    "menu-item#aceites-directo-de-corte",
     "menu-item#lubricantes"
   ],
   "props":{
@@ -148,16 +145,10 @@
 },
 "vtex.menu@2.x:menu#submenu-04-departamento-02":{
   "children": [
-    "menu-item#aerosol"
-  ],
-  "props":{
-    "blockClass":"submenu-site",
-    "orientation": "vertical"
-  }
-},
-"vtex.menu@2.x:menu#submenu-05-departamento-02":{
-  "children": [
-    "menu-item#refrigerantes"
+    "menu-item#refrigerantes",
+    "menu-item#refrigerantes-sinteticos",
+    "menu-item#refrigerantes-semi-sintetico",
+    "menu-item#refrigerantes-mineral"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -166,7 +157,30 @@
 },
 "vtex.menu@2.x:menu#submenu-01-departamento-03":{
   "children": [
-    "menu-item#discos-de-corte",
+    "menu-item#sierra-cintas",
+    "menu-item#corte-de-metal",
+    "menu-item#corte-de-madera",
+    "menu-item#corte-de-esponja"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-03":{
+  "children": [
+    "menu-item#maquinas-de-corte-con-disco",
+    "menu-item#maquinas-sierra-cintas",
+    "menu-item#sierra-circular"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-03":{
+  "children": [
+    "menu-item#sierras-cintas-discos-de-corte",
     "menu-item#cermet",
     "menu-item#hss",
     "menu-item#tct"
@@ -176,67 +190,11 @@
     "orientation": "vertical"
   }
 },
-"vtex.menu@2.x:menu#submenu-02-departamento-03":{
-  "children": [
-    "menu-item#maquinas-de-corte-con-disco"
-  ],
-  "props":{
-    "blockClass":"submenu-site",
-    "orientation": "vertical"
-  }
-},
-"vtex.menu@2.x:menu#submenu-03-departamento-03":{
-  "children": [
-    "menu-item#maquinas-sierra-cinta",
-    "menu-item#maquinas-sierra-cinta-sub",
-    "menu-item#accesorios-sierra-cinta"
-  ],
-  "props":{
-    "blockClass":"submenu-site",
-    "orientation": "vertical"
-  }
-},
-"vtex.menu@2.x:menu#submenu-04-departamento-03":{
-  "children": [
-    "menu-item#sierra-cintas",
-    "menu-item#corte-de-esponja",
-    "menu-item#corte-de-madera",
-    "menu-item#corte-de-metal"
-    ],
-    "props":{
-      "blockClass":"submenu-site",
-      "orientation": "vertical"
-    }
-},
 "vtex.menu@2.x:menu#submenu-01-departamento-04":{
-  "children": [
-      "menu-item#accesorios-herramientas-electricas",
-      "menu-item#abrasivos",
-      "menu-item#arboles",
-      "menu-item#brocas",
-      "menu-item#broqueros",
-      "menu-item#disco-sierra",
-      "menu-item#fresas-para-trompo",
-      "menu-item#hojas-de-sierra",
-      "menu-item#otros",
-      "menu-item#para-destornillador",
-      "menu-item#perforadoras",
-      "menu-item#punta-desatornillador",
-      "menu-item#sierra-caladora",
-      "menu-item#sierra-perforadora",
-      "menu-item#sierra-sable",
-      "menu-item#vari-bit"
-    ],
-    "props":{
-      "blockClass":"submenu-site",
-      "orientation": "vertical"
-  }
-},
-"vtex.menu@2.x:menu#submenu-02-departamento-04":{
   "children": [
     "menu-item#herramientas",
     "menu-item#acanaladoras",
-    "menu-item#cortadores-de-metales",
+    "menu-item#cortadoras-de-disco",
     "menu-item#esmerilladoras",
     "menu-item#lijadoras",
     "menu-item#pistolas-de-calor",
@@ -244,7 +202,30 @@
     "menu-item#herramientas-sierras-caladoras",
     "menu-item#herramientas-sierras-circulares",
     "menu-item#sopladoras",
-    "menu-item#taladros-y-rotomartillos"
+    "menu-item#taladros-y-rotomartillos",
+    "menu-item#router"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-02-departamento-04":{
+  "children": [
+    "menu-item#accesorios-herramientas-electricas",
+    "menu-item#arboles",
+    "menu-item#brocas",
+    "menu-item#broqueros",
+    "menu-item#discos-de-corte",
+    "menu-item#discos-de-desbaste",
+    "menu-item#discos-de-diamante",
+    "menu-item#discos-sierra",
+    "menu-item#hojas-de-sierra",
+    "menu-item#llaves-para-broquero",
+    "menu-item#para-destornillador",
+    "menu-item#sierra-caladora",
+    "menu-item#sierra-perforadora",
+    "menu-item#vari-bit" 
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -261,38 +242,21 @@
     "menu-item#cables",
     "menu-item#carbones",
     "menu-item#interruptores",
-    "menu-item#llaves-para-broquero",
     "menu-item#pads",
     "menu-item#para-esmerilladores",
-    "menu-item#para-sierras",
-    "menu-item#router"
+    "menu-item#para-sierras"
   ],
   "props":{
     "blockClass":["submenu-site"],
     "orientation": "vertical"
   }
 },
-"vtex.menu@2.x:menu#submenu-04-departamento-04":{
-  "children": [
-    "menu-item#sierra-cintas",
-    "menu-item#corte-de-esponja",
-    "menu-item#corte-de-madera",
-    "menu-item#corte-de-metal"
-    ],
-    "props":{
-      "blockClass":"submenu-site",
-      "orientation": "vertical"
-    }
-},
 "vtex.menu@2.x:menu#submenu-01-departamento-05":{
   "children": [
     "menu-item#herramientas-neumaticas-title",
     "menu-item#clavadoras",
     "menu-item#compresores",
-    "menu-item#esmerilladoras-neumaticas",
-    "menu-item#grapadoras",
-    "menu-item#lijadoras-neumaticas",
-    "menu-item#pulidoras"
+    "menu-item#grapadoras"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -301,7 +265,25 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-05":{
   "children": [
-    "menu-item#partes-de-reemplazo"
+    "menu-item#neumaticas-consumible",
+    "menu-item#clavo-en-rollo",
+    "menu-item#clavillo",
+    "menu-item#clavo-tomatero",
+    "menu-item#grapas"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-03-departamento-05":{
+  "children": [
+    "menu-item#partes-de-reemplazo",
+    "menu-item#modelo-coil70-h",
+    "menu-item#modelo-c23-c29-c33",
+    "menu-item#modelo-mcb",
+    "menu-item#modelo-pnc",
+    "menu-item#neumaticas-otros-modelos"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -378,7 +360,7 @@
   },
   "vtex.menu@2.x:menu#submenu-02-departamento-07":{
     "children": [
-      "menu-item#paneles-solares"
+      "menu-item#monitoreo"
     ],
     "props":{
       "blockClass":"submenu-site",
@@ -387,7 +369,16 @@
   },
   "vtex.menu@2.x:menu#submenu-03-departamento-07":{
     "children": [
-      "menu-item#monitoreo"
+      "menu-item#paneles-solares"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-04-departamento-07":{
+    "children": [
+      "menu-item#sistema-fotovoltaico"
     ],
     "props":{
       "blockClass":"submenu-site",
