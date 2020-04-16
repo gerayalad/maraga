@@ -70,6 +70,7 @@
     font-weight: normal;
     color:#A0A0A0;
     transition: all .12s linear;
+    padding-left:0
 }
 
 .menuContainerNav--menu-footer :global(.vtex-menu-2-x-styledLinkContent):hover{

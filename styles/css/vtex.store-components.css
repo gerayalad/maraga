@@ -264,14 +264,11 @@
 }
 
 .installmentsPrice{
-    font-size: 0;
     display: block;
     clear: both;
     margin-bottom: 10px;
-}
-
-.installmentsPrice {
-    font-size: 13px;
+    overflow: hidden;
+    text-indent:-11px
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer .savingPrice{

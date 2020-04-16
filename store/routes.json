@@ -49,5 +49,8 @@
   },
   "store.custom#recoge-en-tienda": {
     "path": "/recoge-en-tienda"
+  },
+  "store.custom#catalogo": {
+    "path": "/catalogo"
   }
 }

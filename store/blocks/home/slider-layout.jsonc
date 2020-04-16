@@ -63,36 +63,36 @@
   },
   "image#brand6": {
     "props": {
-      "src": "/arquivos/Logo_Bostitch.jpg",
-      "srcset": "/arquivos/Logo_Bostitch.jpg",
+      "src": "/arquivos/brand-bostitch.jpg",
+      "srcset": "/arquivos/brand-bostitch.jpg",
       "maxHeight": 75
     }
   },
   "image#brand7": {
     "props": {
-      "src": "/arquivos/Logo_Everising.jpg",
-      "srcset": "/arquivos/Logo_Everising.jpg",
+      "src": "/arquivos/brand-everising.jpg",
+      "srcset": "/arquivos/brand-everising.jpg",
       "maxHeight": 75
     }
   },
   "image#brand8": {
     "props": {
-      "src": "/arquivos/Logo_Irwin.jpg",
-      "srcset": "/arquivos/Logo_Irwin.jpg",
+      "src": "/arquivos/brand-irwin.jpg",
+      "srcset": "/arquivos/brand-irwin.jpg",
       "maxHeight": 75
     }
   },
   "image#brand9": {
     "props": {
-      "src": "/arquivos/Logo_Kanefusa.jpg",
-      "srcset": "/arquivos/Logo_Kanefusa.jpg",
+      "src": "/arquivos/brand-kanefusa.jpg",
+      "srcset": "/arquivos/brand-kanefusa.jpg",
       "maxHeight": 75
     }
   },
   "image#brand10": {
     "props": {
-      "src": "/arquivos/Logo_Stark.jpg",
-      "srcset": "/arquivos/Logo_Stark.jpg",
+      "src": "/arquivos/brand-stark.jpg",
+      "srcset": "/arquivos/brand-stark.jpg",
       "maxHeight": 75
     }
   }
