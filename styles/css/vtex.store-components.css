@@ -359,3 +359,7 @@
 .showMoreButton:hover{
     background-color: #ff6215;
 }
+
+.interestRatePrice{
+    text-indent: 0;
+}

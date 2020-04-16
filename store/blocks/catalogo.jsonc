@@ -19,7 +19,7 @@
     },
     "rich-text#catalogo": {
         "props": {
-            "text": "# Catalogo MARAGA \n\n Confira abajo toda nuestra linea de productos:",
+            "text": "# Catalogo MARAGA \n\n Puedes ver abajo toda nuestra linea de productos:",
             "blockClass": "text"
         }
     },
@@ -28,7 +28,7 @@
             "src": "https://cdn.flipsnack.com/widget/v2/widget.html?hash=fu8w14ysk",
             "width": 600,
             "height": 600,
-            "blockClass":"facturacion-frame"
+            "blockClass":"facturacion-iframe"
         }
     }
 }

@@ -24,7 +24,7 @@
       "rich-text#autoridad"
     ],
     "props": {
-      "blockclass": "textColumn",
+      "blockclass": "text-column",
       "preventVerticalStretch": true
     }
   },

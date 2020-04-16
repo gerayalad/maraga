@@ -24,7 +24,7 @@
         "iframe#surcusal-guadalajara"
       ],
       "props": {
-        "blockclass": "textColumn",
+        "blockclass": "text-column",
         "preventVerticalStretch": true
       }
     },

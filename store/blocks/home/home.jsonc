@@ -43,16 +43,15 @@
   "shelf#shelf-01": {
     "blocks": ["product-summary.shelf"],
     "props": {
+      "category":"8",
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "never",
       "productList": {
-        "maxItems": 16,
+        "maxItems": 20,
         "itemsPerPage": 4,
-        "gap":3,
         "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": ""
+        "title":""
       }
     }
   },
@@ -62,12 +61,11 @@
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "never",
       "productList": {
-        "maxItems": 16,
+        "maxItems": 20,
         "itemsPerPage": 4,
         "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": ""
+        "title":""
       }
     }
   },

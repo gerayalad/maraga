@@ -45,6 +45,10 @@
   padding-bottom: 10px;
 }
 
+.flexRow--home-content-instagram{
+  margin-top: 30px !important;
+}
+
 @media screen and (max-width: 1024px) {
   .flexRowContent--row-submenu
     :global(.vtex-store-components-3-x-imageElement){

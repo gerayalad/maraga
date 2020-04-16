@@ -5,3 +5,7 @@
 .container--facturacion-frame{
     justify-content: flex-start;
 }
+
+.facturacion-iframe{
+    width: 100%;
+}

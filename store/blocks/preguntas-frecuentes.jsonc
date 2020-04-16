@@ -64,7 +64,7 @@
             "rich-text#pregunta-48"
         ],
         "props": {
-            "blockclass": "textColumn",
+            "blockclass": "text-column",
             "preventVerticalStretch": true
         }
     },

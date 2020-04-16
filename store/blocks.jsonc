@@ -36,25 +36,10 @@
       "showInstallments": true
     }
   },
-  "shelf": {
-    "blocks": ["product-summary.shelf"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
-      "productList": {
-        "maxItems": 8,
-        "itemsPerPage": 2,
-        "minItemsPerPage": 1,
-        "scroll": "BY_PAGE",
-        "arrows": true,
-        "titleText": ""
-      }
-    }
-  },
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
-      "product-identifier.summary",
+      //"product-identifier.summary",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-price",
@@ -68,7 +53,7 @@
   },
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false
+      "showBadge": true
     }
   },
   "stack-layout#prodsum": {
@@ -80,14 +65,6 @@
   "product-summary-image": {
     "props": {
       "height": 220
-    }
-  },
-  "product-summary-specification-badges": {
-    "props": {
-      "specificationGroupName": "Group",
-      "specificationName": "On Sale",
-      "visibleWhen": "True",
-      "displayValue": "SPECIFICATION_NAME"
     }
   },
   "store.product-review-form": {
