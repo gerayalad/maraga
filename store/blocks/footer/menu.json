@@ -9,7 +9,8 @@
       "menu-item#quiene-somos",
       "menu-item#oportunidad-de-empleo",
       "menu-item#distribuidores",
-      "menu-item#politicas"
+      "menu-item#politicas",
+      "menu-item#catalogo"
     ]
   },
   "menu-item#title-01": {
@@ -86,6 +87,22 @@
         "noFollow": false,
         "tagTitle": "Politicas",
         "text": "Información Legal y Privacidad"
+      }
+    }
+  },
+
+  "menu-item#catalogo": {
+    "props": {
+      "id": "menu-item-catalogo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/catalogo",
+        "noFollow": false,
+        "tagTitle": "Catálogo",
+        "text": "Catálogo"
       }
     }
   },
