@@ -1,5 +1,5 @@
 {
-    "store.custom#maraga-oficios":{
+    "store.custom#oficios":{
         "blocks":[
             "flex-layout.row#row-text-oficios",
             "shelf#shelf-oficios-01",

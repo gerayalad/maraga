@@ -29,7 +29,7 @@
   "store.custom#preguntas-frecuentes": {
     "path": "/institucional/preguntas-frecuentes"
   },
-  "store.custom#maraga-oficios": {
+  "store.custom#oficios": {
     "path": "/maraga-oficios"
   },
   "store.custom#industrial": {
