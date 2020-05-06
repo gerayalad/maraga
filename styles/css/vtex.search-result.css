@@ -32,25 +32,23 @@
     justify-content: flex-start;
 }
 
-.gallery--search-gallery :global(.vtex-product-summary-2-x-container){
-    border:1px solid #ccc
-}
-
 .gallery--search-gallery  :global(.vtex-product-summary-2-x-buyButtonContainer){
     opacity: 1;
 }
 
-.gallery--search-gallery  
-    :global(.vtex-product-summary-2-x-buyButtonContainer)
-        :global(.vtex-button){
-            background-color: #ccc;
-            border-color: #ccc;
-            color:#fff;
-            transition: all .12s linear;
-        }
 
-.gallery--search-gallery  
-    :global(.vtex-product-summary-2-x-buyButtonContainer)
+:global(.vtex-product-summary-2-x-element)
+    :global(.vtex-button){
+        background-color: #ccc;
+        border-color: #ccc;
+        color:#fff;
+        transition: all .12s linear;
+        position: absolute;
+        bottom: 0px;
+    }
+
+
+    :global(.vtex-product-summary-2-x-element)
         :global(.vtex-button):hover{
             border-color:#FA5200;
             background-color: #FA5200;

@@ -42,10 +42,10 @@
   } 
 }
 
-.imageContainer{
-  border-left:1px solid #f5f5f5;
-  border-right:1px solid #f5f5f5;
+.container{
+  border:1px solid #ccc
 }
+
 .nameContainer {
   justify-content: start;
   padding-top: .5rem;

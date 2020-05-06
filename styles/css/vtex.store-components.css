@@ -160,6 +160,23 @@
     align-items: center;
 }
 
+:global(.vtex-search-result-3-x-searchResultContainer) 
+:global(.vtex-product-summary-2-x-container){
+    border:1px solid #ccc;
+}
+
+:global(.vtex-product-summary-2-x-clearLink){
+    padding: 0.75rem;
+    border:1px solid #ccc;
+    border-radius: 10px;
+}
+
+:global(.vtex-search-result-3-x-searchResultContainer) 
+:global(.vtex-product-summary-2-x-clearLink){
+    padding: 0;
+    border: 0;
+}
+
 :global(.vtex-product-summary-2-x-container){
     padding:10px;
     display: block;
@@ -167,6 +184,7 @@
     transition: all .12s linear;
 }
 
+:global(.vtex-search-result-3-x-searchResultContainer) 
 :global(.vtex-product-summary-2-x-container):hover{
     border-color:#FA5200
 }
@@ -268,7 +286,6 @@
     clear: both;
     margin-bottom: 10px;
     overflow: hidden;
-    text-indent:-11px
 }
 
 :global(.vtex-flex-layout-0-x-flexCol) .priceContainer .savingPrice{
