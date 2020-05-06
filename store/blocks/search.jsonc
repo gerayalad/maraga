@@ -1,5 +1,5 @@
 {
-  "store.search": {
+  "store.search.v2": {
     "blocks": [
       "search-result-layout"
     ],
@@ -25,7 +25,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 48,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -39,6 +39,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 48,
         "simulationBehavior": "skip"
       }
     }
@@ -51,6 +52,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 48,
         "simulationBehavior": "skip"
       }
     }
@@ -63,6 +65,7 @@
     "props": {
       "context": {
         "skusFilter": "ALL",
+        "maxItemsPerPage": 48,
         "simulationBehavior": "skip"
       }
     }

@@ -1,7 +1,7 @@
 {
   "vendor": "maraga",
   "name": "developer",
-  "version": "3.36.2",
+  "version": "3.36.5",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -52,6 +52,7 @@
     "vtex.store-image": "0.x",
     "vtex.store-icons": "0.x",
     "vtex.modal-layout": "0.x",
+    "vtex.search": "0.x",
     "vtex.store-link": "0.x",
     "vtex.product-gifts": "0.x",
     "vtex.responsive-layout": "0.x",

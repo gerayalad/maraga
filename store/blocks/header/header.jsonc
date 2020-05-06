@@ -50,6 +50,10 @@
           "iconLabel": "Login"
       }
   },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
   
   "logo":{
       "props": {
@@ -78,10 +82,12 @@
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
   "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
     "props":{
+      "customSearchPageUrl": "/search?_query=${term}",
       "blockClass":"header-search",
-      "attemptPageTypeSearch":true,
-      "DisplayMode":"search-and-clear-buttons"
+      "DisplayMode":"search-and-clear-buttons",
+      "openAutocompleteOnFocus": true
     }
   },
   "header-layout.mobile": {
