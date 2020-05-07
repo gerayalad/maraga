@@ -8,6 +8,9 @@
   "store.custom#distribuidores": {
     "path": "/institucional/distribuidores"
   },
+  "store.custom#soldaduras-y-generadores": {
+    "path": "/departamentos/soldaduras-y-generadores"
+  },
   "store.custom#legal-y-privacidad": {
     "path": "/institucional/informacion-legal-y-privacidad"
   },
