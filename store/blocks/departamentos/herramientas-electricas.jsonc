@@ -1,42 +1,40 @@
 {
-    "store.custom#soldaduras-y-generadores":{
+    "store.custom#herramientas-electricas":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "flex-layout.row#row-text-soldaduras-y-generadores",
+            "flex-layout.row#row-text-herramientas-electricas",
             "flex-layout.row#mini-banners-1",
-            "flex-layout.row#row-text-soldaduras-y-generadores-1",
+            "flex-layout.row#row-text-herramientas-electricas-1",
             "flex-layout.row#mini-banners-2",
-            "flex-layout.row#row-text-soldaduras-y-generadores-2",
-            "flex-layout.row#mini-banners-3",
-            "flex-layout.row#row-text-soldaduras-y-generadores-3",
-            "flex-layout.row#mini-banners-4"
+            "flex-layout.row#row-text-herramientas-electricas-2",
+            "flex-layout.row#mini-banners-3"
         ]
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores":{
-        "children":["rich-text#soldaduras-y-generadores"],
+    "flex-layout.row#row-text-herramientas-electricas":{
+        "children":["rich-text#herramientas-electricas"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-1":{
-        "children":["rich-text#soldaduras-y-generadores-1"],
+    "flex-layout.row#row-text-herramientas-electricas-1":{
+        "children":["rich-text#herramientas-electricas-1"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-2":{
-        "children":["rich-text#soldaduras-y-generadores-2"],
+    "flex-layout.row#row-text-herramientas-electricas-2":{
+        "children":["rich-text#herramientas-electricas-2"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-3":{
-        "children":["rich-text#soldaduras-y-generadores-3"],
+    "flex-layout.row#row-text-herramientas-electricas-3":{
+        "children":["rich-text#herramientas-electricas-3"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores": {
+    "rich-text#herramientas-electricas": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -46,7 +44,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-1": {
+    "rich-text#herramientas-electricas-1": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -56,7 +54,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-2": {
+    "rich-text#herramientas-electricas-2": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -66,7 +64,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-3": {
+    "rich-text#herramientas-electricas-3": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",

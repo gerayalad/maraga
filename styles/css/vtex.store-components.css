@@ -202,7 +202,11 @@
 
 :global(.vtex-slider-layout-0-x-slideChildrenContainer--landing) 
     :global(.vtex-store-components-3-x-imageElement){
-        max-width: 280px;
+    width: 100%!important;
+    height: auto!important;
+    display: block;
+    margin: 0 auto;
+    max-width: 280px;
 }
 
 .searchBarIcon--search :global(.vtex-store-components-3-x-searchIcon){
@@ -218,6 +222,9 @@
     height: auto!important;
     display: block;
     margin: 0 auto;
+}
+
+.imageElement--landing{
 }
 
 :global(.vtex-login-2-x-label){

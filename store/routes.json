@@ -11,6 +11,24 @@
   "store.custom#soldaduras-y-generadores": {
     "path": "/departamentos/soldaduras-y-generadores"
   },
+  "store.custom#solubles-y-desengrasantes": {
+    "path": "/departamentos/solubles-y-desengrasantes"
+  },
+  "store.custom#sierra-sintas-y-maquinas": {
+    "path": "/departamentos/sierra-sintas-y-maquinas"
+  },
+  "store.custom#paneles-y-componentes": {
+    "path": "/departamentos/paneles-y-componentes"
+  },
+  "store.custom#herramientas-electricas": {
+    "path": "/departamentos/herramientas-electricas"
+  },
+  "store.custom#herramientas-neumaticas": {
+    "path": "/departamentos/herramientas-neumaticas"
+  },
+  "store.custom#herramientas-manuales": {
+    "path": "/departamentos/herramientas-manuales"
+  },
   "store.custom#legal-y-privacidad": {
     "path": "/institucional/informacion-legal-y-privacidad"
   },
