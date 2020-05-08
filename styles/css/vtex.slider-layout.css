@@ -32,7 +32,14 @@
 .paginationDotsContainer--brands{
   bottom: 0px;
 }
+.sliderLeftArrow--landing{
+  margin:0px -42px;
+}
+.sliderRightArrow--landing{
+  margin:0px -42px;
+}
 .sliderLayoutContainer--landing{
+  max-width: 1195px;
   margin-bottom: 25px;
   padding-bottom:30px
 }

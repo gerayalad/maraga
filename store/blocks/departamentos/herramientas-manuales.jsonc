@@ -1,42 +1,50 @@
 {
-    "store.custom#soldaduras-y-generadores":{
+    "store.custom#herramientas-manuales":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "flex-layout.row#row-text-soldaduras-y-generadores",
+            "flex-layout.row#row-text-herramientas-manuales",
             "flex-layout.row#mini-banners-1",
-            "flex-layout.row#row-text-soldaduras-y-generadores-1",
+            "flex-layout.row#row-text-herramientas-manuales-1",
             "flex-layout.row#mini-banners-2",
-            "flex-layout.row#row-text-soldaduras-y-generadores-2",
+            "flex-layout.row#row-text-herramientas-manuales-2",
             "flex-layout.row#mini-banners-3",
-            "flex-layout.row#row-text-soldaduras-y-generadores-3",
-            "flex-layout.row#mini-banners-4"
+            "flex-layout.row#row-text-herramientas-manuales-3",
+            "flex-layout.row#mini-banners-4",
+            "flex-layout.row#row-text-herramientas-manuales-4",
+            "flex-layout.row#mini-banners-5"
         ]
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores":{
-        "children":["rich-text#soldaduras-y-generadores"],
+    "flex-layout.row#row-text-herramientas-manuales":{
+        "children":["rich-text#herramientas-manuales"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-1":{
-        "children":["rich-text#soldaduras-y-generadores-1"],
+    "flex-layout.row#row-text-herramientas-manuales-1":{
+        "children":["rich-text#herramientas-manuales-1"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-2":{
-        "children":["rich-text#soldaduras-y-generadores-2"],
+    "flex-layout.row#row-text-herramientas-manuales-2":{
+        "children":["rich-text#herramientas-manuales-2"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-3":{
-        "children":["rich-text#soldaduras-y-generadores-3"],
+    "flex-layout.row#row-text-herramientas-manuales-3":{
+        "children":["rich-text#herramientas-manuales-3"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores": {
+    "flex-layout.row#row-text-herramientas-manuales-4":{
+        "children":["rich-text#herramientas-manuales-4"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#herramientas-manuales": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -46,7 +54,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-1": {
+    "rich-text#herramientas-manuales-1": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -56,7 +64,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-2": {
+    "rich-text#herramientas-manuales-2": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -66,11 +74,21 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#soldaduras-y-generadores-3": {
+    "rich-text#herramientas-manuales-3": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
           "text": "**Refacciones**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#herramientas-manuales-4": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Otros**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
@@ -277,6 +295,60 @@
         }
     },
     "slider-layout#mini-banners-4": {
+      "props": {
+        "blockClass":"landing",
+        "fullWidth":false,
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-5":{
+        "children":[
+          "list-context.image-list#mini-banners-5"
+        ],
+        "props":{
+          "blockClass":"mini-banners-5",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-5": {
+        "children": ["slider-layout#mini-banners-5"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-5": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
