@@ -1,7 +1,7 @@
 {
   "vendor": "maraga",
   "name": "developer",
-  "version": "3.36.9",
+  "version": "3.36.12",
   "builders": {
     "styles": "2.x",
     "store": "0.x",

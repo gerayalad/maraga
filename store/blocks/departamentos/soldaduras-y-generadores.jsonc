@@ -173,8 +173,6 @@
     "slider-layout#mini-banners-2": {
       "props": {
         "blockClass":"landing",
-        "showPaginationDots": "always",
-        "showNavigationArrows": "desktopOnly",
         "itemsPerPage":{ 
         "desktop": 4, 
         "tablet": 3, 
