@@ -1,40 +1,40 @@
 {
-    "store.custom#sierra-sintas-y-maquinas":{
+    "store.custom#sierras-cintas-y-maquinas":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "flex-layout.row#row-text-sierra-sintas-y-maquinas",
+            "flex-layout.row#row-text-sierras-cintas-y-maquinas",
             "flex-layout.row#mini-banners-1",
-            "flex-layout.row#row-text-sierra-sintas-y-maquinas-1",
+            "flex-layout.row#row-text-sierras-cintas-y-maquinas-1",
             "flex-layout.row#mini-banners-2",
-            "flex-layout.row#row-text-sierra-sintas-y-maquinas-2",
+            "flex-layout.row#row-text-sierras-cintas-y-maquinas-2",
             "flex-layout.row#mini-banners-3"
         ]
     },
-    "flex-layout.row#row-text-sierra-sintas-y-maquinas":{
-        "children":["rich-text#sierra-sintas-y-maquinas"],
+    "flex-layout.row#row-text-sierras-cintas-y-maquinas":{
+        "children":["rich-text#sierras-cintas-y-maquinas"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-sierra-sintas-y-maquinas-1":{
-        "children":["rich-text#sierra-sintas-y-maquinas-1"],
+    "flex-layout.row#row-text-sierras-cintas-y-maquinas-1":{
+        "children":["rich-text#sierras-cintas-y-maquinas-1"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-sierra-sintas-y-maquinas-2":{
-        "children":["rich-text#sierra-sintas-y-maquinas-2"],
+    "flex-layout.row#row-text-sierras-cintas-y-maquinas-2":{
+        "children":["rich-text#sierras-cintas-y-maquinas-2"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-sierra-sintas-y-maquinas-3":{
-        "children":["rich-text#sierra-sintas-y-maquinas-3"],
+    "flex-layout.row#row-text-sierras-cintas-y-maquinas-3":{
+        "children":["rich-text#sierras-cintas-y-maquinas-3"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "rich-text#sierra-sintas-y-maquinas": {
+    "rich-text#sierras-cintas-y-maquinas": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -44,7 +44,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#sierra-sintas-y-maquinas-1": {
+    "rich-text#sierras-cintas-y-maquinas-1": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -54,7 +54,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#sierra-sintas-y-maquinas-2": {
+    "rich-text#sierras-cintas-y-maquinas-2": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -64,7 +64,7 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#sierra-sintas-y-maquinas-3": {
+    "rich-text#sierras-cintas-y-maquinas-3": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
