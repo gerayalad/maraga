@@ -39,8 +39,8 @@
 
 :global(.vtex-product-summary-2-x-element)
     :global(.vtex-button){
-        background-color: #ccc;
-        border-color: #ccc;
+        background-color: #F99E58;
+        border-color: #F99E58;
         color:#fff;
         transition: all .12s linear;
         position: absolute;
@@ -53,7 +53,11 @@
             border-color:#FA5200;
             background-color: #FA5200;
         }
-
+:global(.vtex-product-summary-2-x-element)
+    :global(.vtex-button):disabled{
+    background-color: #ccc;
+    border-color: #ccc;
+}
 .filterMessage{
     display: none;
 }

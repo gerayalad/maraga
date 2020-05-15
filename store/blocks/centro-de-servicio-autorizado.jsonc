@@ -1,0 +1,224 @@
+{
+    "store.custom#centro-de-servicio-autorizado":{
+        "blocks":[
+            "slider-layout#centro-de-servicio",
+            "responsive-layout.desktop#desktop-centro-de-servicio-autorizado",
+            "responsive-layout.mobile#mobile-centro-de-servicio-autorizado"
+        ]
+    },
+    "responsive-layout.desktop#desktop-centro-de-servicio-autorizado": {
+      "children": [
+            "rich-text#centro-de-servicio-heading",
+            "rich-text#centro-de-servicio-question",
+            "flex-layout.row#centro-de-servicio-flex",
+            "flex-layout.row#find-us",
+            "flex-layout.row#find-us-icons"
+        ]
+    },
+    "responsive-layout.mobile#mobile-centro-de-servicio-autorizado": {
+      "children": [
+            "rich-text#centro-de-servicio-heading",
+            "rich-text#centro-de-servicio-question",
+            "flex-layout.row#centro-de-servicio-flex",
+            "flex-layout.row#find-us",
+            "flex-layout.row#find-us-icons"        
+        ]
+    },
+    "slider-layout#centro-de-servicio": {
+       "children": ["info-card#centro-de-servicio-hero"],
+       "props": {
+            "blockClass":"centro-de-servicio",
+            "fullWidth":true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "itemsPerPage":{ 
+            "desktop": 1, 
+            "tablet": 1, 
+            "phone": 1 
+            }
+       }
+     },
+    "info-card#centro-de-servicio-hero": {
+        "props": {
+         "imageUrl": "https://i.picsum.photos/id/552/1195/500.webp",
+         "isFullModeStyle": true,
+         "headline": "Centros de Servicio Autorizado",
+         "textPosition": "center",
+         "blockClass":"centro-de-servicio-hero"
+        }
+    },
+    "flex-layout.row#centro-de-servicio-flex":{
+        "children":[
+            "tab-layout#centro-de-servicio-tabs"
+        ]
+    },
+    "rich-text#centro-de-servicio-heading": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Te asesoramos en todo momento\n\nContamos con más de **30** centros de asistencia autorizados en México",
+          "textColor": "muted-1"
+        }
+    },
+    "rich-text#centro-de-servicio-question": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¿Qué producto tienes?",
+          "textColor": "muted-1",
+          "blockClass":"centro-de-servicio-question"
+        }
+    },
+    "tab-layout#centro-de-servicio-tabs": {
+        "children": [
+            "tab-list#centro-de-servicio-tabs",
+            "tab-content#centro-de-servicio-tabs"
+        ],
+        "props": {
+            "blockClass": "tab-centro-de-servicio-tabs"
+        }
+    },
+    "tab-list#centro-de-servicio-tabs": {
+        "children": [
+            "tab-list.item#welding",
+            "tab-list.item#herramientas"
+        ],
+        "props":{
+            "blockClass":"tablist-centro-de-servicio-tabs",
+            "defaultActiveTabId": "welding"
+        }
+    },
+    "tab-list.item#welding": {
+        "props": {
+            "tabId": "welding",
+            "label": "Welding",
+            "blockClass": "welding-tab"
+        }
+    },
+    "tab-list.item#herramientas": {
+        "props": {
+            "tabId": "herramientas",
+            "label": "Herramientas eléctricas",
+            "blockClass": "tools-tab"
+        }
+    },
+    "tab-content#centro-de-servicio-tabs": {
+        "children": [
+            "tab-content.item#welding",
+            "tab-content.item#herramientas"
+        ]
+    },
+    "tab-content.item#welding": {
+        "children": [
+             "flex-layout.row#welding-tab"
+        ],
+        "props": {
+            "tabId": "welding"
+        }
+    },
+    "tab-content.item#herramientas": {
+        "children": [
+            "flex-layout.row#herramientas-tab"
+        ],
+        "props": {
+            "tabId": "herramientas"
+        }
+    },
+    "flex-layout.row#welding-tab":{
+        "children":[
+            "flex-layout.col#welding-tab-address",
+            "flex-layout.col#welding-tab-map"
+        ]
+    },
+    "flex-layout.col#welding-tab-address":{
+        "children": [
+            "rich-text#welding"
+        ],
+        "props":{
+            "blockClass":"tab-column-centro"
+        }
+    },
+    "flex-layout.col#welding-tab-map":{
+        "children": [
+            "rich-text#welding-2"
+        ]    
+    },
+    "flex-layout.row#herramientas-tab":{
+        "children":[
+            "flex-layout.col#herramientas-tab-address",
+            "flex-layout.col#herramientas-tab-map"
+        ]
+    },
+    "flex-layout.col#herramientas-tab-address":{
+        "children": [
+            "rich-text#herramientas-1"
+        ],
+        "props":{
+            "blockClass":"tab-column-centro"
+        }
+    },
+    "flex-layout.col#herramientas-tab-map":{
+        "children": [
+            "rich-text#herramientas-2"
+        ]    
+    },
+    "rich-text#herramientas-1": {
+        "props": {    
+           "text": "**Baja California Norte** \n\nCOMERCIAL DE ACEROS Y PERFILES  FRONTERA S.A. DE C.V.\n **Teléfono:** [6649727109](tel:6649727109) \n **Dirección:**Blvd. Cucapah 20498, Buenos Aires Sur, 22580, Tijuana, Baja California Nte [¿Cómo Llegar?](https://goo.gl/maps/BXwUDS3Wm47qTeXS7)\n\n**** \n\nCOMERCIAL DE ACEROS Y PERFILES  FRONTERA S.A. DE C.V.\n **Teléfono:** [6865550067](tel:6865550067) \n **Dirección:**Blvd. Lazaro Cardenas 1893, Col. Nuevo Mexicali, 21379, Mexicali, Baja California Nte [¿Cómo Llegar?](https://goo.gl/maps/RrDjqFXPsecwUg8r7)\n\n**Baja California Sur** \n\nVAZOL\n **Teléfono:** [6121296949](tel:6121296949) \n **Dirección:**Agustin Olachea Aviles 3923, Arboledas, 23090, La Paz, Baja California Sur [¿Cómo Llegar?](https://goo.gl/maps/UHKZH2cUE4ij794h9)\n\n**Estado de México** \n\nAUTOGENA INDUSTRIAL MEXICANA \n **Teléfono:** [5553888589](tel:5553888589) \n **Dirección:**Avenida Jesús Reyes Heroles 182, Habitacional Valle Ceylan, Tlalnepantla de Baz  [¿Cómo Llegar?](https://goo.gl/maps/8kZ3ub625T47aKYcA)\n\n**** \n\nECOISA\n **Teléfono:** [7222714765](tel:7222714765) \n **Dirección:**Av. Solidaridad De Las Torres 1385, Col. Alvaro Obregon, 52100, San Mateo Atenco, Estado De Mexico [¿Cómo Llegar?](https://goo.gl/maps/PgnKtMXuLgVG9npk6)\n\n**Guanajuato** \n\nSERV-BOSH\n **Teléfono:** [4616127264](tel:4616127264) \n **Dirección:**Avenida Irrigacion 135 A 300, Col Bosques De La Alameda, 38030, Celaya, Guanajuato [¿Cómo Llegar?](https://goo.gl/maps/R3YNEpm8gt7D5oQK9)\n\n**Jalisco** \n\nGAMA CONSUMIBLES\n **Teléfono:** [3338388070](tel:3338388070) \n **Dirección:**Anillo Perif. Sur Manuel Gómez Morín 95-A, La Duraznera, 45580 San Pedro Tlaquepaque, Jal. [¿Cómo Llegar?](https://goo.gl/maps/ZcM1yxsKtWXCBtC8A)\n\n**** \n\nRIDSA\n **Teléfono:** [3314930616](tel:3314930616) \n **Dirección:**Calzada Lazaro Cardenas 1727, Col. Del Sur, 44920, Guadalajara, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/WexbbJLSw3RDXywH7)\n\n**** \n\nCOMPRESORES Y HERRAMIENTAS  CARRILLO \n **Teléfono:** [3338119292](tel:3338119292) \n **Dirección:**La Paz 1213, Centro, 44100, Guadalajara, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/eorQpB2dqCTHhKEv7)\n\n**** \n\nHINZA\n **Teléfono:** [3331807629](tel:3331807629) \n **Dirección:**Puerto Guaymas 127 B 300, Miramar, 45060, Zapopan, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/TCsyKndvJpyENLVM7)\n\n",
+            "blockClass": "welding-tab"
+        }
+    },
+    "rich-text#herramientas-2": {
+        "props": {    
+           "text": "**Nuevo León** \n\nSOLDADURA Y PRODUCTOS INDUSTRIALES  GPE \n **Teléfono:** [8183377057](tel:8183377057) \n **Dirección:**Guadalupe 623, Centro de Guadalupe, 67100 Guadalupe, N.L. [¿Cómo Llegar?](https://goo.gl/maps/4YeMLDxwTXXKUDqL6)\n\n**** \n\nHIGHCOLOR  \n **Teléfono:** [8118711112](tel:8118711112) \n **Dirección:**Bernardo Reyes 4217 Nte, Col. Niño Artillero, 64280, Monterrey, Nuevo Leon [¿Cómo Llegar?](https://goo.gl/maps/UwMFHYEwAXAPGHJQA)\n\n**** \n\nSERVICE CENTER \n **Teléfono:** [8180574055](tel:8180574055) \n **Dirección:**Santo Domingo 109, Col. Nicolas Bravo, 66410, San Nicolas De Los Garza, Nuevo Leon [¿Cómo Llegar?](https://goo.gl/maps/ZwADchDwX5QE2XBHA)\n\n**Sinaloa** \n\nSERHSI MATRIZ\n **Teléfono:** [6677162240](tel:6677162240) \n **Dirección:**Gral. Ignacio Aldama 534 Sur , Col. Miguel Aleman, 80200, Culiacán, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/D2wj4F6WedpCMH239)\n\n**** \n\nSERHSI SUCURSAL\n **Teléfono:** [6671705120](tel:6671705120) \n **Dirección:**Blvd. Emiliano Zapata 5400, San Rafael, 80150, Culiacán, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/oNe8Gt1v813Tox458)\n\n**** \n\nSERHSI SUCURSAL MAZATLAN\n **Teléfono:** [6691121275](tel:6691121275) \n **Dirección:**Av.Rafael Buelna 928, Sanchez Celis, 82120, Mazatlan, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/UbJkK4rwhQzeRTVLA)\n\n**Sonora** \n\nSIS Y GASES\n **Teléfono:** [6444170908](tel:6444170908) \n **Dirección:**Jacinto Lopez (Calle 300 Entre California Y Ramon Guzman), Faustino Felix, 85180, Obregon, Sonora [¿Cómo Llegar?](https://g.page/SisygasesFerreteriaSonora?share)\n\n**Tamaulipas** \n\nHERRAMIENTAS Y SERVICIOS DE ALTAMIRA\n **Teléfono:** [8332644083](tel:8332644083) \n **Dirección:**Industrial Guerrero, 89603 Altamira, Tamps. [¿Cómo Llegar?](https://goo.gl/maps/DpjjCsanu8w1owcXA)\n\n**Tamaulipas** \n\nHERRAMIENTAS ELECTRICAS DE TAMPICO\n **Teléfono:** [8332274906](tel:8332274906) \n **Dirección:**Carretera Tampico Mante 1310 Local 6, Las Americas, 89329, Tampico, Tamaulipas [¿Cómo Llegar?](https://goo.gl/maps/hHLW564nZ5L89b7Z6)\n\n**Veracruz** \n\nOXIGENO 21\n **Teléfono:** [2299253328](tel:2299253328) \n **Dirección:**Av Miguel Alemán 3389, Adolfo López Mateos, 91799 Veracruz, Ver. [¿Cómo Llegar?](https://goo.gl/maps/ppjk8JxJgAsa4EsL7)\n\n**** \n\nFERRETERIA MARQUEZ ESCOBAR\n **Teléfono:** [2288152779](tel:2288152779) \n **Dirección:**Calle Simon Bolívar 54, Jose Cardel, 91030 Xalapa-Enríquez, Ver. [¿Cómo Llegar?](https://goo.gl/maps/TYeWQ3gegzRpgtgcA)\n\n**** \n\nTALLER ELÉCTRICO CAMPERO\n **Teléfono:** [2299312544](tel:2299312544) \n **Dirección:**Campero 304, Zona Centro, 91700 Veracruz, Ver. [¿Cómo Llegar?](https://goo.gl/maps/LanJJx7DdFdjAPgc7)\n\n",
+            "blockClass": "welding-tab"
+        }
+    },
+    "rich-text#welding": {
+        "props": {    
+           "text": "**Aguascalientes** \n\nLA SOLUCION PARA EL SOLDADOR\n **Teléfono:** [4491741333](tel:4491741333) \n **Dirección:**Av Siglo XXI 608, Ojocaliente III, 20196 Aguascalientes, Ags. [¿Cómo Llegar?](https://goo.gl/maps/Cj9JXscnmwibyGPd8)\n\n**Tijuana** \n\nCOMERCIAL DE ACEROS Y PERFILES  FRONTERA S.A. DE C.V.\n **Teléfono:** [6649727109](tel:6649727109) \n **Dirección:**Blvd. Cucapah 20498, Colonia Buenos Aires Sur, 22580, Tijuana, Baja California Nte [¿Cómo Llegar?](https://goo.gl/maps/BXwUDS3Wm47qTeXS7)\n\n**Mexicali** \n\nCOMERCIAL DE ACEROS Y PERFILES  FRONTERA S.A. DE C.V.\n **Teléfono:** [6865550067](tel:6865550067) \n **Dirección:**Blvd. Lazaro Cardenas 1893, Colonia Nuevo Mexicali, 21379, Mexicali, Baja California Nte [¿Cómo Llegar?](https://goo.gl/maps/RrDjqFXPsecwUg8r7)\n\n**Chihuahua** \n\nSOLGAMA  S.A. DE C.V.\n **Teléfono:** [6144199057-104](tel:6144199057-104) \n **Dirección:**Madera 285 esquina con, Av. Tecnologico, Revolución, 31135 Chihuahua, Chih. [¿Cómo Llegar?](https://goo.gl/maps/JEGEtL4MZ5Gvvbhi7)\n\n**Torreón** \n\nLAGACERO\n **Teléfono:** [8717137212 EXT. 112, 113](tel:8717137212 EXT. 112, 113) \n **Dirección:**Calz Cuauhtemoc #965, Primero de Cobián Centro, 27000 Torreón, Coah. [¿Cómo Llegar?](https://goo.gl/maps/bmJT3r8BVK6vQuDMA)\n\n**** \n\nHEMA SERVICIOS\n **Teléfono:** [8717160999](tel:8717160999) \n **Dirección:**Sur, Comonfort 954, Luis Echeverría Álvarez, 27220 Torreón, Coah. [¿Cómo Llegar?](https://goo.gl/maps/RYPnhaehFfGAArbh8)\n\n**Tlalnepantla De Baz** \n\nAUTOGENA INDUSTRIAL MEXICANA \n **Teléfono:** [5553888589](tel:5553888589) \n **Dirección:**Avenida Jesús Reyes Heroles 182, Habitacional Valle Ceylan, Tlalnepantla de Baz  [¿Cómo Llegar?](https://goo.gl/maps/8kZ3ub625T47aKYcA)\n\n**Coacalco ** \n\nSERVICIOS TESLA \n **Teléfono:** [8589 4266 / 1542 0762](tel:8589 4266 / 1542 0762) \n **Dirección:**Ixtlememelixtle 10B, Colonia Coacalco Centro , 54955, Coacalco , Estado De Mexico [¿Cómo Llegar?](https://goo.gl/maps/zUSYCkFXxhLTuy5u8)\n\n**San Mateo Atenco** \n\nECOISA\n **Teléfono:** [7222714765](tel:7222714765) \n **Dirección:**Av. Solidaridad De Las Torres 1385, Colonia Alvaro Obregon, 52100, San Mateo Atenco, Estado De Mexico [¿Cómo Llegar?](https://goo.gl/maps/PgnKtMXuLgVG9npk6)\n\n**Celaya** \n\nSERV-BOSH\n **Teléfono:** [4616127264](tel:4616127264) \n **Dirección:**Avenida Irrigacion 135 A 300, Colonia Bosques De La Alameda, 38030, Celaya, Guanajuato [¿Cómo Llegar?](https://goo.gl/maps/R3YNEpm8gt7D5oQK9)\n\n**Tlaquepaque** \n\nGAMA CONSUMIBLES\n **Teléfono:** [3338388070](tel:3338388070) \n **Dirección:**Avenida Periferico Sur 95-A, Colonia La Duraznera, 45580, Tlaquepaque, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/ZcM1yxsKtWXCBtC8A)\n\n**Guadalajara** \n\nRIDSA\n **Teléfono:** [3312049770](tel:3312049770) \n **Dirección:**Calzada Lazaro Cardenas 1727, Colonia Del Sur, 44920, Guadalajara, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/WexbbJLSw3RDXywH7)\n\n**** \n\nCOMPRESORES Y HERRAMIENTAS  CARRILLO \n **Teléfono:** [3338119292](tel:3338119292) \n **Dirección:**La Paz 1216, Colonia Centro, 44100, Guadalajara, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/eorQpB2dqCTHhKEv7)\n\n**Zapopan** \n\nHINZA\n **Teléfono:** [3331807629](tel:3331807629) \n **Dirección:**Puerto Guaymas 127 B 300, Colonia Miramar, 45060, Zapopan, Jalisco [¿Cómo Llegar?](https://goo.gl/maps/TCsyKndvJpyENLVM7)\n\n",
+            "blockClass": "welding-tab"
+        }
+    },
+    "rich-text#welding-2": {
+        "props": {    
+           "text": "**Guadalupe** \n\nSOLDADURA Y PRODUCTOS INDUSTRIALES  GPE \n **Teléfono:** [8183377057/8117714355](tel:8183377057/8117714355) \n **Dirección:**Guadalupe 623, Centro de Guadalupe, 67100 Guadalupe, N.L. [¿Cómo Llegar?](https://goo.gl/maps/4YeMLDxwTXXKUDqL6)\n\n**Monterrey** \n\nSTARC TECHNOLOGIES S.A DE C.V.\n **Teléfono:** [8111728587](tel:8111728587) \n **Dirección:**Independencia 1724B, Colonia Moderna, 64530, Monterrey, Nuevo Leon [¿Cómo Llegar?](https://goo.gl/maps/pozdWZV3yKcJPghd7)\n\n**Culiacán** \n\nSERHSI MATRIZ\n **Teléfono:** [6677162240](tel:6677162240) \n **Dirección:**Gral. Ignacio Aldama 534 Sur , Colonia Miguel Alemán, 80200, Culiacán, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/D2wj4F6WedpCMH239)\n\n**** \n\nSERHSI SUCURSAL\n **Teléfono:** [6671705120](tel:6671705120) \n **Dirección:**Blvd. Emiliano Zapata 5400, Colonia San Rafael, 80150, Culiacán, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/oNe8Gt1v813Tox458)\n\n**Mazatlán** \n\nSERHSI SUCURSAL MAZATLAN\n **Teléfono:** [6691121275](tel:6691121275) \n **Dirección:**Av.Rafael Buelna 928, Colonia Sanchez Celis, 82120, Mazatlan, Sinaloa [¿Cómo Llegar?](https://goo.gl/maps/UbJkK4rwhQzeRTVLA)\n\n**** \n\nPROSOMAZ\n **Teléfono:** [6699845005](tel:6699845005) \n **Dirección:**Av. Oscar PerezEscoboza 2034 Col. Jaripillo 82136, Av. Rafael Buelna, Francisco Villa, 82127 Mazatlán, Sin. [¿Cómo Llegar?](https://goo.gl/maps/oRx4Y1FshC5k2Wa69)\n\n**Los Mochis** \n\nGIPSA SEGURIDAD Y EQUIPOS \n **Teléfono:** [6688154305, 6688123646](tel:6688154305, 6688123646) \n **Dirección:**Gral. Macario Gaxiola 90 Sur, La Cuchilla, Tabachines, 81200 Los Mochis, Sin. [¿Cómo Llegar?](https://goo.gl/maps/tAxRuhk1SaLpmGo19)\n\n**Hermosillo** \n\nDECSSON WELDING\n **Teléfono:** [6622607268](tel:6622607268) \n **Dirección:**Suaqui 34, Pimentel, 83188 Hermosillo, Son. [¿Cómo Llegar?](https://goo.gl/maps/SEDSM1pTc7df6fUu6)\n\n**Obregon** \n\nSIS Y GASES\n **Teléfono:** [6444170908](tel:6444170908) \n **Dirección:**Jacinto Lopez (Calle 300 Entre California y Ramon Guzman), Colonia Faustino Felix, 85180, Obregon, Sonora [¿Cómo Llegar?](https://g.page/SisygasesFerreteriaSonora?share)\n\n**Veracruz** \n\nOXIGENO 21\n **Teléfono:** [2299253328](tel:2299253328) \n **Dirección:**M. Aleman 3389, Colonia Pedro I. Mata, 91799, Veracruz, Veracruz [¿Cómo Llegar?](https://goo.gl/maps/ppjk8JxJgAsa4EsL7)\n\n**Xalapa** \n\nFERRETERIA MARQUEZ ESCOBAR\n **Teléfono:** [2288152779](tel:2288152779) \n **Dirección:**Simon Bolivar 54, Colonia Jose Cardel, 91030, Xalapa, Veracruz [¿Cómo Llegar?](https://goo.gl/maps/TYeWQ3gegzRpgtgcA)\n\n**Veracruz** \n\nTALLER ELÉCTRICO CAMPERO\n **Teléfono:** [2299312544](tel:2299312544) \n **Dirección:**Campero 304, Colonia Centro, 91700, Veracruz, Veracruz [¿Cómo Llegar?](https://goo.gl/maps/LanJJx7DdFdjAPgc7)\n\n",
+            "blockClass": "welding-tab"
+        }
+    },
+    "rich-text#herramientas": {
+        "props": {
+            "text": "",
+            "blockClass": "tools-tab"
+        }
+    },
+    "flex-layout.row#find-us":{
+        "children":[
+            "rich-text#find-us-heading"
+        ]
+    },
+    "flex-layout.row#find-us-icons":{
+        "children":[
+            "rich-text#find-us-icon-1"
+        ]
+    },
+    "rich-text#find-us-heading": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "¿No encuentras lo que estas buscando?",
+          "textColor": "muted-1",
+          "heading": "t-heading-1",
+          "blockClass": "find-us-heading"
+        }
+    },
+    "rich-text#find-us-icon-1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Llámanos al [81 8374 3474](tel:8183743474), escríbenos por [Facebook](https://m.me/maragamexico), [Whatsapp](https://wa.me/528183092129) o directamente en el Chat de ayuda.",
+          "textColor": "muted-1",
+          "blockClass": "find-us-icons"
+        }
+    }
+}
