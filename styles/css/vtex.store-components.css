@@ -392,3 +392,25 @@
 .interestRatePrice{
     text-indent: 0;
 }
+
+:global(.vtex-rich-text-0-x-strong--title-landing){
+    padding:6px;
+}
+:global(.vtex-rich-text-0-x-paragraph--centro-de-servicio-question){
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 49px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+:global(.vtex-rich-text-0-x-container--find-us-heading){
+    border-top: 1px solid #ccc;
+    margin: 50px 0px 0px 0px;
+}
+:global(.vtex-rich-text-0-x-container--find-us-icons)
+    :global(.vtex-rich-text-0-x-paragraph){
+        font-size: 20px;
+        padding: 40px;
+}

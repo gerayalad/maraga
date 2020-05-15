@@ -14,8 +14,8 @@
   "store.custom#solubles-y-desengrasantes": {
     "path": "/departamentos/solubles-y-desengrasantes"
   },
-  "store.custom#sierras-cintas-y-maquinas": {
-    "path": "/departamentos/sierras-cintas-y-maquinas"
+  "store.custom#sierra-cintas-y-maquinas": {
+    "path": "/departamentos/sierra-cintas-y-maquinas"
   },
   "store.custom#paneles-y-componentes": {
     "path": "/departamentos/paneles-y-componentes"
@@ -28,6 +28,9 @@
   },
   "store.custom#herramientas-manuales": {
     "path": "/departamentos/herramientas-manuales"
+  },
+  "store.custom#centro-de-servicio-autorizado": {
+    "path": "/centro-de-servicio-autorizado"
   },
   "store.custom#legal-y-privacidad": {
     "path": "/institucional/informacion-legal-y-privacidad"

@@ -29,6 +29,23 @@
   margin-bottom: 25px;
   padding-bottom:30px
 }
+.infoCardContainer--centro-de-servicio-hero{
+}
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--centro-de-servicio-hero){
+  display: none;
+}
+:global(.vtex-store-components-3-x-infoCardHeadline--centro-de-servicio-hero){
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--centro-de-servicio-hero){
+  min-height: 400px;
+  width: 100%;
+
+
+}
 .paginationDotsContainer--brands{
   bottom: 0px;
 }

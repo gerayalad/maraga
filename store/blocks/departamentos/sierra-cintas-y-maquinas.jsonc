@@ -1,60 +1,86 @@
 {
-    "store.custom#soldaduras-y-generadores":{
+    "store.custom#sierra-cintas-y-maquinas":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "responsive-layout.desktop#desktop-soldaduras-y-generadores",
-            "responsive-layout.mobile#mobile-soldaduras-y-generadores"
+            "responsive-layout.desktop#desktop-sierra-cintas-y-maquinas",
+            "responsive-layout.mobile#mobile-sierra-cintas-y-maquinas"
         ]
     },
-    "responsive-layout.desktop#desktop-soldaduras-y-generadores": {
+    "responsive-layout.desktop#desktop-sierra-cintas-y-maquinas": {
       "children": [
-        "flex-layout.row#row-text-soldaduras-y-generadores-1",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-1",
-        "flex-layout.row#row-text-soldaduras-y-generadores-2",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-2",
-        "flex-layout.row#row-text-soldaduras-y-generadores-3",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-3",
-        "flex-layout.row#row-text-soldaduras-y-generadores-4",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-4"
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-1",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-1",
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-2",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-2",
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-3",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-3"
         ]
     },
-    "responsive-layout.mobile#mobile-soldaduras-y-generadores": {
+    "responsive-layout.mobile#mobile-sierra-cintas-y-maquinas": {
       "children": [
-        "flex-layout.row#row-text-soldaduras-y-generadores-1",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-1",
-        "flex-layout.row#row-text-soldaduras-y-generadores-2",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-2",
-        "flex-layout.row#row-text-soldaduras-y-generadores-3",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-3",
-        "flex-layout.row#row-text-soldaduras-y-generadores-4",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-4"
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-1",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-1",
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-2",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-2",
+        "flex-layout.row#row-text-sierra-cintas-y-maquinas-3",
+        "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-3"
         ]
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-1":{
-        "children":["rich-text#row-text-soldaduras-y-generadores-1"],
+    "flex-layout.row#row-text-sierra-cintas-y-maquinas-1":{
+        "children":["rich-text#row-text-sierra-cintas-y-maquinas-1"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-2":{
-        "children":["rich-text#row-text-soldaduras-y-generadores-2"],
+    "flex-layout.row#row-text-sierra-cintas-y-maquinas-2":{
+        "children":["rich-text#row-text-sierra-cintas-y-maquinas-2"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-3":{
-        "children":["rich-text#row-text-soldaduras-y-generadores-3"],
+    "flex-layout.row#row-text-sierra-cintas-y-maquinas-3":{
+        "children":["rich-text#row-text-sierra-cintas-y-maquinas-3"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-soldaduras-y-generadores-4":{
-        "children":["rich-text#row-text-soldaduras-y-generadores-4"],
+    "flex-layout.row#row-text-sierra-cintas-y-maquinas-4":{
+        "children":["rich-text#row-text-sierra-cintas-y-maquinas-4"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "rich-text#row-text-soldaduras-y-generadores-1": {
+    "rich-text#row-text-sierra-cintas-y-maquinas-1": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Sierra Cintas**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#row-text-sierra-cintas-y-maquinas-2": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Máquinas**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#row-text-sierra-cintas-y-maquinas-3": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Discos de corte**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#row-text-sierra-cintas-y-maquinas-4": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -64,110 +90,80 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#row-text-soldaduras-y-generadores-2": {
-        "props": {
-          "textAlignment": "Left",
-          "textPosition": "left",
-          "text": "**Heading**",
-          "textColor": "muted-1",
-          "font": "t-heading-5",
-          "blockClass": "title-landing"
-        }
-    },
-    "rich-text#row-text-soldaduras-y-generadores-3": {
-        "props": {
-          "textAlignment": "Left",
-          "textPosition": "left",
-          "text": "**Heading**",
-          "textColor": "muted-1",
-          "font": "t-heading-5",
-          "blockClass": "title-landing"
-        }
-    },
-    "rich-text#row-text-soldaduras-y-generadores-4": {
-        "props": {
-          "textAlignment": "Left",
-          "textPosition": "left",
-          "text": "**Heading**",
-          "textColor": "muted-1",
-          "font": "t-heading-5",
-          "blockClass": "title-landing"
-        }
-    },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-1":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-1":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-1"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-1"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-2":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-2":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-2"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-2"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-3":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-3":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-3"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-3"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-4":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-desktop-4":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-4"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-4"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-1":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-1":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-1"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-1"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-2":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-2":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-2"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-2"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-3":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-3":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-3"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-3"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-4":{
+    "flex-layout.row#mini-banners-sierra-cintas-y-maquinas-mobile-4":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-4"
+          "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-4"
         ],
         "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
+          "blockClass":"mini-banners-sierra-cintas-y-maquinas",
           "horizontalAlign":"center"
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-1": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-desktop-1"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-1": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-1"],
         "props": {
           "height": 375,
           "images": [
@@ -182,8 +178,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-2": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-desktop-2"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-2": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-2"],
         "props": {
           "height": 375,
           "images": [
@@ -198,8 +194,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-3": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-desktop-3"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-3": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-3"],
         "props": {
           "height": 375,
           "images": [
@@ -214,8 +210,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-4": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-desktop-4"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-desktop-4": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-4"],
         "props": {
           "height": 375,
           "images": [
@@ -230,8 +226,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-1": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-1"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-1": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-1"],
         "props": {
           "height": 375,
           "images": [
@@ -246,8 +242,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-2": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-2"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-2": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-2"],
         "props": {
           "height": 375,
           "images": [
@@ -262,8 +258,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-3": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-3"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-3": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-3"],
         "props": {
           "height": 375,
           "images": [
@@ -278,8 +274,8 @@
           ]
         }
     },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-4": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-4"],
+    "list-context.image-list#mini-banners-sierra-cintas-y-maquinas-mobile-4": {
+        "children": ["slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-4"],
         "props": {
           "height": 375,
           "images": [
@@ -294,7 +290,7 @@
           ]
         }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-desktop-1": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-1": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -306,7 +302,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-desktop-2": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-2": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -318,7 +314,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-desktop-3": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-3": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -330,7 +326,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-desktop-4": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-desktop-4": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -342,7 +338,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-1": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-1": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -354,7 +350,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-2": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-2": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -366,7 +362,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-3": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-3": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -378,7 +374,7 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-4": {
+    "slider-layout#mini-banners-sierra-cintas-y-maquinas-mobile-4": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",

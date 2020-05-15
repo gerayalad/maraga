@@ -51,6 +51,11 @@
       "buyButtonText":"Agregar a su carrito"
     }
   },
+  "add-to-cart-button":{
+    "props":{
+      "blockClass":"add-to-cart-maraga"
+    }
+  },
   "product-summary-image#shelf": {
     "props": {
       "showBadge": true

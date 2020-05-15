@@ -10,3 +10,44 @@
 .listContainer--tablist-institucional{
     justify-content: flex-start;
 }
+:global(.vtex-tab-layout-0-x-listItem--welding-tab)
+	:global(.vtex-button){
+		width:100%;
+		height:100%;
+		background-color: transparent;
+		border:none;
+		text-align: center;
+		color:transparent;
+		outline: none;
+}
+:global(.vtex-tab-layout-0-x-listItem--tools-tab){
+	background: url('https://maraga.vteximg.com.br/arquivos/logopower.png') no-repeat 0%;
+	width: 300px;
+	height: 150px;
+	opacity: 0.3;
+}
+:global(.vtex-tab-layout-0-x-listItem--welding-tab){
+	background: url('https://maraga.vteximg.com.br/arquivos/logo.png') no-repeat 0%;
+	width: 300px;
+	height: 150px;
+	opacity: 0.3;
+}
+:global(.vtex-tab-layout-0-x-listItemActive--tools-tab){
+	opacity: 1;
+}
+:global(.vtex-tab-layout-0-x-listItemActive--welding-tab){
+	opacity: 1;
+}
+:global(.vtex-tab-layout-0-x-listItem--tools-tab)
+	:global(.vtex-button){
+		width:100%;
+		height:100%;
+		background-color: transparent;
+		border:none;
+		text-align: center;
+		color:transparent;
+		outline: none;
+}
+:global(.vtex-flex-layout-0-x-flexCol--tab-column-centro){
+	padding-right: 30px;
+}
