@@ -1,0 +1,37 @@
+{
+    "store.custom#cotizador":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+            "flex-layout.row#row-text-cotizador"
+        ]
+    },
+    "flex-layout.row#row-text-cotizador":{
+        "children":["flex-layout.col#col-text-cotizador"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#col-text-cotizador":{
+        "children":[
+            "rich-text#cotizador",
+            "iframe#cotizador"
+        ],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#cotizador": {
+        "props": {
+            "text": "**Sierra Cintas - Cotizador**",
+            "blockClass": "text"
+        }
+    },
+    "iframe#cotizador": {
+        "props": {
+            "src": "https://www.sierracintas.com.mx/Sierra-Cintas-WEB/index.html",
+            "width": 1195,
+            "height": 1000,
+            "blockClass":"cotizador-frame"
+        }
+    }
+}

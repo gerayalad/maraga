@@ -2,32 +2,16 @@
     "store.custom#soldaduras-y-generadores":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "responsive-layout.desktop#desktop-soldaduras-y-generadores",
-            "responsive-layout.mobile#mobile-soldaduras-y-generadores"
-        ]
-    },
-    "responsive-layout.desktop#desktop-soldaduras-y-generadores": {
-      "children": [
-        "flex-layout.row#row-text-soldaduras-y-generadores-1",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-1",
-        "flex-layout.row#row-text-soldaduras-y-generadores-2",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-2",
-        "flex-layout.row#row-text-soldaduras-y-generadores-3",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-3",
-        "flex-layout.row#row-text-soldaduras-y-generadores-4",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-4"
-        ]
-    },
-    "responsive-layout.mobile#mobile-soldaduras-y-generadores": {
-      "children": [
-        "flex-layout.row#row-text-soldaduras-y-generadores-1",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-1",
-        "flex-layout.row#row-text-soldaduras-y-generadores-2",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-2",
-        "flex-layout.row#row-text-soldaduras-y-generadores-3",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-3",
-        "flex-layout.row#row-text-soldaduras-y-generadores-4",
-        "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-4"
+            "flex-layout.row#row-text-soldaduras-y-generadores-1",
+            "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-1",
+            "rich-text#title-soldaduras-y-generadores-1",
+            "shelf#shelf-01-soldaduras-y-generadores-1-depto",
+            "flex-layout.row#row-text-soldaduras-y-generadores-2",
+            "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-2",
+            "rich-text#title-soldaduras-y-generadores-2",
+            "shelf#shelf-01-soldaduras-y-generadores-2-depto",
+            "flex-layout.row#row-text-soldaduras-y-generadores-4",
+            "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-4"
         ]
     },
     "flex-layout.row#row-text-soldaduras-y-generadores-1":{
@@ -37,7 +21,22 @@
         }
     },
     "flex-layout.row#row-text-soldaduras-y-generadores-2":{
+        "children":[
+                "flex-layout.col#col-text-soldaduras-y-generadores-2-1",
+                "flex-layout.col#col-text-soldaduras-y-generadores-2-2"
+                ],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.col#col-text-soldaduras-y-generadores-2-1":{
         "children":["rich-text#row-text-soldaduras-y-generadores-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.col#col-text-soldaduras-y-generadores-2-2":{
+        "children":["rich-text#row-text-soldaduras-y-generadores-3"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
@@ -58,17 +57,18 @@
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Heading**",
+          "text": "&nbsp;",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
-        }
+        },
+        "title": "Title1"
     },
     "rich-text#row-text-soldaduras-y-generadores-2": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Heading**",
+          "text": "**Consumibles**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
@@ -78,7 +78,7 @@
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Heading**",
+          "text": "**Refacciones**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
@@ -88,7 +88,7 @@
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Heading**",
+          "text": "**Accesorios**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
@@ -105,11 +105,24 @@
     },
     "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-2":{
         "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-2"
+          "flex-layout.col#mini-banners-soldaduras-y-generadores-desktop-2-1",
+          "flex-layout.col#mini-banners-soldaduras-y-generadores-desktop-2-2"
         ],
         "props":{
           "blockClass":"mini-banners-soldaduras-y-generadores",
           "horizontalAlign":"center"
+        }
+    },
+    "flex-layout.col#mini-banners-soldaduras-y-generadores-desktop-2-1":{
+        "children":["list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.col#mini-banners-soldaduras-y-generadores-desktop-2-2":{
+        "children":["list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
         }
     },
     "flex-layout.row#mini-banners-soldaduras-y-generadores-desktop-3":{
@@ -130,54 +143,30 @@
           "horizontalAlign":"center"
         }
     },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-1":{
-        "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-1"
-        ],
-        "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
-          "horizontalAlign":"center"
-        }
-    },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-2":{
-        "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-2"
-        ],
-        "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
-          "horizontalAlign":"center"
-        }
-    },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-3":{
-        "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-3"
-        ],
-        "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
-          "horizontalAlign":"center"
-        }
-    },
-    "flex-layout.row#mini-banners-soldaduras-y-generadores-mobile-4":{
-        "children":[
-          "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-4"
-        ],
-        "props":{
-          "blockClass":"mini-banners-soldaduras-y-generadores",
-          "horizontalAlign":"center"
-        }
-    },
     "list-context.image-list#mini-banners-soldaduras-y-generadores-desktop-1": {
         "children": ["slider-layout#mini-banners-soldaduras-y-generadores-desktop-1"],
         "props": {
           "height": 375,
           "images": [
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/soldadoras_500___bc160f7f15d64dc98cd79943aa74dc5e.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/soldadoras_mobile___bc160f7f15d64dc98cd79943aa74dc5e.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/soldadoras"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/plasmas_500___05162b453d61fdc5bf7b1264e070db81.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/plasmas_mobile___05162b453d61fdc5bf7b1264e070db81.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/plasmas"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/generadores_500___b591f4b4a5c2ae745499af52f339e894.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/generadores_mobile___b591f4b4a5c2ae745499af52f339e894.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/generadores"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/caretas_500___74708ec600347ceccc715c0c09caa6cd.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/caretas_mobile___74708ec600347ceccc715c0c09caa6cd.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/caretas"
             }
           ]
         }
@@ -188,12 +177,14 @@
           "height": 375,
           "images": [
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/alambres_500___ccb9bb09de094e33a22226ecd3716696.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/alambres_mobile___ccb9bb09de094e33a22226ecd3716696.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/consumibles/alambres"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/electrodos_500___a50bba2f107c7dcaf0194061b342b81c.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/electrodos_mobile___a50bba2f107c7dcaf0194061b342b81c.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/consumibles/electrodos"
             }
           ]
         }
@@ -204,12 +195,14 @@
           "height": 375,
           "images": [
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/parasoldadora_500___4526f653a5912c43ae051f5326d6162d.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/parasoldadora_mobile___4526f653a5912c43ae051f5326d6162d.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/para-soldadora"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/para_plasma___dab9186d36c6dcd75010baeff62861d3.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/paraplasma_mobile___98de1aea469a63a57ffb0888de244ce1.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/para-plasma"
             }
           ]
         }
@@ -220,76 +213,24 @@
           "height": 375,
           "images": [
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/antorchas_500___af399d8a8f3389e7a560f67ffb8cf6c6.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/antorchas_mobile___af399d8a8f3389e7a560f67ffb8cf6c6.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/antorchas"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-1": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-1"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/boquillas_500___7766cff1bf10d568ba2d157a5512d448.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/boquillas_mobile___7766cff1bf10d568ba2d157a5512d448.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/boquillas"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-2": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-2"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/puntasdecontacto_500___c8ccfed474baa175bf742763eecdd3ea.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/puntasdecontacto_mobile___c8ccfed474baa175bf742763eecdd3ea.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/puntas-de-contacto"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-3": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-3"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "list-context.image-list#mini-banners-soldaduras-y-generadores-mobile-4": {
-        "children": ["slider-layout#mini-banners-soldaduras-y-generadores-mobile-4"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/otros_500___3ef757bba8d58641c3f961002d46cb89.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/otros_mobile___3ef757bba8d58641c3f961002d46cb89.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/otros"
             }
           ]
         }
@@ -342,51 +283,53 @@
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-1": {
+    "rich-text#title-soldaduras-y-generadores-1":{
       "props": {
-        "blockClass":"landing",
-        "showPaginationDots": "always",
-        "showNavigationArrows": "desktopOnly",
-        "itemsPerPage":{ 
-        "desktop": 4, 
-        "tablet": 3, 
-        "phone": 2 
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Discos de corte**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#shelf-01-soldaduras-y-generadores-1-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 2,
+          "arrows": true,
+          "titleText":"",
+          "collection":"232"
         }
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-2": {
+    "rich-text#title-soldaduras-y-generadores-2":{
       "props": {
-        "blockClass":"landing",
-        "showPaginationDots": "always",
-        "showNavigationArrows": "desktopOnly",
-        "itemsPerPage":{ 
-        "desktop": 4, 
-        "tablet": 3, 
-        "phone": 2 
-        }
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Productos recomendados**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
       }
     },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-3": {
+    "shelf#shelf-01-soldaduras-y-generadores-2-depto": {
+      "blocks": ["product-summary.shelf"],
       "props": {
-        "blockClass":"landing",
-        "showPaginationDots": "always",
-        "showNavigationArrows": "desktopOnly",
-        "itemsPerPage":{ 
-        "desktop": 4, 
-        "tablet": 3, 
-        "phone": 2 
-        }
-      }
-    },
-    "slider-layout#mini-banners-soldaduras-y-generadores-mobile-4": {
-      "props": {
-        "blockClass":"landing",
-        "showPaginationDots": "always",
-        "showNavigationArrows": "desktopOnly",
-        "itemsPerPage":{ 
-        "desktop": 4, 
-        "tablet": 3, 
-        "phone": 2 
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 2,
+          "arrows": true,
+          "titleText":"",
+          "collection":"233"
         }
       }
     }

@@ -10,6 +10,17 @@
       "shelf.relatedProducts"
     ]
   },
+  "store.not-found#product": {
+  "blocks": ["rich-text#not-found"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**PAGE NdOT FOUND**",
+      "font": "t-heading-1"
+    }
+  },
   "flex-layout.row#product-breadcrumb": {
     "props": {
       "marginTop": 4
@@ -86,7 +97,8 @@
       "product-price#product-details",
       "product-quantity",
       "flex-layout.row#buy-button",
-      "availability-subscriber"
+      "flex-layout.row#deals-pdp-1",
+      "flex-layout.row#deals-pdp-2"
     ]
   },
 
@@ -124,5 +136,4 @@
       }
     }
   }
-
 }

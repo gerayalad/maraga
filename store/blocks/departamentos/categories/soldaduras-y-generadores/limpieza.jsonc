@@ -1,0 +1,95 @@
+{
+    "store.custom#soldaduras-y-generadores-limpieza":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+			"flex-layout.row#sgl-row-title",
+			"flex-layout.row#sgl-row",
+			"flex-layout.row#sgl-row-title-2",
+			"shelf#sgl-recommended-products"
+        ]
+    },
+	"flex-layout.row#sgl-row-title": {
+	  "children": [
+	    "rich-text#sgl-title"
+	  ]
+	},
+	"flex-layout.row#sgl-row-title-2": {
+	  "children": [
+	    "rich-text#sgl-title"
+	  ]
+	},
+	"flex-layout.row#sgl-row": {
+	  "children": [
+	    "slider-layout#sgl-slider"
+	  ]
+	},
+	"slider-layout#sgl-slider": {
+		"props": {
+		  "itemsPerPage": {
+		    "desktop": 4,
+		    "tablet": 3,
+		    "phone": 2
+		  },
+		  "infinite": true,
+		  "showNavigationArrows": "desktopOnly",
+		  "blockClass": "carousel"
+		},
+		"children":[
+			"image#sgl-banner-1","image#sgl-banner-2","image#sgl-banner-3","image#sgl-banner-4"
+			]
+	},
+    "rich-text#sgl-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 1**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#sgl-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 2**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#sgl-banner-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgl-banner-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgl-banner-3": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgl-banner-4": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "shelf#sgl-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    }
+}

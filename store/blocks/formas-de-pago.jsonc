@@ -1,0 +1,116 @@
+{
+    "store.custom#formas-de-pago":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+            "flex-layout.row#row-text-formas-de-pago"
+        ]
+    },
+    "flex-layout.row#row-text-formas-de-pago":{
+        "children":["flex-layout.col#row-formas-de-pago"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#row-formas-de-pago":{
+        "children":[
+                    "rich-text#formas-de-pago-title-1",
+                    "image#formas-de-pago-image-1",
+                    "rich-text#formas-de-pago-text-1",
+                    "rich-text#formas-de-pago-title-2",
+                    "rich-text#formas-de-pago-text-2",
+                    "rich-text#formas-de-pago-text-2-mp",
+                    "image#formas-de-pago-image-2",
+                    "rich-text#formas-de-pago-title-3",
+                    "image#formas-de-pago-image-3",
+                    "rich-text#formas-de-pago-text-3",
+                    "rich-text#formas-de-pago-title-4",
+                    "image#formas-de-pago-image-4",
+                    "rich-text#formas-de-pago-text-4"
+        ],
+        "props":{
+            "blockClass":"formas-de-pago-content"
+        }
+    },
+    "rich-text#formas-de-pago-title-1": {
+        "props": {
+            "text": "Pagos con tarjeta de crédito o débito",
+            "blockClass": "formas-de-pago-title"
+        }
+    },
+    "rich-text#formas-de-pago-title-2": {
+        "props": {
+            "text": "Pagos en efectivo",
+            "blockClass": "formas-de-pago-title"
+        }
+    },
+    "rich-text#formas-de-pago-title-3": {
+        "props": {
+            "text": "Pagos por transferencia bancaria",
+            "blockClass": "formas-de-pago-title"
+        }
+    },
+    "rich-text#formas-de-pago-title-4": {
+        "props": {
+            "text": "Pagos digitales",
+            "blockClass": "formas-de-pago-title"
+        }
+    },
+    "rich-text#formas-de-pago-text-1": {
+        "props": {
+            "text": "Pasos a seguir para realizar tu pago con tarjeta: <br><ul><li>Seleccionar la forma de pago - <span class='pagospo'>Pago con tarjeta de crédito o débito</span></li><li>Ingresar el número de tu tarjeta (ya sea tarjeta física o digital) en el primer recuadro nombrado Número y automáticamente se seleccionará el tipo de tarjeta que es (VISA, AMEX o MasterCard)</li><li>Selecciona los plazos en que deseas pagar</li><li>Ingresa los datos de tu tarjeta (física o digital) que se te solicitan a continuación: Nombre y Apellido como figura en la tarjeta, Fecha de vencimiento, Código de seguridad</li><li>Confirma que los datos de dirección de la factura de tu tarjeta son los mismos que los datos de domicilia que ingresaste como dirección de envío</li><li>Revisa que tu Resumen de la compra contenga todos los productos que seleccionaste y da click en el botón COMPRAR AHORA</li></ul>",
+            "blockClass": "formas-de-pago-text"
+        }
+    },
+    "rich-text#formas-de-pago-text-2": {
+        "props": {
+            "text": "Puedes realizar compras pagando con depósito en cualquier sucursal OXXO.<br><br>Solo debes realizar los siguientes pasos:<ul><li>Selecciona la opción “Depósito en OXXO”</li><li>Revisa que tu Resumen de la compra contenga todos los productos que seleccionaste y da click en el botón COMPRAR AHORA</li><li>Te mostraremos la confirmación de tu pedido, la referencia OXXO Pay y los pasos a seguir para concluir el pago correctamente.</li></ul>",
+            "blockClass": "formas-de-pago-text"
+        }
+    },
+    "rich-text#formas-de-pago-text-2-mp": {
+        "props": {
+            "text": "También puedes pagar en efectivo en otras sucursales a través de Mercado Pago.<br><br>Solo debes realizar los siguientes pasos:<br><ul><li>Selecciona la opción “Mercado Pago”</li><li>Revisa que tu Resumen de la compra contenga todos los productos que seleccionaste y da click en el botón COMPRAR AHORA</li><li>Te redireccionaremos a la página de cobro de Mercado Pago donde podrás seleccionar la sucursal de tu preferencia y dar click en PAGAR</li><li>Te mostrará la información que debes darle al cajero de la sucursal que seleccionaste</li><li>Dar click en “Volver al sitio” para redirigirte a www.maraga.mx y ver la información de tu orden</li></ul>",
+            "blockClass": "formas-de-pago-text"
+        }
+    },
+    "rich-text#formas-de-pago-text-3": {
+        "props": {
+            "text": "Pasos a seguir:<br><ul><li>Selecciona la opción “Transferencia Bancaria”</li><li>Revisa que tu Resumen de la compra contenga todos los productos que seleccionaste y da click en el botón COMPRAR AHORA</li><li>Te mostraremos la confirmación de tu pedido, los datos de la cuenta y los pasos a seguir para concluir el pago correctamente</li></ul>",
+            "blockClass": "formas-de-pago-text"
+        }
+    },
+    "rich-text#formas-de-pago-text-4": {
+        "props": {
+            "text": "Puedes realizar compras pagando a través de PayPal o Mercado Pago.<br>Pasos a seguir:<br><br><ul><li>Selecciona la opción “PayPal” o “Mercado Pago”</li><li>Revisa que tu Resumen de la compra contenga todos los productos que seleccionaste y da click en el botón COMPRAR AHORA</li><li>Te redireccionaremos al sitio oficial del método de pago seleccionado</li><li>Ingresa los datos de tu cuenta Paypal o Mercado Pago, o en caso de no tener cuenta con ellos debes crear una nueva cuenta y verificar los datos de tu compra</li><li>Al terminar tu pago con PayPal serás redireccionado a www.maraga.mx, donde te mostraremos la información de tu orden Si pagaste con Mercado Pago debes dar click en “Volver al sitio” para redirigirte a www.maraga.mx y ver la información de tu orden.</li></ul>",
+            "blockClass": "formas-de-pago-text"
+        }
+    },
+    "image#formas-de-pago-image-1": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/tarjetas.png",
+          "maxHeight": 500,
+          "blockClass": "formas-de-pago-image"
+        }
+    },
+    "image#formas-de-pago-image-2": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/mercadopagometodos.png",
+          "maxHeight": 500,
+          "blockClass": "formas-de-pago-image"
+        }
+    },
+    "image#formas-de-pago-image-3": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/speiformas.png",
+          "maxHeight": 200,
+          "blockClass": "formas-de-pago-image"
+        }
+    },
+    "image#formas-de-pago-image-4": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/paypalmercado.png",
+          "maxHeight": 200,
+          "blockClass": "formas-de-pago-image"
+        }
+    }
+}

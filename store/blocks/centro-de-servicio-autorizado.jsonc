@@ -1,27 +1,12 @@
 {
     "store.custom#centro-de-servicio-autorizado":{
         "blocks":[
-            "slider-layout#centro-de-servicio",
-            "responsive-layout.desktop#desktop-centro-de-servicio-autorizado",
-            "responsive-layout.mobile#mobile-centro-de-servicio-autorizado"
-        ]
-    },
-    "responsive-layout.desktop#desktop-centro-de-servicio-autorizado": {
-      "children": [
+            "list-context.image-list#full-banner",
             "rich-text#centro-de-servicio-heading",
             "rich-text#centro-de-servicio-question",
             "flex-layout.row#centro-de-servicio-flex",
             "flex-layout.row#find-us",
             "flex-layout.row#find-us-icons"
-        ]
-    },
-    "responsive-layout.mobile#mobile-centro-de-servicio-autorizado": {
-      "children": [
-            "rich-text#centro-de-servicio-heading",
-            "rich-text#centro-de-servicio-question",
-            "flex-layout.row#centro-de-servicio-flex",
-            "flex-layout.row#find-us",
-            "flex-layout.row#find-us-icons"        
         ]
     },
     "slider-layout#centro-de-servicio": {

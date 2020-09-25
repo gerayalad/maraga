@@ -1,0 +1,766 @@
+{
+    "menu-item#slot-1": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-1"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/soldaduras-y-generadores",
+                "text": "MARAGA WELDING"
+            }
+        }
+    },
+    "menu-item#slot-2": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-2"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/solubles-y-desengrasantes",
+                "text": "MARAGA FLUIDS"
+            }
+        }
+    },
+    "menu-item#slot-3": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-3"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas",
+                "text": "SIERRA CINTAS Y MÁQUINAS"
+            }
+        }
+    },
+    "menu-item#slot-4": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-4"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-electricas",
+                "text": "HERRAMIENTAS ELÉCTRICAS"
+            }
+        }
+    },
+    "menu-item#slot-5": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-5"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-neumaticas",
+                "text": "MARAGA PALLET"
+            }
+        }
+    },
+    "menu-item#slot-6": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-6"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-manuales",
+                "text": "HERRAMIENTAS MANUALES"
+            }
+        }
+    },
+    "menu-item#slot-7": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-7"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/paneles-y-componentes",
+                "text": "MARAGA SOLAR"
+            }
+        }
+    },
+    "menu-item#slot-8": {
+        "blocks":["vtex.menu@2.x:submenu.accordion#slot-8"],
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/ofertas",
+                "text": "OFERTAS"
+            }
+        }
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-1": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-1"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-2": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-2"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-3": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-3"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-4": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-4"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-5": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-5"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-6": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-6"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-7": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-7"
+      ]
+    },
+    "vtex.menu@2.x:submenu.accordion#slot-8": {
+      "children": [
+        "vtex.menu@2.x:menu#submenu-slot-8"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-1": {
+      "children": [
+        "menu-item#submenu-slot-1-1",
+        "menu-item#submenu-slot-1-2",
+        "menu-item#submenu-slot-1-3",
+        "menu-item#submenu-slot-1-4",
+        "menu-item#submenu-slot-1-5",
+        "menu-item#submenu-slot-1-6",
+        "menu-item#submenu-slot-1-7"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-2": {
+      "children": [
+        "menu-item#submenu-slot-2-1",
+        "menu-item#submenu-slot-2-2",
+        "menu-item#submenu-slot-2-3",
+        "menu-item#submenu-slot-2-4",
+        "menu-item#submenu-slot-2-5",
+        "menu-item#submenu-slot-2-6",
+        "menu-item#submenu-slot-2-7"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-3": {
+      "children": [
+        "menu-item#submenu-slot-3-1",
+        "menu-item#submenu-slot-3-2",
+        "menu-item#submenu-slot-3-3",
+        "menu-item#submenu-slot-3-4",
+        "menu-item#submenu-slot-3-5",
+        "menu-item#submenu-slot-3-6"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-4": {
+      "children": [
+        "menu-item#submenu-slot-4-1",
+        "menu-item#submenu-slot-4-2",
+        "menu-item#submenu-slot-4-3",
+        "menu-item#submenu-slot-4-4",
+        "menu-item#submenu-slot-4-5",
+        "menu-item#submenu-slot-4-6"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-5": {
+      "children": [
+        "menu-item#submenu-slot-5-1",
+        "menu-item#submenu-slot-5-2",
+        "menu-item#submenu-slot-5-3",
+        "menu-item#submenu-slot-5-4",
+        "menu-item#submenu-slot-5-5",
+        "menu-item#submenu-slot-5-6",
+        "menu-item#submenu-slot-5-7",
+        "menu-item#submenu-slot-5-8",
+        "menu-item#submenu-slot-5-9",
+        "menu-item#submenu-slot-5-10"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-6": {
+      "children": [
+        "menu-item#submenu-slot-6-1",
+        "menu-item#submenu-slot-6-2",
+        "menu-item#submenu-slot-6-3",
+        "menu-item#submenu-slot-6-4",
+        "menu-item#submenu-slot-6-5",
+        "menu-item#submenu-slot-6-6"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-7": {
+      "children": [
+        "menu-item#submenu-slot-7-1",
+        "menu-item#submenu-slot-7-2",
+        "menu-item#submenu-slot-7-3",
+        "menu-item#submenu-slot-7-4",
+        "menu-item#submenu-slot-7-5",
+        "menu-item#submenu-slot-7-6"
+      ]
+    },
+    "vtex.menu@2.x:menu#submenu-slot-8": {
+      "children": [
+        "menu-item#submenu-slot-8-1",
+        "menu-item#submenu-slot-8-2",
+        "menu-item#submenu-slot-8-3",
+        "menu-item#submenu-slot-8-4",
+        "menu-item#submenu-slot-8-5",
+        "menu-item#submenu-slot-8-6"
+      ]
+    },
+    "menu-item#submenu-slot-1-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/soldaduras-y-generadores",
+                "text": "Soldadoras"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/soldaduras-y-generadores/consumibles",
+                "text": "Soldadura"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/soldaduras-y-generadores/refacciones",
+                "text": "Componentes y Refacciones"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/soldadura-y-generadores/maquinas/generadores",
+                "text": "Generadores"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/soldadura-y-generadores/maquinas/corte-con-plasma",
+                "text": "Cortes con Plasma"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/herramientas-electricas",
+                "text": "Herramientas eléctricas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-1-7": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/soldaduras-y-generadores",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/solubles-y-desengrasantes/refrigerantes",
+                "text": "Refrigerantes"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/solubles-y-desengrasantes/lubricantes-y-aceites-directos/aceites",
+                "text": "Aceites"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/solubles-y-desengrasantes/limpiadores-y-desengrasantes/desengrasantes",
+                "text": "Desengrasantes"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/solubles-y-desengrasantes/especialidades",
+                "text": "Especialidades"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+                "text": "Espuma Poliuretano"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/solubles-y-desengrasantes/especialidades/equipo-de-mantenimiento",
+                "text": "Equipo de Mantenimiento"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-7": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/solubles-y-desengrasantes",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-2-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/sierra-cintas",
+                "text": "Sierra Cintas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/maquinas",
+                "text": "Máquinas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/discos-de-corte",
+                "text": "Discos de Corte"
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/sierra-cintas-y-maquinas",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-3-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-electricas/herramientas",
+                "text": "Herramientas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-electricas/accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-electricas/reemplazos",
+                "text": "Reemplazos"
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-electricas",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-4-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/sierra-cintas-y-maquinas/sierra-cintas",
+                "text": "Sierra cintas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/brocas-escalonadas-lenox",
+                "text": "Brocas escalonadas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/herramientas-electricas/herramientas/sierras/sierra-sable",
+                "text": "Sierra sables"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/herramientas-electricas/herramientas/sierras/sierras-caladoras",
+                "text": "Sierras caladoras"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/herramientas-manuales/seguetas-serruchos-y-arcos",
+                "text": "Arcos y seguetas"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/herramientas-electricas/accesorios/discos-de-diamante",
+                "text": "Disco de corte diamante"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-7": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/sierra-cintas/maquinas/portatil",
+                "text": "Sierra cintas portátiles"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-8": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/herramientas-manuales/herramientas-de-corte",
+                "text": "Herramientas de corte"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-9": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/",
+                "text": "Medición y sujeción"
+            }
+        }
+    },
+    "menu-item#submenu-slot-5-10": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"/departamentos/herramientas-neumaticas",
+                "text": "Ver todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-manuales/herramientas-de-corte",
+                "text": "Herramientas de Corte"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/herramientas-manuales/herramientas-de-medicion",
+                "text": "Herramientas de Medición"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/herramientas-manuales/herramientas-de-sujecion",
+                "text": "Herramientas de Sujeción"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-manuales/llaves-y-desarmadores",
+                "text": "Llaves y Desarmadores"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-manuales/seguetas-serruchos-y-arcos",
+                "text": "Seguetas, Serruchos y Arcos"
+            }
+        }
+    },
+    "menu-item#submenu-slot-6-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/herramientas-manuales",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/paneles-solares/paneles-solares",
+                "text": "Paneles Solares"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/paneles-solares/inversores-solares-y-monitoreo",
+                "text": "Inversores Solares y Monitoreo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/paneles-y--componentes/baterias-de-litio",
+                "text": "Baterías de Litio"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/paneles-y--componentes/kit-de-instalador",
+                "text": "Kit de Instalador"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/paneles-y--componentes/estructuras-y-accesorios",
+                "text": "Estructuras y Accesorios"
+            }
+        }
+    },
+    "menu-item#submenu-slot-7-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/paneles-y-componentes",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-1": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/ofertas/liquidacion",
+                "text": "Liquidación"
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-2": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/ofertas/combos",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-3": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/ofertas",
+                "text": "Promociones"
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-4": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"https://www.maraga.mx/departamentos/ofertas",
+                "text": "Ver Todo"
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-5": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#submenu-slot-8-6": {
+        "props": {
+            "type": "custom",
+            "itemProps": {
+                "highlight":false,
+                "href":"",
+                "text": ""
+            }
+        }
+    }
+}

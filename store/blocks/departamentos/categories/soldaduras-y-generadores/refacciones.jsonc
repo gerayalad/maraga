@@ -1,0 +1,168 @@
+{
+    "store.custom#soldaduras-y-generadores-refacciones":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+			"flex-layout.row#sgr-row-title",
+			"flex-layout.row#sgr-banners",
+			"flex-layout.row#sgr-row-title-2",
+			"shelf#sgr-recommended-products"
+        ]
+    },
+	"flex-layout.row#sgr-row-title": {
+	  "children": [
+	    "rich-text#sgr-title"
+	  ]
+	},
+	"flex-layout.row#sgr-row-title-2": {
+	  "children": [
+	    "rich-text#sgr-title"
+	  ]
+	},
+	"flex-layout.row#sgr-row": {
+	  "children": [
+	    "slider-layout#sgr-slider"
+	  ]
+	},
+	"slider-layout#sgr-slider": {
+		"props": {
+		  "itemsPerPage": {
+		    "desktop": 4,
+		    "tablet": 3,
+		    "phone": 2
+		  },
+		  "infinite": true,
+		  "showNavigationArrows": "desktopOnly",
+		  "blockClass": "carousel"
+		},
+		"children":[
+			"image#sgr-banner-1","image#sgr-banner-2","image#sgr-banner-3","image#sgr-banner-4","image#sgr-banner-5","image#sgr-banner-6","image#sgr-banner-7"
+			]
+	},
+    "rich-text#sgr-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 1**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#sgr-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 2**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#sgr-banner-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgr-banner-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgr-banner-3": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgr-banner-4": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "image#sgr-banner-5": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "image#sgr-banner-6": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "image#sgr-banner-7": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "shelf#sgr-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    },
+    "flex-layout.row#sgr-banners":{
+        "children":[
+          "list-context.image-list#sgr-list"
+        ],
+        "props":{
+          "blockClass":"mini-banners-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#sgr-list": {
+        "children": ["slider-layout#mini-banners-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/01b1ef50-e1d3-4928-8bb9-0c944ce9ca88___822c43be706366f09c1bb12bf7f358b1.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/ke500"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/b8016325-404b-4d47-a00b-7122e724d065___43c34b72562176b4584413f9a1e05ec0.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/tig200"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/cf4fb95f-be58-4628-9c18-604c5270e6b8___32f913335c1a908c11a1dfff0ad4ada8.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/mig250"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/e3cb8711-da91-4bda-988d-af719c7e4904___ba53e1c5c8f22c2afc862e7568068c5f.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/mig185"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/80b87337-4a30-4d58-b1fc-819af716a103___c7175de2c2916320d2056c3cf4bc56c8.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/arc200"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/89b8ec05-7ea4-485d-9ea7-cb3da037218f___946812b6af3179234e7125389173a65f.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/arc300"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/5d8db17f-8bf4-4480-b059-30f1ff07c163___9e84c08eaab27a634355b33faed1abfd.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/refacciones/generico"
+            }
+          ]
+        }
+    },
+    "slider-layout#sgr-slider": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}
+

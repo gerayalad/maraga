@@ -1,0 +1,338 @@
+{
+    "store.custom#depto-insertos-landing":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+            "flex-layout.row#row-text-insertos-landing",
+            "flex-layout.row#mini-banners-insertos-landing-1",
+            "rich-text#title-insertos-landing",
+            "shelf#shelf-01-insertos-landing-depto",
+            "flex-layout.row#mini-banners-insertos-landing-3",
+            "rich-text#title-insertos-landing-2",
+            "shelf#shelf-02-insertos-landing-depto"
+        ]
+    },
+    "flex-layout.row#row-text-insertos-landing":{
+        "children":["rich-text#insertos-landing"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-insertos-landing-1":{
+        "children":["rich-text#insertos-landing-1"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#title-insertos-landing":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#title-insertos-landing-2":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#shelf-01-insertos-landing-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "titleText":""
+        }
+      }
+    },
+    "shelf#shelf-02-insertos-landing-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "titleText":""
+        }
+      }
+    },
+    "flex-layout.row#row-text-insertos-landing-2":{
+        "children":["rich-text#insertos-landing-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-insertos-landing-3":{
+        "children":["rich-text#insertos-landing-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#insertos-landing": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Maquinas**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#insertos-landing-1": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Consumibles**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#insertos-landing-2": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Accesorios**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#insertos-landing-3": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Refacciones**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "flex-layout.row#mini-banners-insertos-landing-1":{
+        "children":[
+          "list-context.image-list#mini-banners-insertos-landing-1"
+        ],
+        "props":{
+          "blockClass":"mini-banners-insertos-landing-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-insertos-landing-1": {
+        "children": ["slider-layout#mini-banners-insertos-landing-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-insertos-landing-1": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-insertos-landing-2":{
+        "children":[
+          "list-context.image-list#mini-banners-insertos-landing-2"
+        ],
+        "props":{
+          "blockClass":"mini-banners-insertos-landing-2",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-insertos-landing-2": {
+        "children": ["slider-layout#mini-banners-insertos-landing-2"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-insertos-landing-2": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-insertos-landing-3":{
+        "children":[
+          "list-context.image-list#mini-banners-insertos-landing-3"
+        ],
+        "props":{
+          "blockClass":"mini-banners-insertos-landing-3",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-insertos-landing-3": {
+        "children": ["slider-layout#mini-banners-insertos-landing-3"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-insertos-landing-3": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-insertos-landing-4":{
+        "children":[
+          "list-context.image-list#mini-banners-insertos-landing-4"
+        ],
+        "props":{
+          "blockClass":"mini-banners-insertos-landing-4",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-insertos-landing-4": {
+        "children": ["slider-layout#mini-banners-insertos-landing-4"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-insertos-landing-4": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}

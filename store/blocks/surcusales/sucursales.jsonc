@@ -21,7 +21,9 @@
         "rich-text#surcusal-queretaro",
         "iframe#surcusal-queretaro",
         "rich-text#surcusal-guadalajara",
-        "iframe#surcusal-guadalajara"
+        "iframe#surcusal-guadalajara",
+        "rich-text#surcusal-tijuana",
+        "iframe#surcusal-tijuana"
       ],
       "props": {
         "blockclass": "text-column",
@@ -91,6 +93,20 @@
     "iframe#surcusal-guadalajara": {
         "props": {
             "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14935.880406564384!2d-103.32894501079548!3d20.63007545817298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b2508b0aee5f:0x113e18945eaeca8e!2sCalz. JesÃºs GonzÃ¡lez Gallo 3048, Mirador Alamo Industrial, 44895 Guadalajara, Jal.!5e0!3m2!1ses!2smx!4v1570121346160!5m2!1ses!2smx",
+            "width": 500,
+            "height": 350,
+            "blockClass":"surcusal-frame"
+        }
+    },
+    "rich-text#surcusal-tijuana": {
+        "props": {
+            "text": "## Tijuana \n\n **Teléfono:** 00-000-000-000 \n **Dirección:** Sebastián Vizcaíno # 203, Fracc. Garita de Otay, Tijuana, C.P. 23420 \n\n",
+            "blockClass": "about"
+        }
+    },
+    "iframe#surcusal-tijuana": {
+        "props": {
+            "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.2525770115903!2d-100.3130543849804!3d25.696060083666598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdc4d3a2e96621f8c!2sSeguetas%20Lenmex%2C%20S.a.%20De%20C.v!5e0!3m2!1ses!2smx!4v1590025947870!5m2!1ses!2smx",
             "width": 500,
             "height": 350,
             "blockClass":"surcusal-frame"

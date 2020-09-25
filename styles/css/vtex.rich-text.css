@@ -1,3 +1,10 @@
+
+:global(.vtex-rich-text-0-x-paragraph--text-compra-segura){
+  padding: 5px 20px 10px 20px;  
+}
+:global(.vtex-rich-text-0-x-headingLevel1--text-compra-segura ){
+  text-align: center;
+}
 .container--deals {
   color: #000;
   text-align: center;
@@ -25,6 +32,10 @@
   margin: 0;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--terms-and-conditions) {
+  text-align: justify;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
@@ -34,6 +45,7 @@
   .container--about {
     max-width: 85%;
   }
+
 
   .link--deals{text-decoration: none!important;}
 

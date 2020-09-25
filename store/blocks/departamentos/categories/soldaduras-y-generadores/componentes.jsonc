@@ -1,0 +1,149 @@
+{
+    "store.custom#soldaduras-y-generadores-componentes":{
+        "blocks":[
+          "list-context.image-list#full-banner",
+    			"flex-layout.row#sgcom-row-title",
+    			"flex-layout.row#sgcom-banners",
+    			"flex-layout.row#sgcom-row-title-2",
+    			"shelf#sgcom-recommended-products"
+        ]
+    },
+	"flex-layout.row#sgcom-row-title": {
+	  "children": [
+	    "rich-text#sgcom-title"
+	  ]
+	},
+	"flex-layout.row#sgcom-row-title-2": {
+	  "children": [
+	    "rich-text#sgcom-title"
+	  ]
+	},
+	"flex-layout.row#sgcom-row": {
+	  "children": [
+	    "slider-layout#sgcom-slider"
+	  ]
+	},
+	"slider-layout#sgcom-slider": {
+		"props": {
+		  "itemsPerPage": {
+		    "desktop": 4,
+		    "tablet": 3,
+		    "phone": 2
+		  },
+		  "infinite": true,
+		  "showNavigationArrows": "desktopOnly",
+		  "blockClass": "carousel"
+		},
+		"children":[
+			"image#sgcom-banner-1","image#sgcom-banner-2","image#sgcom-banner-3","image#sgcom-banner-4","image#sgcom-banner-5"
+			]
+	},
+    "rich-text#sgcom-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 1**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#sgcom-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 2**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#sgcom-banner-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgcom-banner-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgcom-banner-3": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgcom-banner-4": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "image#sgcom-banner-5": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "shelf#sgcom-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    },
+    "flex-layout.row#sgcom-banners":{
+        "children":[
+          "list-context.image-list#sgcom-list"
+        ],
+        "props":{
+          "blockClass":"mini-banners-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#sgcom-list": {
+        "children": ["slider-layout#mini-banners-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/01b1ef50-e1d3-4928-8bb9-0c944ce9ca88___822c43be706366f09c1bb12bf7f358b1.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/ke500"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/b8016325-404b-4d47-a00b-7122e724d065___43c34b72562176b4584413f9a1e05ec0.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/tig200"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/c1b16f08-c5fb-4f70-bd87-4ff9007c2966___122d55f6b4216d9692cca380ef27e030.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/mig250"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/4df6d897-2886-4f2f-ac17-3f470fd50e66___285afbc3df41df9abc52f794fec745c1.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/generico"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aec60a4d-a0fc-4095-bb68-1e0484ba1026___6027c7aeaa1900ed26084e094818dc44.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/componentes/vidrio-de-careta"
+            }
+          ]
+        }
+    },
+    "slider-layout#sgcom-slider": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}

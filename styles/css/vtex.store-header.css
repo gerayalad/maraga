@@ -1,3 +1,39 @@
+/* Header Mobile */
+:global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+  padding: 15px;
+}
+:global(.vtex-store-components-3-x-logoImage){
+  width: 173px;
+  height: 43px;
+  max-width: unset;
+}
+:global(.vtex-store-components-3-x-logoContainer){
+  padding: 0;
+  margin: 0;
+  max-width: unset;
+  max-height: unset;
+  min-width: unset;
+  display: block;
+}
+:global(.vtex-store-drawer-0-x-openIconContainer){
+  flex-grow: 1;
+}
+:global(.vtex-minicart-2-x-openIconContainer){
+      padding: 0px;
+};
+/* Header Logo Desktop */
+:global(.vtex-store-components-3-x-logoContainer--logo-maraga){
+  padding: 0px 20px 0px 0px;
+}
+/* Header Notice */
+:global(.vtex-rich-text-0-x-link--notification){
+  display:table-cell;
+  text-decoration: none;
+}
+:global(.vtex-rich-text-0-x-strong--notification){
+  line-height: 42px;
+  vertical-align: top;
+}
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container)
   :global(.vtex-store-components-3-x-logoLink),

@@ -1,0 +1,37 @@
+{
+    "store.custom#terminos-y-condiciones-promociones": {
+        "blocks": [
+            "flex-layout.row#terminos-y-condiciones-promociones"
+        ]
+    },
+
+    "flex-layout.row#terminos-y-condiciones-promociones": {
+        "children": [
+            "flex-layout.col#text-terminos-y-condiciones-promociones"
+        ]
+    },
+
+    "flex-layout.col#text-terminos-y-condiciones-promociones": {
+        "children": [
+            "rich-text#title-terminos-y-condiciones-promociones",
+            "rich-text#text-1"
+        ],
+        "props": {
+            "blockclass": "text-column",
+            "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#title-terminos-y-condiciones-promociones": {
+        "props": {
+            "text":"# Término y Condiciones de las promociones",
+            "blockClass": "title"
+        }
+    },
+    "rich-text#text-1": {
+        "props": {
+            "text":"<img src='https://maraga.vteximg.com.br/arquivos/b95679f7-4804-4708-8bc9-ec02b98a6494.jpg'> \n\n  ## Compra ahora y participa para ganar una bicicleta eléctrica.  \n\n Descuento válido del 01 de agosto del 2020 a las 00:00hras hasta el 30 de agosto del 2020 23:59hrs. \n Al usar el código: ANIV30 en tu compra, recibirás 15% de descuento y entraras a la rifa por una bicicleta eléctrica Maraga (EBX046) con valor de más de $29,000 pesos. \n El ganador del sorteo será seleccionado y anunciado el día Lunes 31 de Agosto de 2020 a través de una plataforma que escoge un número de pedido aleatorio. \n\n ",
+            "blockClass": "text"
+        }
+    }
+}

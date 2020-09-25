@@ -32,11 +32,21 @@
   "header-row#main":{
       "children":[
           "logo",
-          "header-spacer",
           "search-bar",
           "header-spacer",
+          "image#pos",
           "login",
           "minicart.v2"
+      ],
+      "props":{
+          "sticky":true,
+          "fullWidth":false,
+          "blockClass":"header-main"
+      }
+  },
+  "header-row#main-1":{
+      "children":[
+          "flex-layout.row#menu"
       ],
       "props":{
           "sticky":true,
@@ -50,25 +60,34 @@
           "iconLabel": "Login"
       }
   },
-
+  "image#pos": {
+      "props": {
+        "src": "https://cdn.onlinewebfonts.com/svg/img_489871.png",
+        "maxHeight": 30,
+        "blockClass": "img-pos",
+        "link": "https://www.maraga.mx/institucional/sucursales"
+      }
+  },
   "autocomplete-result-list.v2": {
     "blocks": ["product-summary"]
   },
   
   "logo":{
       "props": {
-          "title": "Maragá",
+          "title": "Maraga",
           "url": "https://maraga.myvtex.com/arquivos/logo-maraga.png",
-          "href": "/"
+          "href": "/",
+          "blockClass": "logo-maraga"
       }
   },
   "rich-text#header-notification": {
       "props": {
-        "text": "**ESCOJE SU SIERRA CINTA** ![Lenox](/arquivos/brand-lenox.png)",
+        "text": "[**ESCOGE TU SIERRA CINTA** ![Lenox](/arquivos/brand-lenox.png)](/cotizador)",
         "textAlignment": "CENTER",
         "textPosition": "CENTER",
         "blockClass":"notification"
-      }
+      },
+      "title": "Header Notice"
   },
   "flex-layout.row#menu":{
     "children":[
@@ -79,19 +98,24 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": ["vtex.menu@2.x:menu#category-menu"],
+    "title": "Menu Desktop"
   },
   "search-bar":{
     "blocks": ["autocomplete-result-list.v2"],
     "props":{
       "customSearchPageUrl": "/search?_query=${term}",
       "blockClass":"header-search",
-      "DisplayMode":"search-and-clear-buttons",
+      "displayMode": "search-and-clear-buttons",
       "openAutocompleteOnFocus": true
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"],
+    "children": [
+      "header-row#notification",
+      "sticky-layout#1-mobile",
+      "search-bar"
+      ],
     "props":{
       "blockClass":"header-mobile"
     }
@@ -104,7 +128,6 @@
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",
-      "login",
       "minicart.v2"
     ],
     "props": {
@@ -120,19 +143,25 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": ["menu#drawer"],
+    "props":{
+        "blockClass":"categories"
+    },
+    "title":"Menu Mobile"
   },
 
   "menu#drawer": {
     "children": [
-      "menu-item#menu-departamento-01",
-      "menu-item#menu-departamento-02",
-      "menu-item#menu-departamento-03",
-      "menu-item#menu-departamento-04",
-      "menu-item#menu-departamento-05",
-      "menu-item#menu-departamento-06",
-      "menu-item#menu-departamento-07",
-      "menu-item#menu-departamento-08"
+      "menu-item#slot-1",
+      "menu-item#slot-2",
+      "menu-item#slot-3",
+      "menu-item#slot-4",
+      "menu-item#slot-5",
+      "menu-item#slot-6",
+      "menu-item#slot-7",
+      "menu-item#slot-8",
+      "menu-item#login",
+      "menu-item#sucursales-mobile"
     ],
     "props": {
       "orientation": "vertical"
@@ -141,11 +170,31 @@
 
   "logo#mobile": {
     "props": {
-      "title": "Maragá",
+      "title": "Maraga",
       "href": "/",
-      "url": "https://maraga.myvtex.com/arquivos/logo-maraga.png",
-      "width": "100",
+      "url": "https://maraga.vteximg.com.br/arquivos/logo_retina_maraga.png",
+      "width": "174",
       "blockClass":"logo-mobile"
+    }
+  },
+  "menu-item#login": {
+    "props": {
+        "type": "custom",
+        "itemProps": {
+            "href": "/account",
+            "text": "MI CUENTA"
+        },
+        "blockClass":"login-mobile-menu"
+    }
+  },
+  "menu-item#sucursales-mobile": {
+    "props": {
+        "type": "custom",
+        "itemProps": {
+            "href": "/institucional/sucursales",
+            "text": "SUCURSALES"
+        },
+        "blockClass":"sucursales-mobile-menu"
     }
   }
 }

@@ -1,0 +1,69 @@
+{
+  "store.custom#custom-clavadoras-y-clavos": { 
+    "blocks": [
+      "list-context.image-list#full-banner", "search-result-layout.customQuery"]
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "queryField": "clavadoras%20y%20clavos",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#custom_category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#custom_category": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#top",
+      "search-fetch-previous",
+      "flex-layout.row#results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#results": { 
+    "children": [ 
+      "flex-layout.col#filter-1",
+      "flex-layout.col#search"
+    ]
+  },
+  "flex-layout.col#filter-1": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#search": { 
+    "children": [
+      "search-content#ga"
+    ]
+  },
+  "search-content#ga": { 
+    "blocks": ["gallery#ga", "not-found"]
+  },
+  "gallery#ga": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

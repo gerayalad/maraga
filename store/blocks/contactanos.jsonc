@@ -12,8 +12,14 @@
     },
     "rich-text#contactanos": {
         "props": {
-            "text": "# Contactanos \n\n **Teléfono de contacto:** 8183743474 \n\n Envie un correo para: [servicioalcliente@maraga.com.mx](mailto:servicioalcliente@maraga.com.mx) con las siguientes informaciones: \n\n - Nombre\n - Correo\n - Teléfono\n - Mensage",
+            "text": "# Contáctanos \n\n **Teléfono de contacto:** 8183743474 \n\n Envia un correo para: [servicioalcliente@maraga.com.mx](mailto:servicioalcliente@maraga.com.mx) con las siguientes informaciones: \n\n - Nombre\n - Correo\n - Teléfono\n - Mensaje",
             "blockClass": "text"
         }
-    }
+    },
+    "form#contactanos": {
+        "props":{
+            "entity": "CO",
+            "schema": "contact_form_vtexio"
+        }
+      }
 }

@@ -4,7 +4,9 @@
             "flex-layout.col#submenu-01-departamento-01",
             "flex-layout.col#submenu-02-departamento-01",
             "flex-layout.col#submenu-03-departamento-01",
+            "flex-layout.col#submenu-05-departamento-01",
             "flex-layout.col#submenu-04-departamento-01",
+            "flex-layout.col#submenu-06-departamento-01",
 			"flex-layout.col#img-menu-departamento-01"
         ],
         "props":{
@@ -30,6 +32,16 @@
     "flex-layout.col#submenu-04-departamento-01":{
         "children":[
             "vtex.menu@2.x:menu#submenu-04-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-01"
+        ]
+    },
+    "flex-layout.col#submenu-06-departamento-01":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-06-departamento-01"
         ]
     },
     "flex-layout.col#img-menu-departamento-01":{
@@ -116,7 +128,6 @@
             "maxWidth": "200px"
         }
     },
-
     "image#img-menu-departamento-08": {
         "props": {
             "src": "/arquivos/menu-herramientas-electricas.jpg",
@@ -127,13 +138,14 @@
             "maxWidth": "200px"
         }
     },
-
     "flex-layout.row#row-submenu-departamento-02":{
 		"children":[
             "flex-layout.col#submenu-01-departamento-02",
             "flex-layout.col#submenu-02-departamento-02",
             "flex-layout.col#submenu-03-departamento-02",
             "flex-layout.col#submenu-04-departamento-02",
+            "flex-layout.col#submenu-05-departamento-02",
+            "flex-layout.col#submenu-06-departamento-02",
 			"flex-layout.col#img-menu-departamento-02"
         ],
         "props":{
@@ -159,6 +171,16 @@
     "flex-layout.col#submenu-04-departamento-02":{
         "children":[
             "vtex.menu@2.x:menu#submenu-04-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-02"
+        ]
+    },
+    "flex-layout.col#submenu-06-departamento-02":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-06-departamento-02"
         ]
     },
     "flex-layout.col#img-menu-departamento-02":{
@@ -273,7 +295,6 @@
             "horizontalAlign": "right"
         }
     },
-
     "flex-layout.row#row-submenu-departamento-06":{
 		"children":[
             "flex-layout.col#submenu-01-departamento-06",
@@ -320,13 +341,13 @@
             "horizontalAlign": "right"
         }
     },
-
     "flex-layout.row#row-submenu-departamento-07":{
 		"children":[
             "flex-layout.col#submenu-01-departamento-07",
 			"flex-layout.col#submenu-02-departamento-07",
             "flex-layout.col#submenu-03-departamento-07",
             "flex-layout.col#submenu-04-departamento-07",
+            "flex-layout.col#submenu-05-departamento-07",
 			"flex-layout.col#img-menu-departamento-07"
         ],
         "props":{
@@ -354,12 +375,50 @@
             "vtex.menu@2.x:menu#submenu-04-departamento-07"
         ]
     },
+    "flex-layout.col#submenu-05-departamento-07":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-07"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-07":{
         "children":["image#img-menu-departamento-07"],
         "props":{
             "paddingRight": 4,
             "horizontalAlign": "right"
         }
+    },
+    "flex-layout.row#row-submenu-departamento-08":{
+        "children":[
+            "flex-layout.col#submenu-01-departamento-08",
+            "flex-layout.col#submenu-02-departamento-08",
+            "flex-layout.col#submenu-03-departamento-08",
+            "flex-layout.col#img-menu-departamento-08"
+        ],
+        "props":{
+            "blockClass":"row-submenu#submenu-01-departamento-08",
+            "colGap":8
+        }
+    },
+    "flex-layout.col#submenu-01-departamento-08":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-01-departamento-08"
+        ]
+    },
+    "flex-layout.col#submenu-02-departamento-08":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-02-departamento-08"
+        ]
+    },
+    "flex-layout.col#submenu-03-departamento-08":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-03-departamento-08"
+        ]
+    },
+    "flex-layout.col#img-menu-departamento-08":{
+        "children":["image#img-menu-departamento-08"],
+        "props":{
+            "paddingRight": 4,
+            "horizontalAlign": "right"
+        }
     }
-
 }

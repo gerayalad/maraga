@@ -1,0 +1,69 @@
+{
+  "store.custom#custom-sierra-portatiles": { 
+    "blocks": [
+      "list-context.image-list#full-banner", "search-result-layout.customQuery#custom-sierra-portatiles"]
+  },
+  "search-result-layout.customQuery#custom-sierra-portatiles": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "queryField": "master%20band",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#mb-custom_category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#mb-custom_category": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#mb-top",
+      "search-fetch-previous",
+      "flex-layout.row#mb-results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#mb-top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#mb-results": { 
+    "children": [ 
+      "flex-layout.col#mb-filter",
+      "flex-layout.col#mb-search"
+    ]
+  },
+  "flex-layout.col#mb-filter": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#mb-search": { 
+    "children": [
+      "search-content#mb-sc"
+    ]
+  },
+  "search-content#mb-sc": { 
+    "blocks": ["gallery#mb-ga", "not-found"]
+  },
+  "gallery#mb-ga": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

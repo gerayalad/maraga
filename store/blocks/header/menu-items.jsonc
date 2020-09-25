@@ -75,6 +75,7 @@
         }
     },
     "menu-item#menu-departamento-08": {
+        "blocks":["vtex.menu@2.x:submenu#menu-departamento-08"],
         "props": {
             "type": "custom",
             "itemProps": {
@@ -360,6 +361,94 @@
             }
         }
     },
+
+    "menu-item#maquinas-herramientas-electricas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/herramientas-electricas",
+                "text": "Herramientas eléctricas"
+            }
+        }
+    },
+
+    "menu-item#inversores": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/inversores",
+                "text": "Inversores"
+            }
+        }
+    },
+    
+    "menu-item#componentes": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/soldadura-y-generadores/componentes",
+                "text": "Componentes"
+            }
+        }
+    },
+
+    "menu-item#componentes-sub-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#componentes-sub-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#componentes-sub-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#componentes-sub-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#componentes-sub-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
     
     "menu-item#consumibles": {
         "props": {
@@ -368,6 +457,39 @@
             "itemProps": {
                 "href": "/soldadura-y-generadores/consumibles",
                 "text": "Consumibles"
+            }
+        }
+    },
+
+    "menu-item#consumibles-sub-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#consumibles-sub-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+
+    "menu-item#consumibles-sub-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
             }
         }
     },
@@ -623,6 +745,76 @@
             }
         }
     },
+    "menu-item#dientes-de-carburo": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Dientes de carburo"
+            }
+        }
+    },
+    "menu-item#bimetalicas": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Bimetálicas"
+            }
+        }
+    },
+    "menu-item#acero-al-carbon": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Acero al carbón"
+            }
+        }
+    },
+    "menu-item#woodmaster": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Woodmaster"
+            }
+        }
+    },
+    "menu-item#portatil": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Portátil"
+            }
+        }
+    },
+    "menu-item#horizontal": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Horizontal"
+            }
+        }
+    },
+    "menu-item#vertical": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/",
+                    "text": "Vertical"
+            }
+        }
+    },
     "menu-item#caretas": {
         "props": {
             "blockClass":["subitem"],
@@ -811,6 +1003,16 @@
             "itemProps": {
                 "href": "/herramientas-electricas/accesorios/vari-bit",
                     "text": "Vari bit"
+            }
+        }
+    },
+    "menu-item#sierras-para-banda-portatil": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/search?_query=master%20band",
+                    "text": "Sierras para banda portátil"
             }
         }
     },
@@ -1044,6 +1246,36 @@
             }
         }
     },
+    "menu-item#herramientas-manuales-slot-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#herramientas-manuales-slot-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#herramientas-manuales-slot-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
     "menu-item#herramientas-neumaticas-title": {
         "props": {
             "blockClass":["subitem","title"],
@@ -1264,6 +1496,16 @@
             }
         }
     },
+    "menu-item#estructuras-y-accesorios": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/paneles-y--componentes/estructuras-y-accesorios",
+                "text": "Estructuras y Accesorios"
+            }
+        }
+    },
     "menu-item#inversores-solares": {
         "props": {
             "blockClass":["subitem","title"],
@@ -1361,6 +1603,76 @@
             "itemProps": {
                 "href": "/soldadura-y-generadores/refacciones/para-plasma",
                 "text": "Para plasma"
+            }
+        }
+    },
+    "menu-item#refacciones-sub-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-6": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+    "menu-item#refacciones-sub-7": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
             }
         }
     },
@@ -1496,6 +1808,26 @@
             }
         }
     },
+    "menu-item#soldadura-limpieza": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "#",
+                "text": "Limpieza"
+            }
+        }
+    },
+    "menu-item#soldadura-limpieza-sub-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
     "menu-item#neumatica-consumibles": {
         "props": {
             "blockClass":["subitem","title"],
@@ -1625,5 +1957,367 @@
                 "text": "Consumibles"
             }
         }
+    },
+    "menu-item#ofertas-1-slot-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-1-slot-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-1-slot-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-1-slot-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-1-slot-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-2-slot-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-2-slot-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-2-slot-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-2-slot-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-2-slot-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-3-slot-1": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-3-slot-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-3-slot-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-3-slot-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-3-slot-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/router",
+                    "text": ""
+            }
+        }
+    },
+    "menu-item#ofertas-1": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Liquidación"
+            }
+        }
+    },
+    "menu-item#ofertas-2": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Combos"
+            }
+        }
+    },
+    "menu-item#ofertas-3": {
+        "props": {
+            "blockClass":["subitem","title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Mejores Ofertas"
+            }
+        }
+    },
+    "menu-item#slot-2-2-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-2-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-2-6": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-2-7": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-2-8": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-3-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-5-1": {
+        "props": {
+            "blockClass":["subitem", "title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Title 5"
+            }
+        }
+    },
+    "menu-item#slot-2-5-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-5-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-5-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-5-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-5-6": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-6-1": {
+        "props": {
+            "blockClass":["subitem", "title"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Title 6"
+            }
+        }
+    },
+    "menu-item#slot-2-6-2": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-6-3": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-6-4": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-6-5": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
+    },
+    "menu-item#slot-2-6-6": {
+        "props": {
+            "blockClass":["subitem"],
+            "type": "custom",
+            "itemProps": {
+                "href": "",
+                "text": "Slot 4"
+            }
+        }
     }
+
+    
 }

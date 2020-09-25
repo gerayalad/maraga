@@ -1,4 +1,5 @@
-.menuContainerNav--menu-site{
+ @media only screen and (min-width: 1024px) { 
+    .menuContainerNav--menu-site{
     background-color:#FA5200;
 }
 
@@ -142,4 +143,64 @@
 
 .styledLink--title .styledLinkContent{
     font-weight: 700;
+}
+:global(.vtex-menu-2-x-menuContainerNav) {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    :global(.vtex-menu-2-x-styledLinkContent){
+        padding-left: 5% !important;
+    }
+    :global(.vtex-menu-2-x-menuContainerNav) {
+        width: 100%;
+    }
+    :global(.vtex-menu-2-x-styledLinkContent){
+        font-weight: 400 !important;
+    }
+    .menuItem .styledLinkContent{
+        padding: 0px;
+    }
+
+    .styledLinkContainer,
+    .styledLinkContent,
+    .styledLink{
+        display: inline;
+        height: 100%;
+        align-items: center;
+    }
+
+    :global(.vtex-menu-2-x-styledLinkContent){
+        line-height: 58px;
+        display: block;
+        border-bottom: 1px solid #c6c6c6;
+        letter-spacing: .1em;
+        padding: 0 20px;
+    }
+
+
+}
+:global(.vtex-store-drawer-0-x-drawer--categories)
+    :global(.vtex-store-drawer-0-x-closeIconContainer){
+    background-color: #fff!important;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 5px;
+    border-bottom: 1px solid #f5f5f5;
+    }
+:global(.vtex-store-drawer-0-x-drawer--categories) 
+    :global(.vtex-store-drawer-0-x-closeIconContainer)::before {
+    content: "Categorias";
+    font-size: 18px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+:global(.vtex-menu-2-x-styledLinkContent--login-mobile-menu){
+    font-weight: 700 !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--sucursales-mobile-menu){
+    font-weight: 700 !important;
+}
 }

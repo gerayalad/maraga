@@ -1,0 +1,317 @@
+{
+    "store.custom#depto-ofertas":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+            "flex-layout.row#row-text-ofertas",
+            "flex-layout.row#mini-banners-ofertas-1",
+            "flex-layout.row#row-text-ofertas-1",
+            "flex-layout.row#mini-banners-ofertas-2",
+            "flex-layout.row#row-text-ofertas-2",
+            "rich-text#title-ofertas",
+            "shelf#shelf-01-ofertas-depto",
+            "flex-layout.row#mini-banners-ofertas-3",
+            "flex-layout.row#row-text-ofertas-3",
+            "flex-layout.row#mini-banners-ofertas-4"
+        ]
+    },
+    "flex-layout.row#row-text-ofertas":{
+        "children":["rich-text#ofertas"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-ofertas-1":{
+        "children":["rich-text#ofertas-1"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#title-ofertas":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#shelf-01-ofertas-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "title":""
+        }
+      }
+    },
+    "flex-layout.row#row-text-ofertas-2":{
+        "children":["rich-text#ofertas-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-ofertas-3":{
+        "children":["rich-text#ofertas-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#ofertas": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Maquinas**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#ofertas-1": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Consumibles**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#ofertas-2": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Accesorios**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#ofertas-3": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Refacciones**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "flex-layout.row#mini-banners-ofertas-1":{
+        "children":[
+          "list-context.image-list#mini-banners-ofertas-1"
+        ],
+        "props":{
+          "blockClass":"mini-banners-ofertas-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-ofertas-1": {
+        "children": ["slider-layout#mini-banners-ofertas-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-ofertas-1": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-ofertas-2":{
+        "children":[
+          "list-context.image-list#mini-banners-ofertas-2"
+        ],
+        "props":{
+          "blockClass":"mini-banners-ofertas-2",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-ofertas-2": {
+        "children": ["slider-layout#mini-banners-ofertas-2"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-ofertas-2": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-ofertas-3":{
+        "children":[
+          "list-context.image-list#mini-banners-ofertas-3"
+        ],
+        "props":{
+          "blockClass":"mini-banners-ofertas-3",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-ofertas-3": {
+        "children": ["slider-layout#mini-banners-ofertas-3"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-ofertas-3": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-ofertas-4":{
+        "children":[
+          "list-context.image-list#mini-banners-ofertas-4"
+        ],
+        "props":{
+          "blockClass":"mini-banners-ofertas-4",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-ofertas-4": {
+        "children": ["slider-layout#mini-banners-ofertas-4"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-ofertas-4": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}

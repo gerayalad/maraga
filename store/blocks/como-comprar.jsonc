@@ -1,0 +1,203 @@
+{
+    "store.custom#como-comprar":{
+        "blocks":[
+            "flex-layout.row#row-modal-como-comprar",
+            "flex-layout.row#row-text-como-comprar"
+        ]
+    },
+    "flex-layout.row#row-modal-como-comprar":{
+        "children":["modal-trigger#example"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.row#row-text-como-comprar":{
+        "children":["flex-layout.col#row-como-comprar"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#row-como-comprar-1":{
+        "children":["iframe#video"],
+        "props":{
+            "blockClass":"como-comprar-content"
+        }
+    },
+    "flex-layout.col#row-como-comprar":{
+        "children":[
+                    "rich-text#como-comprar-title-1",
+                    "rich-text#como-comprar-text-1",
+                    "image#como-comprar-image-1",
+                    "rich-text#como-comprar-title-2",
+                    "rich-text#como-comprar-text-2",
+                    "image#como-comprar-image-2",
+                    "rich-text#como-comprar-title-3",
+                    "rich-text#como-comprar-text-3",
+                    "image#como-comprar-image-3",
+                    "rich-text#como-comprar-title-4",
+                    "rich-text#como-comprar-text-4",
+                    "image#como-comprar-image-4",
+                    "rich-text#como-comprar-title-5",
+                    "rich-text#como-comprar-text-5",
+                    "image#como-comprar-image-5",
+                    "rich-text#como-comprar-title-6",
+                    "rich-text#como-comprar-text-6",
+                    "image#como-comprar-image-6",
+                    "rich-text#como-comprar-title-7",
+                    "rich-text#como-comprar-text-7"
+        ],
+        "props":{
+            "blockClass":"como-comprar-content"
+        }
+    },
+   "modal-trigger#example": {
+    "children": [
+      "list-context.image-list#full-banner",
+      "modal-layout#example"
+    ]
+      },
+      "modal-layout#example": {
+        "children": [
+          "iframe#video"
+        ]
+      },
+      "rich-text#modal-content": {
+        "props": {
+          "text": "Hello"
+        }
+      },
+    "iframe#video": {
+        "props": {
+            "src": "https://www.youtube.com/embed/jRD9VyyMOFY",
+            "width": 1195,
+            "height": 600,
+            "blockClass":"video-frame"
+        }
+    },
+    "rich-text#como-comprar-title-1": {
+        "props": {
+            "text": "1 Selecciona tu producto",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-2": {
+        "props": {
+            "text": "2 Agregalo a tu carrito",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-3": {
+        "props": {
+            "text": "3 Revisa tu carrito",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-4": {
+        "props": {
+            "text": "4 Ingresa un cupón",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-5": {
+        "props": {
+            "text": "5 Ingresa tu correo",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-6": {
+        "props": {
+            "text": "6 Envío y pago",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-title-7": {
+        "props": {
+            "text": "7 Confirmación",
+            "blockClass": "como-comprar-title"
+        }
+    },
+    "rich-text#como-comprar-text-1": {
+        "props": {
+            "text": "Navega por el sitio para encontrar el producto deseado, puedes encontrarlos en nuestro menú principal o desde el buscador inteligente.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-2": {
+        "props": {
+            "text": "Dando click en el botón color naranja nombrado COMPRAR podrás agregar cuantos productos quieras.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-3": {
+        "props": {
+            "text": "Dando click en el ícono de carrito puedes ver los productos que agregaste. Cuando estés seguro que has terminado de seleccionar todos los productos que quieres, debes dar click en el botón CERRAR PEDIDO para continuar con tu compra.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-4": {
+        "props": {
+            "text": "En el resumen de tu compra debes ingresar tu cupón y dar click en APLICAR para que se refleje la promoción y después dar click en FINALIZAR COMPRA para continuar.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-5": {
+        "props": {
+            "text": "Ingresa tu mail para que continues con el registro de tus datos de compra. La información proporcionada es de uso confidencial.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-6": {
+        "props": {
+            "text": "Completa tu información de identificación y entrega para que podamos hacerte llegar tu compra. Selecciona tu forma de pago [Si tienes dudas puedes revisar las formas de pago aquí](/formas-de-pago). Para terminar de realizar tu compra da click en COMPRAR AHORA.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "rich-text#como-comprar-text-7": {
+        "props": {
+            "text": "Recibirás por correo electrónico la información de tu compra, donde encontrarás el número de pedido, el detalle de los productos que compraste, la forma de pago que seleccionaste y el total de tu compra.",
+            "blockClass": "como-comprar-text"
+        }
+    },
+    "image#como-comprar-image-1": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/selecciona-tu-producto.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    },
+    "image#como-comprar-image-2": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/agregalo-a-tu-carrito.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    },
+    "image#como-comprar-image-3": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/revisa-tu-carrito.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    },
+    "image#como-comprar-image-4": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/ingresa-tu-cupon.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    },
+    "image#como-comprar-image-5": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/ingresa-tu-mail.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    },
+    "image#como-comprar-image-6": {
+        "props": {
+          "src": "https://maraga.vteximg.com.br/arquivos/datos-de-compra.jpg",
+          "maxHeight": 500,
+          "blockClass": "como-comprar-image"
+        }
+    }
+}

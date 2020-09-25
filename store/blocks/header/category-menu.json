@@ -57,13 +57,20 @@
     "blockClass":"submenu-main"
   }
 },
+"vtex.menu@2.x:submenu#menu-departamento-08":{
+  "children":["flex-layout.row#row-submenu-departamento-08"],
+  "props":{
+    "blockClass":"submenu-main"
+  }
+},
 
 "vtex.menu@2.x:menu#submenu-01-departamento-01":{
   "children": [
     "menu-item#maquinas-soldaduras",
     "menu-item#generadores",
     "menu-item#soldadoras",
-    "menu-item#plasmas"
+    "menu-item#plasmas",
+    "menu-item#maquinas-herramientas-electricas"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -74,7 +81,10 @@
   "children": [
     "menu-item#consumibles",
     "menu-item#alambres",
-    "menu-item#electrodos"
+    "menu-item#electrodos",
+    "menu-item#consumibles-sub-1",
+    "menu-item#consumibles-sub-2",
+    "menu-item#consumibles-sub-3"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -100,7 +110,38 @@
     "menu-item#refacciones-soldadura",
     "menu-item#para-careta",
     "menu-item#para-soldadora",
-    "menu-item#para-plasma"
+    "menu-item#para-plasma",
+    "menu-item#refacciones-sub-1",
+    "menu-item#refacciones-sub-2",
+    "menu-item#refacciones-sub-3",
+    "menu-item#refacciones-sub-4",
+    "menu-item#refacciones-sub-5",
+    "menu-item#refacciones-sub-6",
+    "menu-item#refacciones-sub-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-01":{
+  "children": [
+    "menu-item#componentes",
+    "menu-item#componentes-sub-1",
+    "menu-item#componentes-sub-2",
+    "menu-item#componentes-sub-3",
+    "menu-item#componentes-sub-4",
+    "menu-item#componentes-sub-5"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-06-departamento-01":{
+  "children": [
+    "menu-item#soldadura-limpieza",
+    "menu-item#soldadura-limpieza-sub-1"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -125,7 +166,12 @@
   "children": [
       "menu-item#limpiadores-y-desengrasantes",
       "menu-item#removedor-de-oxido",
-      "menu-item#desengrasantes"
+      "menu-item#desengrasantes",
+      "menu-item#slot-2-2-4",
+      "menu-item#slot-2-2-5",
+      "menu-item#slot-2-2-6",
+      "menu-item#slot-2-2-7",
+      "menu-item#slot-2-2-8"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -136,7 +182,8 @@
   "children": [
     "menu-item#lubricantes-y-aceites-directos",
     "menu-item#aceites-directo-de-corte",
-    "menu-item#lubricantes"
+    "menu-item#lubricantes",
+    "menu-item#slot-2-3-4"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -155,12 +202,44 @@
     "orientation": "vertical"
   }
 },
+"vtex.menu@2.x:menu#submenu-05-departamento-02":{
+  "children": [
+    "menu-item#slot-2-5-1",
+    "menu-item#slot-2-5-2",
+    "menu-item#slot-2-5-3",
+    "menu-item#slot-2-5-4",
+    "menu-item#slot-2-5-5",
+    "menu-item#slot-2-5-6"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-06-departamento-02":{
+  "children": [
+    "menu-item#slot-2-6-1",
+    "menu-item#slot-2-6-2",
+    "menu-item#slot-2-6-3",
+    "menu-item#slot-2-6-4",
+    "menu-item#slot-2-6-5",
+    "menu-item#slot-2-6-6"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
 "vtex.menu@2.x:menu#submenu-01-departamento-03":{
   "children": [
     "menu-item#sierra-cintas",
     "menu-item#corte-de-metal",
     "menu-item#corte-de-madera",
-    "menu-item#corte-de-esponja"
+    "menu-item#corte-de-esponja",
+    "menu-item#dientes-de-carburo",
+    "menu-item#bimetalicas",
+    "menu-item#acero-al-carbon",
+    "menu-item#woodmaster"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -171,7 +250,10 @@
   "children": [
     "menu-item#maquinas-de-corte-con-disco",
     "menu-item#maquinas-sierra-cintas",
-    "menu-item#sierra-circular"
+    "menu-item#sierra-circular",
+    "menu-item#portatil",
+    "menu-item#horizontal",
+    "menu-item#vertical"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -225,7 +307,8 @@
     "menu-item#para-destornillador",
     "menu-item#sierra-caladora",
     "menu-item#sierra-perforadora",
-    "menu-item#vari-bit" 
+    "menu-item#vari-bit",
+    "menu-item#sierras-para-banda-portatil" 
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -379,6 +462,42 @@
   "vtex.menu@2.x:menu#submenu-04-departamento-07":{
     "children": [
       "menu-item#sistema-fotovoltaico"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-05-departamento-07":{
+    "children": [
+      "menu-item#estructuras-y-accesorios"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-01-departamento-08":{
+    "children": [
+      "menu-item#ofertas-1"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-02-departamento-08":{
+    "children": [
+      "menu-item#ofertas-2"
+    ],
+    "props":{
+      "blockClass":"submenu-site",
+      "orientation": "vertical"
+    }
+  },
+  "vtex.menu@2.x:menu#submenu-03-departamento-08":{
+    "children": [
+      "menu-item#ofertas-3"
     ],
     "props":{
       "blockClass":"submenu-site",

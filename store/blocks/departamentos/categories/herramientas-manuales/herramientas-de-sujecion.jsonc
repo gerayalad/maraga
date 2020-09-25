@@ -1,0 +1,93 @@
+{
+    "store.custom#herramientas-manuales-herramientas-de-sujecion":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+			"flex-layout.row#hmhs-row-title",
+			"flex-layout.row#hmhs-banners",
+			"flex-layout.row#hmhs-row-title-2",
+			"shelf#hmhs-recommended-products"
+        ]
+    },
+	"flex-layout.row#hmhs-row-title": {
+	  "children": [
+	    "rich-text#hmhs-title"
+	  ]
+	},
+	"flex-layout.row#hmhs-row-title-2": {
+	  "children": [
+	    "rich-text#hmhs-title"
+	  ]
+	},
+
+  "flex-layout.row#hmhs-banners":{
+      "children":[
+        "list-context.image-list#hmhs-list"
+      ],
+      "props":{
+        "blockClass":"mini-banners-1",
+        "horizontalAlign":"center"
+      }
+  },
+  "list-context.image-list#hmhs-list": {
+      "children": ["slider-layout#mini-banners-1"],
+      "props": {
+        "height": 375,
+        "images": [
+          { 
+            "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/5bc5f52c-5fa6-4deb-a6eb-5ff7e82bc925___74708ec600347ceccc715c0c09caa6cd.jpg",
+            "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/caretas"
+          },
+          { 
+            "image": "/arquivos/industrial.jpg",
+            "link":"/industrial"
+          }
+        ]
+      }
+  },
+  "slider-layout#hmhs-slider": {
+    "props": {
+      "blockClass":"landing",
+      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "itemsPerPage":{ 
+      "desktop": 4, 
+      "tablet": 3, 
+      "phone": 2 
+      }
+    }
+  },
+    "rich-text#hmhs-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Protección de soldador y para máquinas de soldar y generadores**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#hmhs-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Accesorios del catálogo Welding de Maraga**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#hmhs-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    }
+}

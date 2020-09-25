@@ -1,5 +1,5 @@
 :global(.vtex-minicart-2-x-cartIcon){
-    width: 30px;
+    width: 32px;
     height: 22px;
     overflow: visible!important;
 }
@@ -16,4 +16,8 @@
 
 .minicartSideBarContentWrapper :global(.vtex-rich-text-0-x-paragraph){
     padding-left: 25px;
+}
+
+:global(.vtex-store-icons-0-x-cartIcon--minicart-empty-state){
+    overflow: visible !important;
 }

@@ -1,0 +1,66 @@
+{
+    "store.custom#ecoklean":{
+        "blocks":[
+            "flex-layout.row#row-modal-ecoklean",
+            "rich-text#title-01-ecoklean",
+            "shelf#shelf-01-ecoklean"
+        ]
+    },
+    "flex-layout.row#row-modal-ecoklean":{
+        "children":["modal-trigger#example-eco"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.col#row-ecoklean-1":{
+        "children":["iframe#video"],
+        "props":{
+            "blockClass":"ecoklean-content"
+        }
+    },
+   "modal-trigger#example-eco": {
+    "children": [
+      "list-context.image-list#full-banner",
+      "modal-layout#example-eco"
+    ]
+      },
+      "modal-layout#example-eco": {
+        "children": [
+          "iframe#video-eco"
+        ]
+      },
+    "iframe#video-eco": {
+        "props": {
+            "src": "https://www.youtube.com/embed/1e6FL31uAuM",
+            "width": 1195,
+            "height": 600,
+            "blockClass":"video-frame"
+        }
+    },
+  "shelf#shelf-01-ecoklean": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "productList": {
+        "maxItems": 20,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "arrows": true,
+        "title":""
+      }
+    },
+    "title": "Los más vendidos"
+  },
+  "rich-text#title-01-ecoklean":{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+      "textColor": "muted-1",
+      "font": "t-heading-5",
+      "blockClass": "title-01"
+    },
+    "title": "Title - Los más vendidos"
+  }
+}

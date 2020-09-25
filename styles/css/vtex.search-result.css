@@ -48,16 +48,39 @@
     }
 
 
-    :global(.vtex-product-summary-2-x-element)
-        :global(.vtex-button):hover{
-            border-color:#FA5200;
-            background-color: #FA5200;
-        }
+:global(.vtex-product-summary-2-x-element)
+    :global(.vtex-button):hover{
+        border-color:#FA5200;
+        background-color: #FA5200;
+    }
 :global(.vtex-product-summary-2-x-element)
     :global(.vtex-button):disabled{
     background-color: #ccc;
     border-color: #ccc;
 }
+    :global(.vtex-button):disabled
+        :global(.vtex-add-to-cart-button-0-x-buttonText--add-to-cart-maraga){
+            text-indent: -9999px;
+            line-height: 0;
+}
+    :global(.vtex-button):disabled
+        :global(.vtex-add-to-cart-button-0-x-buttonText--add-to-cart-maraga)::after{
+            content: "Agotado";
+            text-indent: 0;
+            display: block;
+            line-height: initial;
+}
+        :global(.vtex-add-to-cart-button-0-x-buttonText--add-to-cart-maraga){
+            text-indent: -9999px;
+            line-height: 0;
+}
+        :global(.vtex-add-to-cart-button-0-x-buttonText--add-to-cart-maraga)::after{
+            content: "Comprar";
+            text-indent: 0;
+            display: block;
+            line-height: initial;
+}
+
 .filterMessage{
     display: none;
 }

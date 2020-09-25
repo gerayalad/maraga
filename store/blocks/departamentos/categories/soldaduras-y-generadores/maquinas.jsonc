@@ -1,0 +1,140 @@
+{
+    "store.custom#soldaduras-y-generadores-maquinas":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+			"flex-layout.row#sgm-row-title",
+			"flex-layout.row#sgm-banners",
+			"flex-layout.row#sgm-row-title-2",
+			"shelf#sgm-recommended-products"
+        ]
+    },
+	"flex-layout.row#sgm-row-title": {
+	  "children": [
+	    "rich-text#sgm-title"
+	  ]
+	},
+	"flex-layout.row#sgm-row-title-2": {
+	  "children": [
+	    "rich-text#sgm-title"
+	  ]
+	},
+	"flex-layout.row#sgm-row": {
+	  "children": [
+	    "slider-layout#sgm-slider"
+	  ]
+	},
+	"slider-layout#sgm-slider": {
+		"props": {
+		  "itemsPerPage": {
+		    "desktop": 4,
+		    "tablet": 3,
+		    "phone": 2
+		  },
+		  "infinite": true,
+		  "showNavigationArrows": "desktopOnly",
+		  "blockClass": "carousel"
+		},
+		"children":[
+			"image#sgm-banner-1","image#sgm-banner-2","image#sgm-banner-3","image#sgm-banner-4"
+			]
+	},
+    "rich-text#sgm-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 1**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#sgm-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 2**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#sgm-banner-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgm-banner-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgm-banner-3": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgm-banner-4": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "shelf#sgm-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    },
+    "flex-layout.row#sgm-banners":{
+        "children":[
+          "list-context.image-list#sgm-list"
+        ],
+        "props":{
+          "blockClass":"mini-banners-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#sgm-list": {
+        "children": ["slider-layout#mini-banners-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/90dff3ac-699e-487a-85e7-732714d16c96___eb9242d64ea207970373c698f9da530b.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/generadores"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/0da1f523-d5b7-419e-a75a-b1440203f6f4___6e0863c95f2b3e09243e29d2d4a76a81.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/soldadoras"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/e495a9ef-d27d-4d62-828f-783430de3c27___7795bff0acc7327fe84a58437ee4bf96.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/maquinas/plasmas"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/47fb4484-3152-4934-a30a-c7122d410121___73ee0a272274788ec9ed66ecdfce9afe.jpg",
+              "link":"https://www.maraga.mx/departamentos/soldaduras-y-generadores/maquinas"
+            }
+          ]
+        }
+    },
+    "slider-layout#sgm-slider": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}

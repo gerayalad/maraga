@@ -34,10 +34,7 @@
 
 :global(.vtex-store-footer-2-x-footerLayout--credits){
   background-color: #000;
-}
-
-:global(.vtex-flex-layout-0-x-flexColChild--desk-content-col2){
-  margin-bottom: 35px;
+  margin-top:0px !important;
 }
 
 .flexRow--row-submenu{
@@ -49,37 +46,6 @@
   margin-top: 30px !important;
 }
 
-@media screen and (max-width: 1024px) {
-  .flexRowContent--row-submenu
-    :global(.vtex-store-components-3-x-imageElement){
-      display: none;
-  }
-
-  :global(.vtex-menu-2-x-submenuContainer--submenu-main){
-    position: relative!important;
-  }
-
-  :global(.vtex-menu-2-x-submenuWrapper--submenu-main){
-    padding-top: 10px!important;
-    background-color: #f4f4f4;
-  }
-
-  :global(.vtex-menu-2-x-submenuWrapper--submenu-main)::after{
-    position: absolute;
-    right: -40px;
-    content:"X";
-    display: flex;
-    width: 20px;
-    top: 0;
-    height: 20px;
-    border:1px solid #999;
-    pointer-events:none;
-    justify-content: center;
-    align-items: center;
-    color:#999
-  }
-
-}
 
 .flexColChild--filterCol{
   width: 18vw;
@@ -95,4 +61,13 @@
 
 .flexRow--content-static-page{
   padding-bottom: 40px;
+}
+
+.flex-column{
+  padding: 10px
+}
+
+.ph3 {
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
 }

@@ -1,0 +1,69 @@
+{
+  "store.custom#custom-monitoreo": { 
+    "blocks": [
+      "list-context.image-list#full-banner", "search-result-layout.customQuery#custom-monitoreo"]
+  },
+  "search-result-layout.customQuery#custom-monitoreo": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "queryField": "monitoreo",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#cm-custom_category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#cm-custom_category": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#cm-top",
+      "search-fetch-previous",
+      "flex-layout.row#cm-results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#cm-top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#cm-results": { 
+    "children": [ 
+      "flex-layout.col#cm-filter",
+      "flex-layout.col#cm-search"
+    ]
+  },
+  "flex-layout.col#cm-filter": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#cm-search": { 
+    "children": [
+      "search-content#cm-sc"
+    ]
+  },
+  "search-content#cm-sc": { 
+    "blocks": ["gallery#cm-ga", "not-found"]
+  },
+  "gallery#cm-ga": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

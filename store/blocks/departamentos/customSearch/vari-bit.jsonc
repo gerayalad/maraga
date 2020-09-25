@@ -1,0 +1,69 @@
+{
+  "store.custom#custom-vari-bit": { 
+    "blocks": [
+      "list-context.image-list#full-banner", "search-result-layout.customQuery#custom-vb"]
+  },
+  "search-result-layout.customQuery#custom-vb": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "queryField": "vari bit",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#vb-custom_category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#vb-custom_category": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#vb-top",
+      "search-fetch-previous",
+      "flex-layout.row#vb-results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#vb-top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#vb-results": { 
+    "children": [ 
+      "flex-layout.col#vb-filter",
+      "flex-layout.col#vb-search"
+    ]
+  },
+  "flex-layout.col#vb-filter": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#vb-search": { 
+    "children": [
+      "search-content#vb-sc"
+    ]
+  },
+  "search-content#vb-sc": { 
+    "blocks": ["gallery#vb-ga", "not-found"]
+  },
+  "gallery#vb-ga": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

@@ -1,0 +1,374 @@
+{
+    "store.custom#depto-dewalt-landing":{
+        "blocks":[
+            "flex-layout.row#row-text-dewalt-hero-1",
+            "flex-layout.row#row-text-dewalt-landing",
+            "flex-layout.row#mini-banners-dewalt-landing-1",
+            "shelf#shelf-01-dewalt-landing-depto",
+            "flex-layout.row#mini-banners-dewalt-landing-3",
+            "shelf#shelf-02-dewalt-landing-depto",
+            "flex-layout.row#row-text-dewalt-hero-2",
+            "shelf#shelf-03-dewalt-landing-depto"
+        ]
+    },
+    "flex-layout.row#row-text-dewalt-hero-1":{
+        "children":["image#hero-1"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-dewalt-hero-2":{
+        "children":["image#hero-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-dewalt-landing":{
+        "children":["rich-text#dewalt-landing"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-dewalt-landing-1":{
+        "children":["rich-text#dewalt-landing-1"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#title-dewalt-landing":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#title-dewalt-landing-2":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#hero-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/l-solublesydesengrasantes___765280c2a9982979f529aa24647a3e97.jpg"
+	    }
+  	},
+    "image#hero-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/l-solublesydesengrasantes___765280c2a9982979f529aa24647a3e97.jpg"
+	    }
+  	},
+    "shelf#shelf-01-dewalt-landing-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "titleText":""
+        }
+      }
+    },
+    "shelf#shelf-02-dewalt-landing-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "titleText":""
+        }
+      }
+    },
+    "shelf#shelf-03-dewalt-landing-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "titleText":""
+        }
+      }
+    },
+    "flex-layout.row#row-text-dewalt-landing-2":{
+        "children":["rich-text#dewalt-landing-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#row-text-dewalt-landing-3":{
+        "children":["rich-text#dewalt-landing-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#dewalt-landing": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Maquinas**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#dewalt-landing-1": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Consumibles**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#dewalt-landing-2": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Accesorios**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "rich-text#dewalt-landing-3": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Refacciones**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        }
+    },
+    "flex-layout.row#mini-banners-dewalt-landing-1":{
+        "children":[
+          "list-context.image-list#mini-banners-dewalt-landing-1"
+        ],
+        "props":{
+          "blockClass":"mini-banners-dewalt-landing-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-dewalt-landing-1": {
+        "children": ["slider-layout#mini-banners-dewalt-landing-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-dewalt-landing-1": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-dewalt-landing-2":{
+        "children":[
+          "list-context.image-list#mini-banners-dewalt-landing-2"
+        ],
+        "props":{
+          "blockClass":"mini-banners-dewalt-landing-2",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-dewalt-landing-2": {
+        "children": ["slider-layout#mini-banners-dewalt-landing-2"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-dewalt-landing-2": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-dewalt-landing-3":{
+        "children":[
+          "list-context.image-list#mini-banners-dewalt-landing-3"
+        ],
+        "props":{
+          "blockClass":"mini-banners-dewalt-landing-3",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-dewalt-landing-3": {
+        "children": ["slider-layout#mini-banners-dewalt-landing-3"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-dewalt-landing-3": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    },
+    "flex-layout.row#mini-banners-dewalt-landing-4":{
+        "children":[
+          "list-context.image-list#mini-banners-dewalt-landing-4"
+        ],
+        "props":{
+          "blockClass":"mini-banners-dewalt-landing-4",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-dewalt-landing-4": {
+        "children": ["slider-layout#mini-banners-dewalt-landing-4"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            },
+            { 
+              "image": "/arquivos/industrial.jpg",
+              "link":"/industrial"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-dewalt-landing-4": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "store.custom#soldaduras-y-generadores-consumibles":{
+        "blocks":[
+            "list-context.image-list#full-banner",
+      			"flex-layout.row#sgc-row-title",
+      			"flex-layout.row#sgc-banners",
+      			"flex-layout.row#sgc-row-title-2",
+      			"shelf#sgc-recommended-products"
+        ]
+    },
+	"flex-layout.row#sgc-row-title": {
+	  "children": [
+	    "rich-text#sgc-title"
+	  ]
+	},
+	"flex-layout.row#sgc-row-title-2": {
+	  "children": [
+	    "rich-text#sgc-title"
+	  ]
+	},
+	"flex-layout.row#sgc-row": {
+	  "children": [
+	    "slider-layout#sgc-slider"
+	  ]
+	},
+	"slider-layout#sgc-slider": {
+		"props": {
+		  "itemsPerPage": {
+		    "desktop": 4,
+		    "tablet": 3,
+		    "phone": 2
+		  },
+		  "infinite": true,
+		  "showNavigationArrows": "desktopOnly",
+		  "blockClass": "carousel"
+		},
+		"children":[
+			"image#sgc-banner-1","image#sgc-banner-2","image#sgc-banner-3","image#sgc-banner-4","image#sgc-banner-5"
+			]
+	},
+    "rich-text#sgc-title":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 1**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#sgc-title-2":{
+      "props": {
+        "textAlignment": "Left",
+        "textPosition": "Left",
+        "text": "**Título 2**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "image#sgc-banner-1": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgc-banner-2": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgc-banner-3": {
+	    "props": {
+	      "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+	    }
+  	},
+    "image#sgc-banner-4": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "image#sgc-banner-5": {
+      "props": {
+        "src": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg"
+      }
+    },
+    "shelf#sgc-recommended-products": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "showTitle":false
+        }
+      }
+    },
+    "flex-layout.row#sgc-banners":{
+        "children":[
+          "list-context.image-list#sgc-list"
+        ],
+        "props":{
+          "blockClass":"mini-banners-1",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#sgc-list": {
+        "children": ["slider-layout#mini-banners-1"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/ff1f74a9-ebac-4d1c-b8a4-7c7251851215___32b1218e4358ca40ed02ac8e67ee6f2b.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/consumibles/alambre-tubular"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/34637058-5e6e-4082-bb54-0dfbea599315___079700701f6d01b538c4d3d9ca2d8f89.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/consumibles/alambre-solido"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/82e7be90-2f22-4267-8636-b5f0e3379dce___406e22ea00d186c956d75e90dda29801.jpg",
+              "link":"https://www.maraga.mx/herramientas-electricas/accesorios/discos-de-corte"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/2838494e-1be1-4dfe-89eb-4e96673c9f55___a3130ab23bf2c514d953b5157454cf81.jpg",
+              "link":"https://www.maraga.mx/herramientas-electricas/accesorios/discos-de-desbaste"
+            }
+          ]
+        }
+    },
+    "slider-layout#sgc-slider": {
+      "props": {
+        "blockClass":"landing",
+        "showPaginationDots": "always",
+        "showNavigationArrows": "desktopOnly",
+        "itemsPerPage":{ 
+        "desktop": 4, 
+        "tablet": 3, 
+        "phone": 2 
+        }
+      }
+    }
+}
+

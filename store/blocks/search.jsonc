@@ -10,12 +10,22 @@
       }
     }
   },
-
+  "store.not-found#search": {
+  "blocks": ["image#banner-not-found"]
+  },
+  "image#banner-not-found":{
+    "props":{
+      "blockClass":"banner-not-found",
+      "src":"https://maraga.vteximg.com.br/arquivos/enchufe1.png",
+      "srcset":"https://maraga.vteximg.com.br/arquivos/enchufe1.png",
+      "link":"https://www.maraga.mx"
+    }
+  },
   "image#banner-plp":{
     "props":{
       "blockClass":"banner-plp",
-      "src":"/arquivos/banner-plp.png",
-      "srcset":"/arquivos/banner-plp.png"
+      "src":"https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/6841568b-0a34-4c04-ac87-942188aaa04c___b9f2e4124761a28ea9451be87cba5e66.jpg",
+      "srcset":"https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/6841568b-0a34-4c04-ac87-942188aaa04c___b9f2e4124761a28ea9451be87cba5e66.jpg"
     }
   },
 
@@ -168,7 +178,6 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",
-      "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#fetchprevious",
       "flex-layout.row#contentmobile",

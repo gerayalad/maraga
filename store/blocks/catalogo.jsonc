@@ -2,7 +2,7 @@
     "store.custom#catalogo":{
         "blocks":[
             "flex-layout.row#row-text-catalogo",
-            "flex-layout.row#row-iframe-catalogo"
+            "tab-layout#catalogo-tabs"
         ]
     },
     "flex-layout.row#row-text-catalogo":{
@@ -25,10 +25,128 @@
     },
     "iframe#catalogo": {
         "props": {
-            "src": "https://cdn.flipsnack.com/widget/v2/widget.html?hash=fu8w14ysk",
-            "width": 600,
+            "src": "https://view.publitas.com/maraga/catalogo-maraga-welding-2020/page/1",
+            "width": 1195,
             "height": 600,
             "blockClass":"facturacion-iframe"
+        },
+        "title": "Tab 1 Catálogo"
+    },
+    "iframe#catalogo-2": {
+        "props": {
+            "src": "https://view.publitas.com/maraga/catalogo-pallet-2020-hd/page/1",
+            "width": 1195,
+            "height": 600,
+            "blockClass":"facturacion-iframe"
+        },
+        "title": "Tab 2 Catálogo"
+    },
+    "iframe#catalogo-3": {
+        "props": {
+            "src": "https://view.publitas.com/maraga/catalogo-fluids-2020/page/1",
+            "width": 1195,
+            "height": 600,
+            "blockClass":"facturacion-iframe"
+        },
+        "title": "Tab 3 Catálogo"
+    },
+    "iframe#catalogo-4": {
+        "props": {
+            "src": "https://view.publitas.com/maraga/catalogo-fluids-2020/page/1",
+            "width": 1195,
+            "height": 600,
+            "blockClass":"facturacion-iframe"
+        },
+        "title": "Tab 4 Catálogo"
+    },
+    "tab-layout#catalogo-tabs": {
+        "children": [
+            "tab-list#catalogo-tabs",
+            "tab-content#catalogo-tabs"
+        ],
+        "props": {
+            "blockClass": "tab-catalogo-tabs"
+        },
+        "title": "Catálogos"
+    },
+    "tab-list#catalogo-tabs": {
+        "children": [
+            "tab-list.item#welding-cat",
+            "tab-list.item#pallet",
+            "tab-list.item#fluids",
+            "tab-list.item#deals"
+        ],
+        "props":{
+            "blockClass":"tablist-catalogo-tabs",
+            "defaultActiveTabId": "welding"
+        }
+    },
+    "tab-list.item#welding-cat": {
+        "props": {
+            "tabId": "welding-cat",
+            "label": "Welding"
+        },
+        "title": "Tab 1 Label"
+    },
+    "tab-list.item#pallet": {
+        "props": {
+            "tabId": "pallet",
+            "label": "Pallet"
+        },
+        "title": "Tab 2 Label"
+    },
+    "tab-list.item#fluids": {
+        "props": {
+            "tabId": "fluids",
+            "label": "Fluids"
+        },
+        "title": "Tab 3 Label"
+    },
+    "tab-list.item#deals": {
+        "props": {
+            "tabId": "deals",
+            "label": "Ofertas"
+        },
+        "title": "Tab 4 Label"
+    },
+    "tab-content#catalogo-tabs": {
+        "children": [
+            "tab-content.item#welding-cat",
+            "tab-content.item#fluids",
+            "tab-content.item#pallet",
+            "tab-content.item#deals"
+        ]
+    },
+    "tab-content.item#welding-cat": {
+        "children": [
+            "iframe#catalogo"
+        ],
+        "props": {
+            "tabId": "welding-cat"
+        }
+    },
+    "tab-content.item#pallet": {
+        "children": [
+            "iframe#catalogo-2"
+        ],
+        "props": {
+            "tabId": "pallet"
+        }
+    },
+    "tab-content.item#fluids": {
+        "children": [
+            "iframe#catalogo-3"
+        ],
+        "props": {
+            "tabId": "fluids"
+        }
+    },
+    "tab-content.item#deals": {
+        "children": [
+            "iframe#catalogo-4"
+        ],
+        "props": {
+            "tabId": "deals"
         }
     }
 }

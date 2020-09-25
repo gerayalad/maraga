@@ -4,10 +4,16 @@
             "list-context.image-list#full-banner",
             "flex-layout.row#row-text-herramientas-neumaticas",
             "flex-layout.row#mini-banners-1",
+            "rich-text#title-herramientas-neumaticas-1",
+            "shelf#shelf-01-herramientas-neumaticas-1-depto",
             "flex-layout.row#row-text-herramientas-neumaticas-1",
             "flex-layout.row#mini-banners-2",
+            "rich-text#title-herramientas-neumaticas-2",
+            "shelf#shelf-01-herramientas-neumaticas-2-depto",
             "flex-layout.row#row-text-herramientas-neumaticas-2",
-            "flex-layout.row#mini-banners-3"
+            "flex-layout.row#mini-banners-3",
+            "rich-text#title-herramientas-neumaticas-3",
+            "shelf#shelf-01-herramientas-neumaticas-3-depto"
         ]
     },
     "flex-layout.row#row-text-herramientas-neumaticas":{
@@ -284,6 +290,78 @@
         "tablet": 3, 
         "phone": 2 
         }
+      }
+    },
+    "shelf#shelf-01-herramientas-neumaticas-1-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "title":""
+        }
+      }
+    },
+    "shelf#shelf-01-herramientas-neumaticas-2-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "title":""
+        }
+      }
+    },
+    "shelf#shelf-01-herramientas-neumaticas-3-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 1,
+          "arrows": true,
+          "title":""
+        }
+      }
+    },
+    "rich-text#title-herramientas-neumaticas-1":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#title-herramientas-neumaticas-2":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "rich-text#title-herramientas-neumaticas-3":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Los más vendidos**\n Descubre los productos más vendidos",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
       }
     }
 }

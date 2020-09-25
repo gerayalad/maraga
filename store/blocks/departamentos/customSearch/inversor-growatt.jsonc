@@ -1,0 +1,69 @@
+{
+  "store.custom#custom-inversorgrowatt": { 
+    "blocks": [
+      "list-context.image-list#full-banner", "search-result-layout.customQuery#custom-inversorgrowatt"]
+  },
+  "search-result-layout.customQuery#custom-inversorgrowatt": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 48,
+        "skusFilter": "ALL",
+        "simulationBehavior": "skip",
+        "queryField": "inversor%20growatt",
+        "mapField": "ft"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#ig-custom_category",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#ig-custom_category": {
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "flex-layout.row#ig-top",
+      "search-fetch-previous",
+      "flex-layout.row#ig-results",
+      "search-fetch-more"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#ig-top": { 
+    "children": [
+      "total-products.v2",
+      "order-by.v2"
+    ]
+  },
+  "flex-layout.row#ig-results": { 
+    "children": [ 
+      "flex-layout.col#ig-filter",
+      "flex-layout.col#ig-search"
+    ]
+  },
+  "flex-layout.col#ig-filter": { 
+    "props": {
+      "width": "20%"
+    },
+    "children": [
+      "filter-navigator.v3"
+    ]
+  },
+  "flex-layout.col#ig-search": { 
+    "children": [
+      "search-content#ig-sc"
+    ]
+  },
+  "search-content#ig-sc": { 
+    "blocks": ["gallery#ig-ga", "not-found"]
+  },
+  "gallery#ig-ga": {
+    "blocks": ["product-summary.shelf"]
+  }
+}

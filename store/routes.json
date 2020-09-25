@@ -2,35 +2,191 @@
   "store.custom#nosotros": {
     "path": "/institucional/quienes-somos"
   },
+  "store.custom#terminos-y-condiciones-promociones": {
+    "path": "/terminos-y-condiciones-promociones"
+  },
   "store.custom#empleos": {
     "path": "/institucional/oportunidad-de-empleo"
   },
   "store.custom#distribuidores": {
     "path": "/institucional/distribuidores"
   },
+  "store.custom#depto-ofertas": {
+    "path": "/departamentos/ofertas"
+  },
+  "store.custom#ecoklean": {
+    "path": "/marcas/ecoklean"
+  },
+  "store.custom#espuma-poliuretano": {
+    "path": "/espuma-poliuretano"
+  },
+  "store.custom#custom-clavadoras-y-clavos": {
+    "path": "/clavadoras-y-clavos"
+  },
+  "store.custom#custom-vari-bit": {
+    "path": "/brocas-escalonadas-lenox"
+  },
+  "store.custom#custom-monitoreo": {
+    "path": "/monitoreo"
+  },
+  "store.custom#custom-inversorgrowatt": {
+    "path": "/inversores-solares"
+  },
+  "store.custom#custom-sierra-portatiles": {
+    "path": "/herramientas-electricas/accesorios/sierras-para-banda-portatil"
+  },
   "store.custom#soldaduras-y-generadores": {
     "path": "/departamentos/soldaduras-y-generadores"
+  },
+  "store.custom#soldaduras-y-generadores-maquinas": {
+    "path": "/departamentos/soldaduras-y-generadores/maquinas"
+  },
+  "store.custom#soldaduras-y-generadores-consumibles": {
+    "path": "/departamentos/soldaduras-y-generadores/consumibles"
+  },
+  "store.custom#soldaduras-y-generadores-accesorios": {
+    "path": "/departamentos/soldaduras-y-generadores/accesorios"
+  },
+  "store.custom#soldaduras-y-generadores-componentes": {
+    "path": "/departamentos/soldaduras-y-generadores/componentes"
+  },
+  "store.custom#soldaduras-y-generadores-refacciones": {
+    "path": "/departamentos/soldaduras-y-generadores/refacciones"
+  },
+  "store.custom#soldaduras-y-generadores-limpieza": {
+    "path": "/departamentos/soldaduras-y-generadores/limpieza"
   },
   "store.custom#solubles-y-desengrasantes": {
     "path": "/departamentos/solubles-y-desengrasantes"
   },
+  "store.custom#solubles-y-desengrasantes-especialidades": {
+    "path": "/departamentos/solubles-y-desengrasantes/especialidades"
+  },
+  "store.custom#solubles-y-desengrasantes-limpiadores-y-desengrasantes": {
+    "path": "/departamentos/solubles-y-desengrasantes/limpiadores-y-desengrasantes"
+  },
+  "store.custom#solubles-y-desengrasantes-lubricantes-y-aceites-directos": {
+    "path": "/departamentos/solubles-y-desengrasantes/lubricantes-y-aceites-directos"
+  },
+  "store.custom#solubles-y-desengrasantes-refrigerantes": {
+    "path": "/departamentos/solubles-y-desengrasantes/refrigerantes"
+  },
   "store.custom#sierra-cintas-y-maquinas": {
     "path": "/departamentos/sierra-cintas-y-maquinas"
+  },
+  "store.custom#sierra-cintas-sierra-cintas-portatiles": {
+    "path": "/departamentos/sierra-cintas-y-maquinas/sierra-cintas-portatiles"
+  },
+  "store.custom#sierras-cintas-sierra-cintas": {
+    "path": "/departamentos/sierra-cintas-y-maquinas/sierra-cintas"
+  },
+  "store.custom#sierras-cintas-maquinas-de-corte": {
+    "path": "/departamentos/sierra-cintas-y-maquinas/maquinas"
+  },
+  "store.custom#sierras-cintas-discos-de-corte": {
+    "path": "/departamentos/sierra-cintas-y-maquinas/discos-de-corte"
   },
   "store.custom#paneles-y-componentes": {
     "path": "/departamentos/paneles-y-componentes"
   },
+  "store.custom#paneles-y-componentes": {
+    "path": "/departamentos/paneles-y-componentes"
+  },
+  "store.custom#paneles-y-componentes": {
+    "path": "/departamentos/paneles-y-componentes"
+  },
+  "store.custom#paneles-y-componentes": {
+    "path": "/departamentos/paneles-y-componentes"
+  },
+  "store.custom#paneles-solares-paneles-solares": {
+    "path": "/departamentos/paneles-solares/paneles-solares"
+  },
+  "store.custom#paneles-solares-inversores-solares-y-monitoreo": {
+    "path": "/departamentos/paneles-solares/inversores-solares-y-monitoreo"
+  },
+  "store.custom#paneles-solares-herramientas": {
+    "path": "/departamentos/paneles-solares/baterias-de-litio"
+  },
+  "store.custom#paneles-solares-kit-de-instalador": {
+    "path": "/departamentos/paneles-solares/kit-de-instalador"
+  },
+  "store.custom#paneles-solares-estructuras-y-accesorios": {
+    "path": "/departamentos/paneles-solares/estructuras-y-accesorios"
+  },
   "store.custom#herramientas-electricas": {
     "path": "/departamentos/herramientas-electricas"
+  },
+  "store.custom#herramientaelectrica": {
+    "path": "/departamentos/soldaduras-y-generadores/herramientaelectrica"
+  },
+  "store.custom#herramientas-electricas-herramientas": {
+    "path": "/departamentos/herramientas-electricas/herramientas"
+  },
+  "store.custom#herramientas-electricas-accesorios": {
+    "path": "/departamentos/herramientas-electricas/accesorios"
+  },
+  "store.custom#herramientas-electricas-reemplazos": {
+    "path": "/departamentos/herramientas-electricas/reemplazos"
   },
   "store.custom#herramientas-neumaticas": {
     "path": "/departamentos/herramientas-neumaticas"
   },
+  "store.custom#herramientas-neumaticas-herramientas": {
+    "path": "/departamentos/herramientas-neumaticas/herramientas"
+  },
+  "store.custom#herramientas-neumaticas-consumibles": {
+    "path": "/departamentos/herramientas-neumaticas/consumibles"
+  },
+  "store.custom#herramientas-neumaticas-partes-de-reemplazo": {
+    "path": "/departamentos/herramientas-neumaticas/partes-de-reemplazo"
+  },
   "store.custom#herramientas-manuales": {
     "path": "/departamentos/herramientas-manuales"
   },
+  "store.custom#herramientas-manuales-herramientas-de-corte": {
+    "path": "/departamentos/herramientas-manuales/herramientas-de-corte"
+  },
+  "store.custom#herramientas-manuales-herramientas-de-medicion": {
+    "path": "/departamentos/herramientas-manuales/herramientas-de-medicion"
+  },
+  "store.custom#herramientas-manuales-herramientas-de-sujecion": {
+    "path": "/departamentos/herramientas-manuales/herramientas-de-sujecion"
+  },
+  "store.custom#herramientas-manuales-llaves-y-desarmadores": {
+    "path": "/departamentos/herramientas-manuales/llaves-y-desarmadores"
+  },
+  "store.custom#herramientas-manuales-seguetas-serruchos-y-arcos": {
+    "path": "/departamentos/herramientas-manuales/seguetas-serruchos-y-arcos"
+  },
+  "store.custom#depto-insertos-landing": {
+    "path": "/subcategorias/insertos"
+  },  
+  "store.custom#ofertas-liquidacion": {
+    "path": "/departamentos/ofertas/liquidacion"
+  },  
+  "store.custom#ofertas-combos": {
+    "path": "/departamentos/ofertas/combos"
+  },  
+  "store.custom#ofertas-promociones": {
+    "path": "/departamentos/ofertas/promociones"
+  },  
+  "store.custom#inversores-y-monitoreo": {
+    "path": "/categorias/inversores-y-monitoreo"
+  },  
   "store.custom#centro-de-servicio-autorizado": {
     "path": "/centro-de-servicio-autorizado"
+  },
+  "store.custom#depto-dewalt-landing": {
+    "path": "/marcas/dewalt"
+  },
+  "store.custom#everising": {
+    "path": "/marcas/everising"
+  },
+  "store.custom#stanley-black-and-decker": {
+    "path": "/marcas/stanley-black-and-decker"
+  },
+  "store.custom#cotizador": {
+    "path": "/cotizador"
   },
   "store.custom#legal-y-privacidad": {
     "path": "/institucional/informacion-legal-y-privacidad"
@@ -40,6 +196,9 @@
   },
   "store.custom#contactanos": {
     "path": "/institucional/contactanos"
+  },
+  "store.custom#contacto": {
+    "path": "/institucional/contacto"
   },
   "store.custom#facturacion": {
     "path": "/facturacion"
@@ -54,7 +213,13 @@
     "path": "/institucional/preguntas-frecuentes"
   },
   "store.custom#oficios": {
-    "path": "/maraga-oficios"
+    "path": "/oficios"
+  },
+  "store.custom#herreria": {
+    "path": "/oficio/herreria"
+  },
+  "store.custom#oficios2": {
+    "path": "/oficio"
   },
   "store.custom#industrial": {
     "path": "/industrial"
@@ -76,5 +241,11 @@
   },
   "store.custom#catalogo": {
     "path": "/catalogo"
+  },
+  "store.custom#como-comprar": {
+    "path": "/como-comprar"
+  },
+  "store.custom#formas-de-pago": {
+    "path": "/formas-de-pago"
   }
 }

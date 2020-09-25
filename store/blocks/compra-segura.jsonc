@@ -1,11 +1,18 @@
 {
     "store.custom#compra-segura":{
         "blocks":[
-            "flex-layout.row#row-text-compra-segura"
+            "flex-layout.row#row-text-compra-segura",
+            "flex-layout.row#deals"
         ]
     },
     "flex-layout.row#row-text-compra-segura":{
-        "children":["rich-text#compra-segura"],
+        "children":["rich-text#compra-segura","rich-text#compra-segura-2"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "flex-layout.row#row-text-compra-segura-2":{
+        "children":["rich-text#compra-segura-2"],
         "props":{
             "blockClass":"content-static-page"
         }
@@ -13,7 +20,13 @@
     "rich-text#compra-segura": {
         "props": {
             "text": "# Compra Segura \n\n ¡En Maraga tus datos están seguros! Nuestra plataforma cumple con el estandar PCI DSS,  estándar de seguridad publicado por el PCI SSC y orientado a la definición de controles para la protección de los datos del titular de la tarjeta y/o datos confidenciales de autenticación durante su procesamiento, almacenamiento y/o transmisión.",
-            "blockClass": "text"
+            "blockClass": "text-compra-segura"
+        }
+    },
+    "rich-text#compra-segura-2": {
+        "props": {
+            "text": "# Envío seguro \n\n El tiempo de entrega es de 2 a 3 días hábiles, una vez acreditado su pago. En ciertas zonas puede ser mayor el tiempo ya que las paqueterías cuentan con frecuencia de entrega.",
+            "blockClass": "text-compra-segura"
         }
     }
 }

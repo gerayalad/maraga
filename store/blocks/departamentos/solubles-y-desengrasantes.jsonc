@@ -2,61 +2,75 @@
     "store.custom#solubles-y-desengrasantes":{
         "blocks":[
             "list-context.image-list#full-banner",
-            "flex-layout.row#row-text-solubles-y-desengrasantes",
-            "flex-layout.row#mini-banners-1",
             "flex-layout.row#row-text-solubles-y-desengrasantes-1",
-            "flex-layout.row#mini-banners-2",
+            "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-1",
+            "rich-text#title-solubles-y-desengrasantes-1",
+            "shelf#shelf-01-solubles-y-desengrasantes-1-depto",
             "flex-layout.row#row-text-solubles-y-desengrasantes-2",
-            "flex-layout.row#mini-banners-3",
-            "flex-layout.row#row-text-solubles-y-desengrasantes-3",
-            "flex-layout.row#mini-banners-4"
+            "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-2",
+            "rich-text#title-solubles-y-desengrasantes-2",
+            "shelf#shelf-01-solubles-y-desengrasantes-2-depto"
         ]
     },
-    "flex-layout.row#row-text-solubles-y-desengrasantes":{
-        "children":["rich-text#solubles-y-desengrasantes"],
-        "props":{
-            "blockClass":"content-static-page-landing"
-        }
-    },
     "flex-layout.row#row-text-solubles-y-desengrasantes-1":{
-        "children":["rich-text#solubles-y-desengrasantes-1"],
+        "children":["rich-text#row-text-solubles-y-desengrasantes-1"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
     "flex-layout.row#row-text-solubles-y-desengrasantes-2":{
-        "children":["rich-text#solubles-y-desengrasantes-2"],
+        "children":[
+                "flex-layout.col#col-text-solubles-y-desengrasantes-2-1",
+                "flex-layout.col#col-text-solubles-y-desengrasantes-2-2"
+                ],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "flex-layout.row#row-text-solubles-y-desengrasantes-3":{
-        "children":["rich-text#solubles-y-desengrasantes-3"],
+    "flex-layout.col#col-text-solubles-y-desengrasantes-2-1":{
+        "children":["rich-text#row-text-solubles-y-desengrasantes-2"],
         "props":{
             "blockClass":"content-static-page-landing"
         }
     },
-    "rich-text#solubles-y-desengrasantes": {
+    "flex-layout.col#col-text-solubles-y-desengrasantes-2-2":{
+        "children":["rich-text#row-text-solubles-y-desengrasantes-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "rich-text#row-text-solubles-y-desengrasantes-1": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Maquinas**",
+          "text": "**Especialidades**",
+          "textColor": "muted-1",
+          "font": "t-heading-5",
+          "blockClass": "title-landing"
+        },
+        "title": "Title1"
+    },
+    "rich-text#row-text-solubles-y-desengrasantes-2": {
+        "props": {
+          "textAlignment": "Left",
+          "textPosition": "left",
+          "text": "**Limpiadores y Desengrasantes**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
         }
     },
-    "rich-text#solubles-y-desengrasantes-1": {
+    "rich-text#row-text-solubles-y-desengrasantes-3": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
-          "text": "**Consumibles**",
+          "text": "**Lubricantes y Aceites Directos**",
           "textColor": "muted-1",
           "font": "t-heading-5",
           "blockClass": "title-landing"
         }
     },
-    "rich-text#solubles-y-desengrasantes-2": {
+    "rich-text#row-text-solubles-y-desengrasantes-4": {
         "props": {
           "textAlignment": "Left",
           "textPosition": "left",
@@ -66,58 +80,153 @@
           "blockClass": "title-landing"
         }
     },
-    "rich-text#solubles-y-desengrasantes-3": {
-        "props": {
-          "textAlignment": "Left",
-          "textPosition": "left",
-          "text": "**Refacciones**",
-          "textColor": "muted-1",
-          "font": "t-heading-5",
-          "blockClass": "title-landing"
-        }
-    },
-    "flex-layout.row#mini-banners-1":{
+    "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-1":{
         "children":[
-          "list-context.image-list#mini-banners-1"
+          "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-1"
         ],
         "props":{
-          "blockClass":"mini-banners-1",
+          "blockClass":"mini-banners-solubles-y-desengrasantes",
           "horizontalAlign":"center"
         }
     },
-    "list-context.image-list#mini-banners-1": {
-        "children": ["slider-layout#mini-banners-1"],
+    "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-2":{
+        "children":[
+          "flex-layout.col#mini-banners-solubles-y-desengrasantes-desktop-2-1",
+          "flex-layout.col#mini-banners-solubles-y-desengrasantes-desktop-2-2"
+        ],
+        "props":{
+          "blockClass":"mini-banners-solubles-y-desengrasantes",
+          "horizontalAlign":"center"
+        }
+    },
+    "flex-layout.col#mini-banners-solubles-y-desengrasantes-desktop-2-1":{
+        "children":["list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-2"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.col#mini-banners-solubles-y-desengrasantes-desktop-2-2":{
+        "children":["list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-3"],
+        "props":{
+            "blockClass":"content-static-page-landing"
+        }
+    },
+    "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-3":{
+        "children":[
+          "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-3"
+        ],
+        "props":{
+          "blockClass":"mini-banners-solubles-y-desengrasantes",
+          "horizontalAlign":"center"
+        }
+    },
+    "flex-layout.row#mini-banners-solubles-y-desengrasantes-desktop-4":{
+        "children":[
+          "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-4"
+        ],
+        "props":{
+          "blockClass":"mini-banners-solubles-y-desengrasantes",
+          "horizontalAlign":"center"
+        }
+    },
+    "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-1": {
+        "children": ["slider-layout#mini-banners-solubles-y-desengrasantes-desktop-1"],
         "props": {
           "height": 375,
           "images": [
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aditivos_500___5248e3981391e46b7940cc3974419a28.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aditivos_mobile___5248e3981391e46b7940cc3974419a28.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/especialidades/aditivos"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/coalescentes_500___04c17afab5f44c53d4f072c54efb9907.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/coalescentes_mobile___04c17afab5f44c53d4f072c54efb9907.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/especialidades/coalescentes"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/equipodemantenimiento_500___39c8839389bfe433a8176fcf60c16ec2.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/equipodemantenimiento_mobile___39c8839389bfe433a8176fcf60c16ec2.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/especialidades/equipo-de-mantenimiento"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/inhibidordecorrocion_500___328e87bfcbd2794eb52c9efa34e71e49.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/inhibidordecorrocion_mobile___328e87bfcbd2794eb52c9efa34e71e49.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/especialidades/inhibidor-de-corrocion"
             },
             { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aerosolypoliuretano_500___90084c0c9334bccf05c50057fb1f5e0f.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aerosolypoliuretano_mobile___90084c0c9334bccf05c50057fb1f5e0f.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/especialidades/productos-en-aerosol-y-poliuretano"
             }
           ]
         }
     },
-    "slider-layout#mini-banners-1": {
+    "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-2": {
+        "children": ["slider-layout#mini-banners-solubles-y-desengrasantes-desktop-2"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_500___1a8714ae644c45dfa695797400fe2bd8.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/desengrasantes_mobile___1a8714ae644c45dfa695797400fe2bd8.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/limpiadores-y-desengrasantes/desengrasantes"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/removedordeoxido_500___722afc0b650a38f98e32cc34d47d1c91.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/removedordeoxido_mobile___722afc0b650a38f98e32cc34d47d1c91.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/limpiadores-y-desengrasantes/removedor-de-oxido"
+            }
+          ]
+        }
+    },
+    "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-3": {
+        "children": ["slider-layout#mini-banners-solubles-y-desengrasantes-desktop-3"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/lubricantes_500___00dfff9d0b15833f48c5354caac668dd.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/lubricantes_mobile___00dfff9d0b15833f48c5354caac668dd.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/lubricantes-y-aceites-directos/lubricantes"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aceitesdirectosdecorte_500___77083239c20192bbd2a79c8f512f13d4.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/aceitesdirectosdecorte_mobile___77083239c20192bbd2a79c8f512f13d4.jpg",
+              "link":"https://www.maraga.mx/solubles-y-desengrasantes/lubricantes-y-aceites-directos/aceites"
+            }
+          ]
+        }
+    },
+    "list-context.image-list#mini-banners-solubles-y-desengrasantes-desktop-4": {
+        "children": ["slider-layout#mini-banners-solubles-y-desengrasantes-desktop-4"],
+        "props": {
+          "height": 375,
+          "images": [
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/antorchas_500___af399d8a8f3389e7a560f67ffb8cf6c6.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/antorchas_500___af399d8a8f3389e7a560f67ffb8cf6c6.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/antorchas"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/boquillas_500___7766cff1bf10d568ba2d157a5512d448.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/boquillas_500___7766cff1bf10d568ba2d157a5512d448.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/boquillas"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/puntasdecontacto_500___c8ccfed474baa175bf742763eecdd3ea.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/puntasdecontacto_500___c8ccfed474baa175bf742763eecdd3ea.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/puntas-de-contacto"
+            },
+            { 
+              "image": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/otros_500___3ef757bba8d58641c3f961002d46cb89.jpg",
+              "mobileImage": "https://maraga.vtexassets.com/assets/vtex.file-manager-graphql/images/otros_500___3ef757bba8d58641c3f961002d46cb89.jpg",
+              "link":"https://www.maraga.mx/soldadura-y-generadores/accesorios/otros"
+            }
+          ]
+        }
+    },
+    "slider-layout#mini-banners-solubles-y-desengrasantes-desktop-1": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -129,48 +238,7 @@
         }
       }
     },
-    "flex-layout.row#mini-banners-2":{
-        "children":[
-          "list-context.image-list#mini-banners-2"
-        ],
-        "props":{
-          "blockClass":"mini-banners-2",
-          "horizontalAlign":"center"
-        }
-    },
-    "list-context.image-list#mini-banners-2": {
-        "children": ["slider-layout#mini-banners-2"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "slider-layout#mini-banners-2": {
+    "slider-layout#mini-banners-solubles-y-desengrasantes-desktop-2": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -182,48 +250,7 @@
         }
       }
     },
-    "flex-layout.row#mini-banners-3":{
-        "children":[
-          "list-context.image-list#mini-banners-3"
-        ],
-        "props":{
-          "blockClass":"mini-banners-3",
-          "horizontalAlign":"center"
-        }
-    },
-    "list-context.image-list#mini-banners-3": {
-        "children": ["slider-layout#mini-banners-3"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "slider-layout#mini-banners-3": {
+    "slider-layout#mini-banners-solubles-y-desengrasantes-desktop-3": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -235,48 +262,7 @@
         }
       }
     },
-    "flex-layout.row#mini-banners-4":{
-        "children":[
-          "list-context.image-list#mini-banners-4"
-        ],
-        "props":{
-          "blockClass":"mini-banners-4",
-          "horizontalAlign":"center"
-        }
-    },
-    "list-context.image-list#mini-banners-4": {
-        "children": ["slider-layout#mini-banners-4"],
-        "props": {
-          "height": 375,
-          "images": [
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            },
-            { 
-              "image": "/arquivos/industrial.jpg",
-              "link":"/industrial"
-            }
-          ]
-        }
-    },
-    "slider-layout#mini-banners-4": {
+    "slider-layout#mini-banners-solubles-y-desengrasantes-desktop-4": {
       "props": {
         "blockClass":"landing",
         "showPaginationDots": "always",
@@ -285,6 +271,56 @@
         "desktop": 4, 
         "tablet": 3, 
         "phone": 2 
+        }
+      }
+    },
+    "rich-text#title-solubles-y-desengrasantes-1":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Limpiadores y Desengrasantes**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#shelf-01-solubles-y-desengrasantes-1-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 2,
+          "arrows": true,
+          "titleText":"",
+          "collection":"236"
+        }
+      }
+    },
+    "rich-text#title-solubles-y-desengrasantes-2":{
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "**Refrigerantes**",
+        "textColor": "muted-1",
+        "font": "t-heading-5",
+        "blockClass": "title-01"
+      }
+    },
+    "shelf#shelf-01-solubles-y-desengrasantes-2-depto": {
+      "blocks": ["product-summary.shelf"],
+      "props": {
+        "orderBy": "OrderByTopSaleDESC",
+        "paginationDotsVisibility": "never",
+        "productList": {
+          "maxItems": 20,
+          "itemsPerPage": 4,
+          "minItemsPerPage": 2,
+          "arrows": true,
+          "titleText":"",
+          "collection":"237"
         }
       }
     }

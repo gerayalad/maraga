@@ -1,0 +1,164 @@
+{
+    "store.custom#oficios2":{
+        "blocks":[
+            "flex-layout.row#row-text-oficios2",
+            "shelf#shelf-oficios2-01",
+            "shelf#shelf-oficios2-02",
+            "shelf#shelf-oficios2-03",
+            "shelf#shelf-oficios2-04",
+            "shelf#shelf-oficios2-05",
+            "shelf#shelf-oficios2-06",
+            "shelf#shelf-oficios2-07",
+            "shelf#shelf-oficios2-08"
+        ]
+    },
+    "flex-layout.row#row-text-oficios2":{
+        "children":["rich-text#oficios2"],
+        "props":{
+            "blockClass":"content-static-page"
+        }
+    },
+    "rich-text#oficios2": {
+        "props": {
+            "text": "# oficios2 \n\n",
+            "blockClass": "text"
+        }
+    },
+
+    "shelf#shelf-oficios2-01": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"214",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Corte"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-02": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"219",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Impacto"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-03": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"215",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Limpieza"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-04": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"218",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Lubricante"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-05": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"217",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Perforación"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-06": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"221",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Remoción"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-07": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"216",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Soldar"
+            }
+        }
+    },
+    "shelf#shelf-oficios2-08": {
+        "blocks": ["product-summary.shelf"],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC",
+          "paginationDotsVisibility": "never",
+          "productList": {
+                "collection":"220",
+                "maxItems": 16,
+                "itemsPerPage": 4,
+                "gap":3,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Sujeción"
+            }
+        }
+    }
+}

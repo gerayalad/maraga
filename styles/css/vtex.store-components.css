@@ -37,8 +37,9 @@
 
     :global(.vtex-store-components-3-x-searchBarContainer){
         padding:0px;
-        margin:10px 0;
+        margin:10px 15px;
         background-color: #F7F7F7;
+        border:1px solid #eaeaea;
     }
 
     :global(.vtex-input-prefix__group){
@@ -80,6 +81,12 @@
     padding: 25px 0 25px;
     overflow: hidden;
 }
+.container--news-mobile{
+    background-color: #FA5200;
+    justify-content: center;
+    padding: 25px 0 25px;
+    overflow: hidden;
+}
 
 .searchBarIcon{
     align-items: center;
@@ -101,6 +108,14 @@
     left: -110px;
     top: 20px;
 }
+.container--news-mobile .form::before,
+.confirmationTitle--news-mobile::before{
+    content:"";
+    display: block;
+    height:87px;
+    background: url("https://maraga.myvtex.com/arquivos/news-footer-img.png") no-repeat center center;
+    margin-bottom: 10px;
+}
 
 .label--news-footer{
     color:#ffffff;
@@ -108,8 +123,18 @@
     float:left;
     margin-bottom: 10px;
 }
+.label--news-mobile{
+    color:#ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
 
 .label--news-footer::after{
+    content:"  MARAGA";
+    color:#000000
+}
+
+.label--news-mobile::after{
     content:"  MARAGA";
     color:#000000
 }
@@ -153,12 +178,6 @@
     padding-left: 10px;
 }
 
-.logoLink--logo-mobile{
-    padding: 0;
-    height: 64px;
-    display: flex;
-    align-items: center;
-}
 
 :global(.vtex-search-result-3-x-searchResultContainer) 
 :global(.vtex-product-summary-2-x-container){
@@ -209,14 +228,13 @@
     max-width: 280px;
 }
 
-.searchBarIcon--search :global(.vtex-store-components-3-x-searchIcon){
-    margin-left: -13px;
-    width: auto;
-    height: 6px;
-    overflow: visible;
-    margin-top: -19px;
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--carousel) 
+    :global(.vtex-store-components-3-x-imageElement){
+    width: 95% !important;
 }
-
+:global(.vtex-rich-text-0-x-paragraph--title-01){
+    padding-left:7px;
+}
 .imageElement--carousel-mini-banners{
     width: 98%!important;
     height: auto!important;
@@ -237,15 +255,6 @@
   height: 20px;
   position: relative;
   top: -2px;
-}
-
-.logoLink--logo-mobile{
-    display: flex!important;
-    align-items: center;
-}
-
-.logoContainer--logo-mobile{
-    padding: 0 0 0 25px;
 }
 
 .specificationsTableContainer{
@@ -373,11 +382,6 @@
     color:#FDB819
 }
 
-.logoLink,
-.logoContainer{
-    display: block;
-}
-
 .showMoreButton{
     padding: .5rem 1rem;
     background: #fa5200;
@@ -399,11 +403,12 @@
 :global(.vtex-rich-text-0-x-paragraph--centro-de-servicio-question){
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 49px;
+    font-size: 45px;
     font-weight: bold;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
+    padding:10px;
 }
 :global(.vtex-rich-text-0-x-container--find-us-heading){
     border-top: 1px solid #ccc;
@@ -413,4 +418,120 @@
     :global(.vtex-rich-text-0-x-paragraph){
         font-size: 20px;
         padding: 40px;
+}
+:global(.vtex-rich-text-0-x-paragraph--welding-tab){
+    padding:10px;
+}
+:global(.vtex-rich-text-0-x-paragraph--como-comprar-title){
+    padding:20px 0px;
+    margin:0px;
+    font-size:24px;
+    font-weight: 700;
+}
+:global(.vtex-rich-text-0-x-container--como-comprar-title){
+    border-top: 1px solid #ddd;
+    margin: 15px 0px 0px 0px;
+}
+:global(.vtex-rich-text-0-x-paragraph--formas-de-pago-title){
+    padding:20px 0px;
+    margin:0px;
+    font-size:24px;
+    font-weight: 700;
+}
+:global(.vtex-rich-text-0-x-container--formas-de-pago-title){
+    border-top: 1px solid #ddd;
+    margin: 15px 0px 0px 0px;
+}
+:global(.vtex-rich-text-0-x-paragraph--como-comprar-title)::first-letter {
+    -webkit-initial-letter: 4;
+          initial-letter: 4;
+    color: #f07820;
+    margin-right: .75em;
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 5px;
+    font-size:29px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--como-comprar-content){
+    text-align: center;
+}
+:global(.vtex-store-components-3-x-imageElement--como-comprar-image){
+    padding-bottom: 50px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--formas-de-pago-content){
+    text-align: center;
+}
+:global(.vtex-store-components-3-x-imageElement--formas-de-pago-image){
+    padding-bottom: 50px;
+}
+:global(.vtex-search-0-x-biggy-autocomplete){
+    position: inherit;
+}
+:global(.vtex-search-0-x-tileListItem)
+    :global(.vtex-product-summary-2-x-buyButtonContainer){
+        display: none;
+}
+:global(.vtex-search-0-x-tileListItem)
+    :global(.vtex-product-summary-2-x-productBrand){
+        font-size: 11px
+}
+:global(.vtex-search-0-x-tileListItem)
+    :global(.vtex-product-summary-2-x-element){
+        padding: 0px !important;
+}
+
+:global(.vtex-store-components-3-x-imageElement--img-pos){
+        margin: 17px 40px;
+    }
+:global(.vtex-search-0-x-tileListSeeMore){
+    line-height: 25px;
+}
+:global(.vtex-store-components-3-x-imageElement--banner-not-found){
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+
+:global(.vtex-store-components-3-x-searchBarIcon){
+    background: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    :global(.vtex-store-components-3-x-searchBarContainer){
+        background-color: #F7F7F7;
+        border:1px solid #eaeaea;
+        width: 80%;
+        margin: 0px auto 10px auto;
+        border-radius: 2px;
+    }
+
+:global(.vtex-store-components-3-x-imageElement--banner-not-found){
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+}
+
+}
+:global(.vtex-account){
+    width: 100%;
+    padding: 0;
+    max-width: 1195px;
+    margin: 0 auto;
+}
+:global(.vtex-my-account-1-x-menu){
+    padding-left: 0rem !important;
+    padding-right: 1rem !important;
+}
+:global(.vtex-store-components-3-x-imageElement--desk-full-banners){
+    padding-bottom: 4rem;
+}
+:global(.vtex-search-result-3-x-orderByOptionsContainer){
+    z-index: 10;
 }
