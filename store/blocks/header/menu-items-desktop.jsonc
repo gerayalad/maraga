@@ -224,8 +224,8 @@
 	        "type": "custom",
 	        "blockClass":["subitem","title"],
 	        "itemProps": {
-	            "href": "/soldadura-y-generadores/maquinas/generadores",
-	            "text": "Generadores"
+	            "href": "/soldadura-y-generadores/maquinas/corte-con-plasma",
+	            "text": "Cortes Con Plasma"
 	        }
 	    }
 	}, 
@@ -234,8 +234,8 @@
             "type": "custom",
             "blockClass":["subitem"],
             "itemProps": {
-                "href": "/generador-silencioso-de-120v-60hz-capacidad-de-2-0-kva-tanque-de-gasolina-de-4-litros/p",
-                "text": "Silencioso"
+                "href": "/corte-con-plasma-mw-pl10--1p-220v-/p",
+                "text": "220 V"
             }
         }
     }, 
@@ -244,8 +244,8 @@
             "type": "custom",
             "blockClass":["subitem"],
             "itemProps": {
-                "href": "/soldadura-y-generadores/maquinas/generadores/electrico",
-                "text": "Eléctrico"
+                "href": "#",
+                "text": "220/440 V"
             }
         }
     }, 
@@ -294,8 +294,8 @@
 	        "type": "custom",
 	        "blockClass":["subitem","title"],
 	        "itemProps": {
-	            "href": "/soldadura-y-generadores/maquinas/corte-con-plasma",
-	            "text": "Cortes Con Plasma"
+	            "href": "/soldadura-y-generadores/maquinas/generadores",
+	            "text": "Generadores"
 	        }
 	    }
 	}, 
@@ -304,8 +304,8 @@
             "type": "custom",
             "blockClass":["subitem"],
             "itemProps": {
-                "href": "/corte-con-plasma-mw-pl10--1p-220v-/p",
-                "text": "220 V"
+                "href": "/generador-silencioso-de-120v-60hz-capacidad-de-2-0-kva-tanque-de-gasolina-de-4-litros/p",
+                "text": "Silencioso"
             }
         }
     }, 
@@ -314,8 +314,8 @@
             "type": "custom",
             "blockClass":["subitem"],
             "itemProps": {
-                "href": "#",
-                "text": "220/440 V"
+                "href": "/soldadura-y-generadores/maquinas/generadores/electrico",
+                "text": "Eléctrico"
             }
         }
     }, 
@@ -799,6 +799,16 @@
             }
         }
     },
+	"menu-item#desktop-slot-2-4-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Grapas"
+            }
+        }
+    },
 	"menu-item#desktop-slot-2-5-1":{
 	    "props": {
 	        "type": "custom",
@@ -1134,8 +1144,8 @@
             "type": "custom",
             "blockClass":["subitem"],
             "itemProps": {
-                "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
-                "text": "Aerosol"
+                "href": "",
+                "text": ""
             }
         }
     }, 
@@ -2170,6 +2180,556 @@
         }
     },
 	"menu-item#desktop-slot-5-6-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/departamentos/herramientas-electricas/herramientas",
+                "text": "Herramientas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/acanaladora-de-1000-rpm-capacidad-de-20-a-45-mm-de-profundidad/p",
+                "text": "Acanaladora"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/pistolas-de-calor",
+                "text": "Pistola De Calor"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/herramientas/llaves-de-impacto",
+                "text": "Llaves De Impacto"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/herramientas/rectificadora",
+                "text": "Rectificadoras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/herramientas/sierras",
+                "text": "Sierras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/herramientas/taladros-y-rotomartillos",
+                "text": "Taladros Y Rotomartillos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/departamentos/herramientas-electricas/accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/arboles",
+                "text": "Árboles"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/brocas",
+                "text": "Brocas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/broqueros",
+                "text": "Broqueros"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/discos-de-corte",
+                "text": "Discos De Corte"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/discos-de-desbaste",
+                "text": "Discos De Desbaste"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/discos-de-diamante",
+                "text": "Discos De Diamante"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/disco-sierra",
+                "text": "Disco Sierra"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/hojas-de-sierra-sable",
+                "text": "Hojas De Sierra Sable"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-10":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/llaves-para-broquero",
+                "text": "Llaves Para Broquero"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-11":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/puntas-para-destornillador",
+                "text": "Puntas Para Destornillador"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-12":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/sierra-caladora",
+                "text": "Hojas De Sierra Caladora"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-13":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/accesorios/sierra-perforadora",
+                "text": "Sierra Perforadora"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-14":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/brocas-escalonadas-lenox",
+                "text": "Brocas Escalonadas VariBit"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-2-15":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/search?_query=master%20band",
+                "text": "Sierras Para Banda Portátil"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/departamentos/herramientas-electricas/reemplazos",
+                "text": "Reemplazos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/adaptadores",
+                "text": "Adaptadores"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/armaduras",
+                "text": "Armaduras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/baleros",
+                "text": "Baleros"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/bandas",
+                "text": "Bandas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/cables",
+                "text": "Cables"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/carbones",
+                "text": "Carbones"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/interruptores",
+                "text": "Interruptores"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/pads",
+                "text": "Pads"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-10":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/para-esmeriladoras",
+                "text": "Para Esmeriladoras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-6-3-11":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/herramientas-electricas/reemplazo/para-sierras",
+                "text": "Para Sierras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/sierra-cintas",
+                "text": "Sierra Cintas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Corte de Metal"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Corte de Madera"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/search?_query=master%20band",
+                "text": "Sierra Cinta Portátil"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Dientes de carburo"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Bimetálicas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Acero al carbón"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-1-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/cotizador",
+                "text": "Woodmaster"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/maquinas",
+                "text": "Máquinas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/maquinas/de-sierra-cinta",
+                "text": "De Sierra Cinta"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/maquinas/de-sierra-circular",
+                "text": "De Sierra Circular"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/Sierra-Cintas/Maquinas/Portatil",
+                "text": "Portátiles"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/maquinas/horizontal",
+                "text": "Horizontal"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/maquinas/vertical",
+                "text": "Vertical"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/departamentos/sierra-cintas-y-maquinas/discos-de-corte",
+                "text": "Discos de corte"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/discos-de-corte/cermet",
+                "text": "Cermet"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/discos-de-corte/hss",
+                "text": "HSS"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "https://www.maraga.mx/sierra-cintas/discos-de-corte/tct",
+                "text": "TCT"
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-7-3-7":{
         "props": {
             "type": "custom",
             "blockClass":["subitem"],

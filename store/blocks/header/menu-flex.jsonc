@@ -354,8 +354,6 @@
             "flex-layout.col#submenu-01-departamento-06",
             "flex-layout.col#submenu-02-departamento-06",
             "flex-layout.col#submenu-03-departamento-06",
-            "flex-layout.col#submenu-04-departamento-06",
-            "flex-layout.col#submenu-05-departamento-06",
 			"flex-layout.col#img-menu-departamento-06"
         ],
         "props":{
@@ -400,8 +398,6 @@
             "flex-layout.col#submenu-01-departamento-07",
 			"flex-layout.col#submenu-02-departamento-07",
             "flex-layout.col#submenu-03-departamento-07",
-            "flex-layout.col#submenu-04-departamento-07",
-            "flex-layout.col#submenu-05-departamento-07",
 			"flex-layout.col#img-menu-departamento-07"
         ],
         "props":{
