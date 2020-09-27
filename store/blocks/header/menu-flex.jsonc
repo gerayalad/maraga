@@ -6,8 +6,8 @@
             "flex-layout.col#submenu-03-departamento-01",
             "flex-layout.col#submenu-05-departamento-01",
             "flex-layout.col#submenu-04-departamento-01",
-            "flex-layout.col#submenu-06-departamento-01",
-			"flex-layout.col#img-menu-departamento-01"
+            "flex-layout.col#submenu-06-departamento-01"
+			//"flex-layout.col#img-menu-departamento-01"
         ],
         "props":{
             "blockClass":"row-submenu",
@@ -144,9 +144,9 @@
             "flex-layout.col#submenu-02-departamento-02",
             "flex-layout.col#submenu-03-departamento-02",
             "flex-layout.col#submenu-04-departamento-02",
-            "flex-layout.col#submenu-05-departamento-02",
-            "flex-layout.col#submenu-06-departamento-02",
-			"flex-layout.col#img-menu-departamento-02"
+            "flex-layout.col#submenu-05-departamento-02"
+            //"flex-layout.col#submenu-06-departamento-02",
+			//"flex-layout.col#img-menu-departamento-02"
         ],
         "props":{
             "blockClass":"row-submenu",
@@ -196,7 +196,10 @@
             "flex-layout.col#submenu-01-departamento-03",
             "flex-layout.col#submenu-02-departamento-03",
             "flex-layout.col#submenu-03-departamento-03",
-			"flex-layout.col#img-menu-departamento-03"
+            "flex-layout.col#submenu-04-departamento-03",
+            "flex-layout.col#submenu-05-departamento-03",
+            "flex-layout.col#submenu-06-departamento-03"
+			//"flex-layout.col#img-menu-departamento-03"
         ],
         "props":{
             "blockClass":"row-submenu",
@@ -218,6 +221,21 @@
             "vtex.menu@2.x:menu#submenu-03-departamento-03"
         ]
     },
+    "flex-layout.col#submenu-04-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-03"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-03"
+        ]
+    },
+    "flex-layout.col#submenu-06-departamento-03":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-06-departamento-03"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-03":{
         "children":["image#img-menu-departamento-03"],
         "props":{
@@ -231,7 +249,10 @@
             "flex-layout.col#submenu-01-departamento-04",
             "flex-layout.col#submenu-02-departamento-04",
             "flex-layout.col#submenu-03-departamento-04",
-			"flex-layout.col#img-menu-departamento-04"
+            "flex-layout.col#submenu-04-departamento-04",
+            "flex-layout.col#submenu-05-departamento-04",
+            "flex-layout.col#submenu-06-departamento-04"
+			//"flex-layout.col#img-menu-departamento-04"
         ],
         "props":{
             "blockClass":"row-submenu",
@@ -253,6 +274,21 @@
             "vtex.menu@2.x:menu#submenu-03-departamento-04"
         ]
     },
+    "flex-layout.col#submenu-04-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-04"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-04"
+        ]
+    },
+    "flex-layout.col#submenu-06-departamento-04":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-06-departamento-04"
+        ]
+    },
     "flex-layout.col#img-menu-departamento-04":{
         "children":["image#img-menu-departamento-04"],
         "props":{
@@ -266,7 +302,10 @@
             "flex-layout.col#submenu-01-departamento-05",
             "flex-layout.col#submenu-02-departamento-05",
             "flex-layout.col#submenu-03-departamento-05",
-			"flex-layout.col#img-menu-departamento-05"
+            "flex-layout.col#submenu-04-departamento-05",
+            "flex-layout.col#submenu-05-departamento-05",
+            "flex-layout.col#submenu-06-departamento-05"
+			//"flex-layout.col#img-menu-departamento-05"
         ],
         "props":{
             "blockClass":"row-submenu",
@@ -286,6 +325,21 @@
     "flex-layout.col#submenu-03-departamento-05":{
         "children":[
             "vtex.menu@2.x:menu#submenu-03-departamento-05"
+        ]
+    },
+    "flex-layout.col#submenu-04-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-04-departamento-05"
+        ]
+    },
+    "flex-layout.col#submenu-05-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-05-departamento-05"
+        ]
+    },
+    "flex-layout.col#submenu-06-departamento-05":{
+        "children":[
+            "vtex.menu@2.x:menu#submenu-06-departamento-05"
         ]
     },
     "flex-layout.col#img-menu-departamento-05":{

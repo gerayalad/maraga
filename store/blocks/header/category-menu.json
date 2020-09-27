@@ -5,10 +5,7 @@
         "menu-item#menu-departamento-02",
         "menu-item#menu-departamento-03",
         "menu-item#menu-departamento-04",
-        "menu-item#menu-departamento-05",
-        "menu-item#menu-departamento-06",
-        "menu-item#menu-departamento-07",
-        "menu-item#menu-departamento-08"
+        "menu-item#menu-departamento-05"
       ],
     "props":{
       "blockClass":"menu-site",
@@ -66,11 +63,13 @@
 
 "vtex.menu@2.x:menu#submenu-01-departamento-01":{
   "children": [
-    "menu-item#maquinas-soldaduras",
-    "menu-item#generadores",
-    "menu-item#soldadoras",
-    "menu-item#plasmas",
-    "menu-item#maquinas-herramientas-electricas"
+    "menu-item#desktop-slot-1-1-1",
+    "menu-item#desktop-slot-1-1-2",
+    "menu-item#desktop-slot-1-1-3",
+    "menu-item#desktop-slot-1-1-4",
+    "menu-item#desktop-slot-1-1-5",
+    "menu-item#desktop-slot-1-1-6",
+    "menu-item#desktop-slot-1-1-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -79,12 +78,13 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-01":{
   "children": [
-    "menu-item#consumibles",
-    "menu-item#alambres",
-    "menu-item#electrodos",
-    "menu-item#consumibles-sub-1",
-    "menu-item#consumibles-sub-2",
-    "menu-item#consumibles-sub-3"
+    "menu-item#desktop-slot-1-2-1",
+    "menu-item#desktop-slot-1-2-2",
+    "menu-item#desktop-slot-1-2-3",
+    "menu-item#desktop-slot-1-2-4",
+    "menu-item#desktop-slot-1-2-5",
+    "menu-item#desktop-slot-1-2-6",
+    "menu-item#desktop-slot-1-2-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -93,12 +93,14 @@
 },
 "vtex.menu@2.x:menu#submenu-03-departamento-01":{
   "children": [
-    "menu-item#accesorios-soldadura",
-    "menu-item#caretas",
-    "menu-item#antorchas",
-    "menu-item#boquillas",
-    "menu-item#puntas-de-contacto",
-    "menu-item#soldadura-accesorios-otros"
+    "menu-item#desktop-slot-1-3-1",
+    "menu-item#desktop-slot-1-3-2",
+    "menu-item#desktop-slot-1-3-3",
+    "menu-item#desktop-slot-1-3-4",
+    "menu-item#desktop-slot-1-3-5",
+    "menu-item#desktop-slot-1-3-6",
+    "menu-item#desktop-slot-1-3-7",
+    "menu-item#desktop-slot-1-3-8"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -107,17 +109,13 @@
 },
 "vtex.menu@2.x:menu#submenu-04-departamento-01":{
   "children": [
-    "menu-item#refacciones-soldadura",
-    "menu-item#para-careta",
-    "menu-item#para-soldadora",
-    "menu-item#para-plasma",
-    "menu-item#refacciones-sub-1",
-    "menu-item#refacciones-sub-2",
-    "menu-item#refacciones-sub-3",
-    "menu-item#refacciones-sub-4",
-    "menu-item#refacciones-sub-5",
-    "menu-item#refacciones-sub-6",
-    "menu-item#refacciones-sub-7"
+    "menu-item#desktop-slot-1-4-1",
+    "menu-item#desktop-slot-1-4-2",
+    "menu-item#desktop-slot-1-4-3",
+    "menu-item#desktop-slot-1-4-4",
+    "menu-item#desktop-slot-1-4-5",
+    "menu-item#desktop-slot-1-4-6",
+    "menu-item#desktop-slot-1-4-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -126,12 +124,13 @@
 },
 "vtex.menu@2.x:menu#submenu-05-departamento-01":{
   "children": [
-    "menu-item#componentes",
-    "menu-item#componentes-sub-1",
-    "menu-item#componentes-sub-2",
-    "menu-item#componentes-sub-3",
-    "menu-item#componentes-sub-4",
-    "menu-item#componentes-sub-5"
+    "menu-item#desktop-slot-1-5-1",
+    "menu-item#desktop-slot-1-5-2",
+    "menu-item#desktop-slot-1-5-3",
+    "menu-item#desktop-slot-1-5-4",
+    "menu-item#desktop-slot-1-5-5",
+    "menu-item#desktop-slot-1-5-6",
+    "menu-item#desktop-slot-1-5-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -140,8 +139,18 @@
 },
 "vtex.menu@2.x:menu#submenu-06-departamento-01":{
   "children": [
-    "menu-item#soldadura-limpieza",
-    "menu-item#soldadura-limpieza-sub-1"
+    "menu-item#desktop-slot-1-6-1",
+    "menu-item#desktop-slot-1-6-2",
+    "menu-item#desktop-slot-1-6-3",
+    "menu-item#desktop-slot-1-6-4",
+    "menu-item#desktop-slot-1-6-5",
+    "menu-item#desktop-slot-1-6-6",
+    "menu-item#desktop-slot-1-6-7",
+    "menu-item#desktop-slot-1-6-8",
+    "menu-item#desktop-slot-1-6-9",
+    "menu-item#desktop-slot-1-6-10",
+    "menu-item#desktop-slot-1-6-11",
+    "menu-item#desktop-slot-1-6-12"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -150,12 +159,13 @@
 },
 "vtex.menu@2.x:menu#submenu-01-departamento-02":{
   "children": [
-    "menu-item#especialidades",
-    "menu-item#inhibidor-de-corrosion",
-    "menu-item#coalescentes",
-    "menu-item#aditivos",
-    "menu-item#equipo-de-mantenimiento",
-    "menu-item#aerosol"
+    "menu-item#desktop-slot-2-1-1",
+    "menu-item#desktop-slot-2-1-2",
+    "menu-item#desktop-slot-2-1-3",
+    "menu-item#desktop-slot-2-1-4",
+    "menu-item#desktop-slot-2-1-5",
+    "menu-item#desktop-slot-2-1-6",
+    "menu-item#desktop-slot-2-1-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -164,14 +174,16 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-02":{
   "children": [
-      "menu-item#limpiadores-y-desengrasantes",
-      "menu-item#removedor-de-oxido",
-      "menu-item#desengrasantes",
-      "menu-item#slot-2-2-4",
-      "menu-item#slot-2-2-5",
-      "menu-item#slot-2-2-6",
-      "menu-item#slot-2-2-7",
-      "menu-item#slot-2-2-8"
+    "menu-item#desktop-slot-2-2-1",
+    "menu-item#desktop-slot-2-2-2",
+    "menu-item#desktop-slot-2-2-3",
+    "menu-item#desktop-slot-2-2-4",
+    "menu-item#desktop-slot-2-2-5",
+    "menu-item#desktop-slot-2-2-6",
+    "menu-item#desktop-slot-2-2-7",
+    "menu-item#desktop-slot-2-2-8",
+    "menu-item#desktop-slot-2-2-9",
+    "menu-item#desktop-slot-2-2-10"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -180,10 +192,13 @@
 },
 "vtex.menu@2.x:menu#submenu-03-departamento-02":{
   "children": [
-    "menu-item#lubricantes-y-aceites-directos",
-    "menu-item#aceites-directo-de-corte",
-    "menu-item#lubricantes",
-    "menu-item#slot-2-3-4"
+    "menu-item#desktop-slot-2-3-1",
+    "menu-item#desktop-slot-2-3-2",
+    "menu-item#desktop-slot-2-3-3",
+    "menu-item#desktop-slot-2-3-4",
+    "menu-item#desktop-slot-2-3-5",
+    "menu-item#desktop-slot-2-3-6",
+    "menu-item#desktop-slot-2-3-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -192,10 +207,14 @@
 },
 "vtex.menu@2.x:menu#submenu-04-departamento-02":{
   "children": [
-    "menu-item#refrigerantes",
-    "menu-item#refrigerantes-sinteticos",
-    "menu-item#refrigerantes-semi-sintetico",
-    "menu-item#refrigerantes-mineral"
+    "menu-item#desktop-slot-2-4-1",
+    "menu-item#desktop-slot-2-4-2",
+    "menu-item#desktop-slot-2-4-3",
+    "menu-item#desktop-slot-2-4-4",
+    "menu-item#desktop-slot-2-4-5",
+    "menu-item#desktop-slot-2-4-6",
+    "menu-item#desktop-slot-2-4-7",
+    "menu-item#desktop-slot-2-4-8"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -204,12 +223,13 @@
 },
 "vtex.menu@2.x:menu#submenu-05-departamento-02":{
   "children": [
-    "menu-item#slot-2-5-1",
-    "menu-item#slot-2-5-2",
-    "menu-item#slot-2-5-3",
-    "menu-item#slot-2-5-4",
-    "menu-item#slot-2-5-5",
-    "menu-item#slot-2-5-6"
+    "menu-item#desktop-slot-2-5-1",
+    "menu-item#desktop-slot-2-5-2",
+    "menu-item#desktop-slot-2-5-3",
+    "menu-item#desktop-slot-2-5-4",
+    "menu-item#desktop-slot-2-5-5",
+    "menu-item#desktop-slot-2-5-6",
+    "menu-item#desktop-slot-2-5-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -232,14 +252,13 @@
 },
 "vtex.menu@2.x:menu#submenu-01-departamento-03":{
   "children": [
-    "menu-item#sierra-cintas",
-    "menu-item#corte-de-metal",
-    "menu-item#corte-de-madera",
-    "menu-item#corte-de-esponja",
-    "menu-item#dientes-de-carburo",
-    "menu-item#bimetalicas",
-    "menu-item#acero-al-carbon",
-    "menu-item#woodmaster"
+    "menu-item#desktop-slot-3-1-1",
+    "menu-item#desktop-slot-3-1-2",
+    "menu-item#desktop-slot-3-1-3",
+    "menu-item#desktop-slot-3-1-4",
+    "menu-item#desktop-slot-3-1-5",
+    "menu-item#desktop-slot-3-1-6",
+    "menu-item#desktop-slot-3-1-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -248,12 +267,14 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-03":{
   "children": [
-    "menu-item#maquinas-de-corte-con-disco",
-    "menu-item#maquinas-sierra-cintas",
-    "menu-item#sierra-circular",
-    "menu-item#portatil",
-    "menu-item#horizontal",
-    "menu-item#vertical"
+    "menu-item#desktop-slot-3-2-1",
+    "menu-item#desktop-slot-3-2-2",
+    "menu-item#desktop-slot-3-2-3",
+    "menu-item#desktop-slot-3-2-4",
+    "menu-item#desktop-slot-3-2-5",
+    "menu-item#desktop-slot-3-2-6",
+    "menu-item#desktop-slot-3-2-7",
+    "menu-item#desktop-slot-3-2-8"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -262,10 +283,58 @@
 },
 "vtex.menu@2.x:menu#submenu-03-departamento-03":{
   "children": [
-    "menu-item#sierras-cintas-discos-de-corte",
-    "menu-item#cermet",
-    "menu-item#hss",
-    "menu-item#tct"
+    "menu-item#desktop-slot-3-3-1",
+    "menu-item#desktop-slot-3-3-2",
+    "menu-item#desktop-slot-3-3-3",
+    "menu-item#desktop-slot-3-3-4",
+    "menu-item#desktop-slot-3-3-5",
+    "menu-item#desktop-slot-3-3-6",
+    "menu-item#desktop-slot-3-3-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-03":{
+  "children": [
+    "menu-item#desktop-slot-3-4-1",
+    "menu-item#desktop-slot-3-4-2",
+    "menu-item#desktop-slot-3-4-3",
+    "menu-item#desktop-slot-3-4-4",
+    "menu-item#desktop-slot-3-4-5",
+    "menu-item#desktop-slot-3-4-6",
+    "menu-item#desktop-slot-3-4-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-03":{
+  "children": [
+    "menu-item#desktop-slot-3-5-1",
+    "menu-item#desktop-slot-3-5-2",
+    "menu-item#desktop-slot-3-5-3",
+    "menu-item#desktop-slot-3-5-4",
+    "menu-item#desktop-slot-3-5-5",
+    "menu-item#desktop-slot-3-5-6",
+    "menu-item#desktop-slot-3-5-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-06-departamento-03":{
+  "children": [
+    "menu-item#desktop-slot-3-6-1",
+    "menu-item#desktop-slot-3-6-2",
+    "menu-item#desktop-slot-3-6-3",
+    "menu-item#desktop-slot-3-6-4",
+    "menu-item#desktop-slot-3-6-5",
+    "menu-item#desktop-slot-3-6-6",
+    "menu-item#desktop-slot-3-6-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -274,18 +343,13 @@
 },
 "vtex.menu@2.x:menu#submenu-01-departamento-04":{
   "children": [
-    "menu-item#herramientas",
-    "menu-item#acanaladoras",
-    "menu-item#cortadoras-de-disco",
-    "menu-item#esmerilladoras",
-    "menu-item#lijadoras",
-    "menu-item#pistolas-de-calor",
-    "menu-item#sierra-sable",
-    "menu-item#herramientas-sierras-caladoras",
-    "menu-item#herramientas-sierras-circulares",
-    "menu-item#sopladoras",
-    "menu-item#taladros-y-rotomartillos",
-    "menu-item#router"
+    "menu-item#desktop-slot-4-1-1",
+    "menu-item#desktop-slot-4-1-2",
+    "menu-item#desktop-slot-4-1-3",
+    "menu-item#desktop-slot-4-1-4",
+    "menu-item#desktop-slot-4-1-5",
+    "menu-item#desktop-slot-4-1-6",
+    "menu-item#desktop-slot-4-1-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -294,21 +358,13 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-04":{
   "children": [
-    "menu-item#accesorios-herramientas-electricas",
-    "menu-item#arboles",
-    "menu-item#brocas",
-    "menu-item#broqueros",
-    "menu-item#discos-de-corte",
-    "menu-item#discos-de-desbaste",
-    "menu-item#discos-de-diamante",
-    "menu-item#discos-sierra",
-    "menu-item#hojas-de-sierra",
-    "menu-item#llaves-para-broquero",
-    "menu-item#para-destornillador",
-    "menu-item#sierra-caladora",
-    "menu-item#sierra-perforadora",
-    "menu-item#vari-bit",
-    "menu-item#sierras-para-banda-portatil" 
+    "menu-item#desktop-slot-4-2-1",
+    "menu-item#desktop-slot-4-2-2",
+    "menu-item#desktop-slot-4-2-3",
+    "menu-item#desktop-slot-4-2-4",
+    "menu-item#desktop-slot-4-2-5",
+    "menu-item#desktop-slot-4-2-6",
+    "menu-item#desktop-slot-4-2-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -317,29 +373,77 @@
 },
 "vtex.menu@2.x:menu#submenu-03-departamento-04":{
   "children": [
-    "menu-item#reemplazos",
-    "menu-item#adaptadores",
-    "menu-item#armaduras",
-    "menu-item#baleros",
-    "menu-item#bandas",
-    "menu-item#cables",
-    "menu-item#carbones",
-    "menu-item#interruptores",
-    "menu-item#pads",
-    "menu-item#para-esmerilladores",
-    "menu-item#para-sierras"
+    "menu-item#desktop-slot-4-3-1",
+    "menu-item#desktop-slot-4-3-2",
+    "menu-item#desktop-slot-4-3-3",
+    "menu-item#desktop-slot-4-3-4",
+    "menu-item#desktop-slot-4-3-5",
+    "menu-item#desktop-slot-4-3-6",
+    "menu-item#desktop-slot-4-3-7",
+    "menu-item#desktop-slot-4-3-8",
+    "menu-item#desktop-slot-4-3-9",
+    "menu-item#desktop-slot-4-3-10",
+    "menu-item#desktop-slot-4-3-11"
   ],
   "props":{
     "blockClass":["submenu-site"],
     "orientation": "vertical"
   }
 },
+"vtex.menu@2.x:menu#submenu-04-departamento-04":{
+  "children": [
+    "menu-item#desktop-slot-4-4-1",
+    "menu-item#desktop-slot-4-4-2",
+    "menu-item#desktop-slot-4-4-3",
+    "menu-item#desktop-slot-4-4-4",
+    "menu-item#desktop-slot-4-4-5",
+    "menu-item#desktop-slot-4-4-6",
+    "menu-item#desktop-slot-4-4-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-04":{
+  "children": [
+    "menu-item#desktop-slot-4-5-1",
+    "menu-item#desktop-slot-4-5-2",
+    "menu-item#desktop-slot-4-5-3",
+    "menu-item#desktop-slot-4-5-4",
+    "menu-item#desktop-slot-4-5-5",
+    "menu-item#desktop-slot-4-5-6",
+    "menu-item#desktop-slot-4-5-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-06-departamento-04":{
+  "children": [
+    "menu-item#desktop-slot-4-6-1",
+    "menu-item#desktop-slot-4-6-2",
+    "menu-item#desktop-slot-4-6-3",
+    "menu-item#desktop-slot-4-6-4",
+    "menu-item#desktop-slot-4-6-5",
+    "menu-item#desktop-slot-4-6-6",
+    "menu-item#desktop-slot-4-6-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
 "vtex.menu@2.x:menu#submenu-01-departamento-05":{
   "children": [
-    "menu-item#herramientas-neumaticas-title",
-    "menu-item#clavadoras",
-    "menu-item#compresores",
-    "menu-item#grapadoras"
+    "menu-item#desktop-slot-5-1-1",
+    "menu-item#desktop-slot-5-1-2",
+    "menu-item#desktop-slot-5-1-3",
+    "menu-item#desktop-slot-5-1-4",
+    "menu-item#desktop-slot-5-1-5",
+    "menu-item#desktop-slot-5-1-6",
+    "menu-item#desktop-slot-5-1-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -348,11 +452,13 @@
 },
 "vtex.menu@2.x:menu#submenu-02-departamento-05":{
   "children": [
-    "menu-item#neumaticas-consumible",
-    "menu-item#clavo-en-rollo",
-    "menu-item#clavillo",
-    "menu-item#clavo-tomatero",
-    "menu-item#grapas"
+    "menu-item#desktop-slot-5-2-1",
+    "menu-item#desktop-slot-5-2-2",
+    "menu-item#desktop-slot-5-2-3",
+    "menu-item#desktop-slot-5-2-4",
+    "menu-item#desktop-slot-5-2-5",
+    "menu-item#desktop-slot-5-2-6",
+    "menu-item#desktop-slot-5-2-7"
   ],
   "props":{
     "blockClass":"submenu-site",
@@ -361,12 +467,58 @@
 },
 "vtex.menu@2.x:menu#submenu-03-departamento-05":{
   "children": [
-    "menu-item#partes-de-reemplazo",
-    "menu-item#modelo-coil70-h",
-    "menu-item#modelo-c23-c29-c33",
-    "menu-item#modelo-mcb",
-    "menu-item#modelo-pnc",
-    "menu-item#neumaticas-otros-modelos"
+    "menu-item#desktop-slot-5-3-1",
+    "menu-item#desktop-slot-5-3-2",
+    "menu-item#desktop-slot-5-3-3",
+    "menu-item#desktop-slot-5-3-4",
+    "menu-item#desktop-slot-5-3-5",
+    "menu-item#desktop-slot-5-3-6",
+    "menu-item#desktop-slot-5-3-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-04-departamento-05":{
+  "children": [
+    "menu-item#desktop-slot-5-4-1",
+    "menu-item#desktop-slot-5-4-2",
+    "menu-item#desktop-slot-5-4-3",
+    "menu-item#desktop-slot-5-4-4",
+    "menu-item#desktop-slot-5-4-5",
+    "menu-item#desktop-slot-5-4-6",
+    "menu-item#desktop-slot-5-4-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-05-departamento-05":{
+  "children": [
+    "menu-item#desktop-slot-5-5-1",
+    "menu-item#desktop-slot-5-5-2",
+    "menu-item#desktop-slot-5-5-3",
+    "menu-item#desktop-slot-5-5-4",
+    "menu-item#desktop-slot-5-5-5",
+    "menu-item#desktop-slot-5-5-6",
+    "menu-item#desktop-slot-5-5-7"
+  ],
+  "props":{
+    "blockClass":"submenu-site",
+    "orientation": "vertical"
+  }
+},
+"vtex.menu@2.x:menu#submenu-06-departamento-05":{
+  "children": [
+    "menu-item#desktop-slot-5-6-1",
+    "menu-item#desktop-slot-5-6-2",
+    "menu-item#desktop-slot-5-6-3",
+    "menu-item#desktop-slot-5-6-4",
+    "menu-item#desktop-slot-5-6-5",
+    "menu-item#desktop-slot-5-6-6",
+    "menu-item#desktop-slot-5-6-7"
   ],
   "props":{
     "blockClass":"submenu-site",

@@ -1,0 +1,2182 @@
+{ 
+	"menu-item#desktop-slot-1-1-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/soldaduras-y-generadores",
+	            "text": "Soldadoras"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/soldadoras",
+                "text": "Maquinas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/accesorios/caretas",
+                "text": "Caretas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/departamentos/soldaduras-y-generadores/accesorios",
+                "text": "Accesorios"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Antorchas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Discos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/anti-spatter",
+                "text": "Antichispa"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-2-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/soldaduras-y-generadores/consumibles",
+	            "text": "Soldadura"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/consumibles/electrodos",
+                "text": "Electrodos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Alambres"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Solido"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Tubular"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/anti-spatter",
+                "text": "Antichispa"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-3-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/soldaduras-y-generadores/refacciones",
+	            "text": "Componentes Y Refacciones"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/mig250",
+                "text": "MIG250"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/ke500",
+                "text": "KE500"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/tig200",
+                "text": "TIG200"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/arc200",
+                "text": "ARC200"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/mig185",
+                "text": "MIG185"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/arc300",
+                "text": "ARC300"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-3-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/refacciones/generico",
+                "text": "Genérico"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-4-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/soldadura-y-generadores/maquinas/generadores",
+	            "text": "Generadores"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-4-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/generador-silencioso-de-120v-60hz-capacidad-de-2-0-kva-tanque-de-gasolina-de-4-litros/p",
+                "text": "Silencioso"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-4-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/soldadura-y-generadores/maquinas/generadores/electrico",
+                "text": "Eléctrico"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-4-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-4-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-4-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-4-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-5-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/soldadura-y-generadores/maquinas/corte-con-plasma",
+	            "text": "Cortes Con Plasma"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-5-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/corte-con-plasma-mw-pl10--1p-220v-/p",
+                "text": "220 V"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-5-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "220/440 V"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-5-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-5-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-5-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-5-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "#",
+	            "text": "Herramienta Eléctrica"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-1-6-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/esmeriladoras",
+                "text": "Esmeriladoras"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-6-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/discos-de-corte",
+                "text": "Disco De Corte"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-6-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/discos-de-desbaste",
+                "text": "Disco De Desbaste"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-6-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Disco Laminado"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-6-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Cortadora De Metales"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-1-6-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/taladros-y-rotomartillos/taladros",
+                "text": "Taladros"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/atornillador-con-embrague-regulable-dw281-dewalt/p",
+                "text": "Atornillador"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/departamentos/herramientas-electricas/accesorios",
+                "text": "Accesorios"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-10":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Brocas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-11":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Puntas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-1-6-12":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Lenox Handtools"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-1-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/herramientas-neumaticas/consumibles",
+	            "text": "Clavo"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-2-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavo-en-rollo",
+                "text": "Clavo En Rollo"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Clavo A Granel"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Clavo Anillado"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavillo",
+                "text": "Clavillo"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/consumibles/clavo-tomatero",
+                "text": "Clavo Tomatero"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-2-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/herramientas-neumaticas/herramientas",
+	            "text": "Herramientas"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-2-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/clavadoras",
+                "text": "Pistola De Clavos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/compresores",
+                "text": "Compresores"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/herramientas/engrapadoras",
+                "text": "Engrapadoras"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/Herramientas-Electricas/Herramientas/Sierras/Sierras-Circulares",
+                "text": "Sierra Circular"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/esmeriladoras",
+                "text": "Esmeriladoras"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Sierra De Mesa"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-2-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Sierra De Inglete"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-2-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/Herramientas-Electricas/Herramientas/Sierras/Sierra-Sable",
+                "text": "Sierra Sable"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-2-10":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/Herramientas-Electricas/Herramientas/Sierras/Sierras-Caladoras",
+                "text": "Sierra Caladora"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-3-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/herramientas-neumaticas/partes-de-reemplazo",
+	            "text": "Refacciones"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-2-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-coil70-h",
+                "text": "COHIL-70H"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-c23-c29-c33",
+                "text": "C23-C29-C33"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-mcb",
+                "text": "MCB"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/modelo-pcn",
+                "text": "PCN"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-neumaticas/partes-de-reemplazo/otros-modelos",
+                "text": "Otros"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-4-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "#",
+	            "text": "Accesorios"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-2-4-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/lubricantes",
+                "text": "Lubricante"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-4-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/Solubles-y-Desengrasantes/Especialidades/Equipo-de-mantenimiento",
+                "text": "Equipo De Mantenimiento"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-4-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Disco De Carburo"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-4-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/disco-sierra",
+                "text": "Disco Circular"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-4-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Discos Laminados"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-4-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/hojas-de-sierra-sable",
+                "text": "Sierra Sables"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-4-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/sierra-caladora",
+                "text": "Sierras Caladoras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-2-5-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/sierra-cintas-y-maquinas",
+	            "text": "Sierra Cintas"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-2-5-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/maquina-desarmadora-de-tarimas-de-7-5-hp/p",
+                "text": "Maquina Desarmadora"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-5-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Maquina Resacadora"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-5-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Palletmaster"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-5-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Woodmaster"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-5-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Classic"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-2-5-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-3-1-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/solubles-y-desengrasantes/refrigerantes",
+	            "text": "Refrigerantes"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/sinteticos",
+                "text": "Sintéticos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/semi-sinteticos",
+                "text": "Semi-Sinteticos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/refrigerantes/minerales",
+                "text": "Minerales"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-3-2-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/solubles-y-desengrasantes/lubricantes-y-aceites-directos",
+	            "text": "Aceites"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/aceites",
+                "text": "Aceite De Corte"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Hidraulico"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Honeado"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/anti-spatter",
+                "text": "Antichispa"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/lubricantes-y-aceites-directos/lubricantes",
+                "text": "Lubricación"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Electroerosion"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-2-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+                "text": "Aerosol"
+            }
+        }
+    },
+	"menu-item#desktop-slot-3-3-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes/desengrasantes",
+	            "text": "Desengrasantes"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Limpiador"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/limpiadores-y-desengrasantes/removedor-de-oxido",
+                "text": "Quita Oxido"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+                "text": "Aerosol"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-3-4-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/solubles-y-desengrasantes/especialidades",
+	            "text": "Especialidades"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-4-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/inhibidor-de-corrosion",
+                "text": "Inhibidor De Oxido"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-4-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aditivos",
+                "text": "Aditivo"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-4-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+                "text": "Aerosol"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-4-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+                "text": "Aerosol"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-4-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-4-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/solubles-y-desengrasantes/especialidades/aerosol-y-poliuretano",
+	            "text": "Espuma Poliuretano"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-5-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-5-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-3-6-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/solubles-y-desengrasantes/especialidades/equipo-de-mantenimiento",
+	            "text": "Equipo De Mantenimiento "
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-3-6-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-6-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-6-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-6-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-6-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-3-6-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-1-1":{
+	    "props": {
+	        "type": "custom",
+	        "blockClass":["subitem","title"],
+	        "itemProps": {
+	            "href": "/departamentos/sierra-cintas-y-maquinas/sierra-cintas",
+	            "text": "Sierra Taza"
+	        }
+	    }
+	}, 
+	"menu-item#desktop-slot-4-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Bimetálicas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Carburo"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Diamante"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Kits"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Arboles"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Accesorios"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "",
+                "text": "Sierra Sables"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Bimetalicas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Gold"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Lazer"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Master Grit"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Demolicion"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Tarimera"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-3-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/herramientas-electricas/herramientas/sierras/sierras-caladoras",
+                "text": "Sierras Caladoras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Para Metal"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Para Abrasivos"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Para Madera"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": " "
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Arcos Y Seguetas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Accesorios"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-8":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Manual Bimetalicas"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-9":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "Arco Alta Tension"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-10":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/brocas-escalonadas-lenox",
+                "text": "Arco Perfil Angosto"
+            }
+        }
+    }, 
+	"menu-item#desktop-slot-4-3-11":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "#",
+                "text": "PVC"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/herramientas-electricas/accesorios/discos-de-diamante",
+                "text": "Disco De Corte Diamante"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": " "
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/sierra-cintas/maquinas/portatil",
+                "text": "Sierra Cintas Portatiles"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": " "
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/brocas-escalonadas-lenox",
+                "text": "Brocas Escalonadas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-4-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/departamentos/herramientas-manuales/herramientas-de-corte",
+                "text": "Herramientas De Corte"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cepillos",
+                "text": "Cepillos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cortadores-de-tubos",
+                "text": "Cortadores De Tubos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/cuchillas",
+                "text": "Cuchillas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/navajas",
+                "text": "Navajas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/pinzas",
+                "text": "Pinzas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-5-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-corte/tijeras",
+                "text": "Tijeras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-medicion",
+                "text": "Medición Y Sujeción"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Flexometros"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-sujecion/multiherramientas",
+                "text": "Multiherramientas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/herramientas-de-sujecion/prensas",
+                "text": "Prensas"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "/herramientas-manuales/llaves-y-desarmadores/llaves",
+                "text": "Llaves"
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-4-6-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "/departamentos/paneles-solares/paneles-solares",
+                "text": "Paneles Solares"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "TRINA"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "ZNSHINE"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "HT-SAAE"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-1-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Inversores Solares"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Interconexion"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Hibridos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-2-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Estructura Solar"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Perfiles"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Accesorios"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Sujeciones Especiales"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-3-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Baterias De Litio"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Fortress"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-4-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Kit De Instalador"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Estructura Sencilla"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Estructura Doble"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Estructura Triple"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-5-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-1":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem","title"],
+            "itemProps": {
+                "href": "#",
+                "text": "Herramientas Para Instalación"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-2":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Soldadoras"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-3":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Handtools"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-4":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": "Taladros Y Rotomartillos"
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-5":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-6":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    },
+	"menu-item#desktop-slot-5-6-7":{
+        "props": {
+            "type": "custom",
+            "blockClass":["subitem"],
+            "itemProps": {
+                "href": "",
+                "text": ""
+            }
+        }
+    }
+}
